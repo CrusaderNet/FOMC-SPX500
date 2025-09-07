@@ -227,11 +227,6 @@ def main() -> int:
         if stooq:
             sources.append(TradingSeries(sorted(stooq.keys()), stooq, "stooq"))
 
-    if args.source in ("fred", "auto"):
-        fred = load_fred_series(force_refresh=args.force_refresh)
-        if fred:
-            sources.append(TradingSeries(sorted(fred.keys()), fred, "fred"))
-
     if not sources:
         print("[ERR] No data sources available. For FRED set FRED_API_KEY or use --source stooq.")
         return 1
