@@ -208,4 +208,6 @@ __marimo__/
 
 
 /minutes_html/
+/minutes_text/
+/minutes_text_clean/
 !/minutes_html/.gitkeep
