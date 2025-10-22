@@ -1,3 +1,4 @@
+from __future__ import annotations
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
@@ -11,7 +12,6 @@ import time
 
 import requests
 
-from __future__ import annotations
 from config_paths import resolve_path, ensure_all_dirs
 from dataclasses import dataclass
 import bisect

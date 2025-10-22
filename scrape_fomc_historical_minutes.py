@@ -1,30 +1,34 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
 from pathlib import Path
 from typing import List, Tuple, Dict
+from dataclasses import dataclass
+import argparse
 import csv
+import hashlib
 import re
 import sys
 import time
+from urllib import robotparser
+from urllib.parse import urljoin, urlparse, urlunparse
 
 from bs4 import BeautifulSoup
 import requests
 
-from __future__ import annotations
 from config_paths import resolve_path, ensure_all_dirs
-from dataclasses import dataclass
-from urllib import robotparser
-from urllib.parse import urljoin, urlparse, urlunparse
-import hashlib
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# Ensure folder structure exists early
+ensure_all_dirs()
+
 """
-Scrape historical FOMC meeting minutes from 2019 back to the earliest available year.
+Scrape historical FOMC meeting minutes from MAX_YEAR down to MIN_YEAR.
 
 Formats handled:
 - Modern HTML minutes:           /monetarypolicy/fomcminutesYYYYMMDD.htm
-- Old HTML minutes (deep):       /fomc/minutes/YYYY/YYYYMMDDmin.htm   (case-insensitive)
+- Old HTML minutes (deep):       /fomc/minutes/YYYY/YYYYMMDDmin.htm
 - Old HTML minutes (flat):       /fomc/minutes/YYYYMMDD.htm
-- Historical minutes PDFs:       /monetarypolicy/files/fomchistminYYYYMMDD.pdf   <-- NEW
+- Historical minutes PDFs:       /monetarypolicy/files/fomchistminYYYYMMDD.pdf
 - Minutes of actions PDFs (MOA): /monetarypolicy/files/fomcmoaYYYYMMDD.pdf
 
 Discovery:
@@ -37,14 +41,11 @@ Outputs:
 - minutes_html/<year>/fomcmoa-YYYYMMDD.pdf
 - minutes_historical_manifest.csv
 
-Usage:
+Usage examples:
   python scrape_fomc_historical_minutes.py
+  python scrape_fomc_historical_minutes.py --year-min 2000
+  python scrape_fomc_historical_minutes.py --year-min 1990 --year-max 2015
 """
-ensure_all_dirs()
-
-
-
-
 
 BASE = "https://www.federalreserve.gov"
 HIST_INDEX_URL = f"{BASE}/monetarypolicy/fomc_historical_year.htm"
@@ -56,11 +57,8 @@ YEAR_PAGE_RE = re.compile(r"^/monetarypolicy/fomchistorical(\d{4})\.htm$", re.IG
 NEW_HTML_RE        = re.compile(r"^/monetarypolicy/fomcminutes(\d{8})\.htm$", re.IGNORECASE)
 OLD_HTML_DEEP_RE   = re.compile(r"^/fomc/minutes/(\d{4})/(\d{8})min\.htm$", re.IGNORECASE)
 OLD_HTML_FLAT_RE   = re.compile(r"^/fomc/minutes/(\d{8})\.htm$", re.IGNORECASE)
-HIST_MIN_PDF_RE    = re.compile(r"^/monetarypolicy/files/fomchistmin(\d{8})\.pdf$", re.IGNORECASE)  # NEW
+HIST_MIN_PDF_RE    = re.compile(r"^/monetarypolicy/files/fomchistmin(\d{8})\.pdf$", re.IGNORECASE)
 MOA_PDF_RE         = re.compile(r"^/monetarypolicy/files/fomcmoa(\d{8})\.pdf$", re.IGNORECASE)
-
-# We want everything up to and including 2019 (newer handled by your other script)
-YEAR_MAX = 2019
 
 # Output
 OUT_DIR = Path("minutes_html")
@@ -130,8 +128,7 @@ def strip_query_and_fragment(href: str) -> str:
         return urlunparse(clean)
     return clean.path
 
-
-def extract_year_pages(index_html: str) -> List[Tuple[int, str]]:
+def extract_year_pages(index_html: str, year_min: int, year_max: int) -> List[Tuple[int, str]]:
     soup = BeautifulSoup(index_html, "html.parser")
     found: Dict[int, str] = {}
     for a in soup.find_all("a", href=True):
@@ -140,22 +137,22 @@ def extract_year_pages(index_html: str) -> List[Tuple[int, str]]:
         if not m:
             continue
         year = int(m.group(1))
-        if year > YEAR_MAX:
+        if year > year_max or year < year_min:
             continue
         abs_url = urljoin(BASE, href)
         found.setdefault(year, abs_url)
+    # Sort newest -> oldest within bounds
     return sorted(found.items(), key=lambda t: t[0], reverse=True)
 
 def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item]:
     soup = BeautifulSoup(year_html, "html.parser")
-    items: Dict[str, Item] = {}  # keyed by date_str; preference order: html_modern > html_old_deep > html_old_flat > pdf_histmin > pdf_moa
+    items: Dict[str, Item] = {}  # prefer: modern html > old deep > old flat > hist pdf > moa pdf
 
     for a in soup.find_all("a", href=True):
         href = strip_query_and_fragment(a["href"])
         path = urlparse(href).path
         abs_url = urljoin(BASE, href)
 
-        # Modern HTML minutes
         m = NEW_HTML_RE.match(path)
         if m:
             yyyymmdd = m.group(1)
@@ -167,7 +164,6 @@ def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item
                 items[yyyymmdd] = it
             continue
 
-        # Old deep structure: /fomc/minutes/YYYY/YYYYMMDDmin.htm
         m = OLD_HTML_DEEP_RE.match(path)
         if m:
             url_year = int(m.group(1))
@@ -179,7 +175,6 @@ def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item
                 items[yyyymmdd] = it
             continue
 
-        # Old flat structure: /fomc/minutes/YYYYMMDD.htm
         m = OLD_HTML_FLAT_RE.match(path)
         if m:
             yyyymmdd = m.group(1)
@@ -191,7 +186,6 @@ def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item
                 items[yyyymmdd] = it
             continue
 
-        # Historical minutes PDFs: /monetarypolicy/files/fomchistminYYYYMMDD.pdf
         m = HIST_MIN_PDF_RE.match(path)
         if m:
             yyyymmdd = m.group(1)
@@ -203,20 +197,17 @@ def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item
                 items[yyyymmdd] = it
             continue
 
-        # Minutes of Actions PDFs: /monetarypolicy/files/fomcmoaYYYYMMDD.pdf
         m = MOA_PDF_RE.match(path)
         if m:
             yyyymmdd = m.group(1)
             year = int(yyyymmdd[:4])
             rel = f"{year}/fomcmoa-{yyyymmdd}.pdf"
             it = Item(yyyymmdd, year, abs_url, "pdf_moa", rel)
-            # Only keep if we don't already have a more specific minutes document
             if yyyymmdd not in items:
                 items[yyyymmdd] = it
             continue
 
     return sorted(items.values(), key=lambda x: x.date_str)
-
 
 def write_manifest_header(path: Path) -> None:
     if not path.exists():
@@ -227,9 +218,20 @@ def append_manifest(row: Tuple[str, int, str, str, int, int, str, str]) -> None:
     with MANIFEST.open("a", newline="", encoding="utf-8") as f:
         csv.writer(f).writerow(row)
 
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Scrape historical FOMC minutes within a year range.")
+    p.add_argument("--year-min", type=int, default=1900, help="Lowest year to include (inclusive). Example: 2000")
+    p.add_argument("--year-max", type=int, default=2019, help="Highest year to include (inclusive). Default: 2019")
+    p.add_argument("--sleep", type=float, default=PER_REQUEST_SLEEP, help="Seconds to sleep between downloads.")
+    return p.parse_args()
 
 def main() -> int:
+    args = parse_args()
+    global PER_REQUEST_SLEEP
+    PER_REQUEST_SLEEP = float(args.sleep)
+
     print(f"[INFO] Fetching historical index: {HIST_INDEX_URL}")
+    print(f"[INFO] Year bounds: {args.year_min}–{args.year_max}")
     if SKIP_ROBOTS:
         print("[INFO] Robots.txt check is DISABLED for this run.")
     if not can_fetch(HIST_INDEX_URL, HEADERS["User-Agent"]):
@@ -239,12 +241,12 @@ def main() -> int:
     idx_resp = get_with_retries(HIST_INDEX_URL)
     idx_resp.raise_for_status()
 
-    year_pages = extract_year_pages(idx_resp.text)
+    year_pages = extract_year_pages(idx_resp.text, args.year_min, args.year_max)
     if not year_pages:
-        print(f"[WARN] No historical year pages found (<= {YEAR_MAX}).")
+        print(f"[WARN] No historical year pages found in range {args.year_min}–{args.year_max}.")
         return 0
 
-    print(f"[INFO] Found {len(year_pages)} year pages (<= {YEAR_MAX}).")
+    print(f"[INFO] Found {len(year_pages)} year pages in range.")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     write_manifest_header(MANIFEST)
 

@@ -1,3 +1,4 @@
+from __future__ import annotations
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -8,7 +9,6 @@ import re
 
 from bs4 import BeautifulSoup, Tag
 
-from __future__ import annotations
 from config_paths import resolve_path, ensure_all_dirs
 from dataclasses import asdict, dataclass
 from pdfminer.high_level import extract_text as pdf_extract_text

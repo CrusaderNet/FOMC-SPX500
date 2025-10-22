@@ -1,3 +1,4 @@
+from __future__ import annotations
 from datetime import datetime
 from pathlib import Path
 from typing import List, Tuple
@@ -10,7 +11,7 @@ import time
 from bs4 import BeautifulSoup
 import requests
 
-from __future__ import annotations
+
 from config_paths import resolve_path, ensure_all_dirs
 from dataclasses import dataclass
 from urllib import robotparser
@@ -40,7 +41,7 @@ CAL_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 MINUTES_RE = re.compile(r"^/monetarypolicy/fomcminutes(\d{8})\.htm$", re.IGNORECASE)
 
 # Year range to include
-YEAR_MIN, YEAR_MAX = 2025, 2025
+YEAR_MIN, YEAR_MAX = 2020, 2025
 
 # Output locations
 OUT_DIR = Path("minutes_html")

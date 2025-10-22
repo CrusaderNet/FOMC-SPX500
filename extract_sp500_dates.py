@@ -1,3 +1,4 @@
+from __future__ import annotations
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
@@ -5,7 +6,6 @@ import argparse
 import csv
 import re
 
-from __future__ import annotations
 from config_paths import resolve_path, ensure_all_dirs
 from dataclasses import dataclass
 

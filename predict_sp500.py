@@ -182,7 +182,7 @@ def main() -> None:
     ap.add_argument("--prices", type=Path, default=Path(resolve_path("sp500_prices.csv")))
     ap.add_argument("--out-dir", type=Path, default=Path("model_out"))
     ap.add_argument("--holdout-n", type=int, default=5)
-    ap.add_argument("--start-year", type=int, default=1960, help="Earliest meeting year to include (inclusive)")
+    ap.add_argument("--start-year", type=int, default=2000, help="Earliest meeting year to include (inclusive)")
     ap.add_argument("--end-year", type=int, default=2025, help="Latest meeting year to include (inclusive)")
     args = ap.parse_args()
 

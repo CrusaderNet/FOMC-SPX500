@@ -1,3 +1,4 @@
+from __future__ import annotations
 from pathlib import Path
 from typing import Iterable, List, Optional, Set
 import argparse, os, sys, json, time, re
@@ -5,7 +6,6 @@ import argparse, os, sys, json, time, re
 from tqdm import tqdm
 import requests
 
-from __future__ import annotations
 from config_paths import resolve_path, ensure_all_dirs
 
 #!/usr/bin/env python3
