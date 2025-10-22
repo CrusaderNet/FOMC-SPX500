@@ -1,4 +1,15 @@
+from pathlib import Path
+from typing import Dict, Tuple, Iterable, Optional
+import argparse
+import csv
+import re
+
+import spacy
+
+from config_paths import resolve_path, ensure_all_dirs
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Analyze FOMC minutes sentiments by summing lexicon scores over lemmatized tokens.
 
@@ -21,16 +32,9 @@ Usage:
   python analyze_sentiments.py
   python analyze_sentiments.py --in-root minutes_text_clean --lexicon Economic_Lexicon.csv --out-csv sentiment_scores.csv
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
-import argparse
-import csv
-import re
-from pathlib import Path
-from typing import Dict, Tuple, Iterable, Optional
 
-import spacy
 
 
 def load_lexicon(path: Path) -> Dict[str, Tuple[float, int]]:

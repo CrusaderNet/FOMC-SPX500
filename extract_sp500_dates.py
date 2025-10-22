@@ -1,4 +1,16 @@
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, Iterable, List, Optional, Tuple
+import argparse
+import csv
+import re
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+from dataclasses import dataclass
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Extract S&P 500 dates directly from the FOMC minutes manifests.
 
@@ -20,18 +32,9 @@ Outputs:
   - sp500_dates_from_manifest_unique.csv
   - sp500_dates_from_manifest_unique.txt
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-from __future__ import annotations
-import argparse
-import csv
-import re
-from dataclasses import dataclass
-from datetime import datetime
-from pathlib import Path
-from typing import Dict, Iterable, List, Optional, Tuple
 
 # Default inputs/outputs
 DEFAULT_MANIFESTS = [resolve_path("minutes_manifest.csv"), resolve_path("minutes_historical_manifest.csv")]

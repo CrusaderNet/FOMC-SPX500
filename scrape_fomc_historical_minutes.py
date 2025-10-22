@@ -1,4 +1,22 @@
+from pathlib import Path
+from typing import List, Tuple, Dict
+import csv
+import re
+import sys
+import time
+
+from bs4 import BeautifulSoup
+import requests
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+from dataclasses import dataclass
+from urllib import robotparser
+from urllib.parse import urljoin, urlparse, urlunparse
+import hashlib
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Scrape historical FOMC meeting minutes from 2019 back to the earliest available year.
 
@@ -22,26 +40,11 @@ Outputs:
 Usage:
   python scrape_fomc_historical_minutes.py
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-from __future__ import annotations
-import csv
-import hashlib
-import re
-import sys
-import time
-from dataclasses import dataclass
-from pathlib import Path
-from typing import List, Tuple, Dict
-from urllib.parse import urljoin, urlparse, urlunparse
-from urllib import robotparser
 
-import requests
-from bs4 import BeautifulSoup
 
-# ------------------- Config -------------------
 
 BASE = "https://www.federalreserve.gov"
 HIST_INDEX_URL = f"{BASE}/monetarypolicy/fomc_historical_year.htm"
@@ -74,7 +77,6 @@ PER_REQUEST_SLEEP = 1.0
 # Robots: bypass for research scraping (set False to re-enable)
 SKIP_ROBOTS = True
 
-# ------------------- Types -------------------
 
 @dataclass
 class Item:
@@ -84,7 +86,6 @@ class Item:
     kind: str          # "html_modern" | "html_old_deep" | "html_old_flat" | "pdf_histmin" | "pdf_moa"
     rel_path: str      # path under OUT_DIR
 
-# ------------------- Helpers -------------------
 
 def sha256_bytes(b: bytes) -> str:
     h = hashlib.sha256(); h.update(b); return h.hexdigest()
@@ -129,7 +130,6 @@ def strip_query_and_fragment(href: str) -> str:
         return urlunparse(clean)
     return clean.path
 
-# ------------------- Extraction -------------------
 
 def extract_year_pages(index_html: str) -> List[Tuple[int, str]]:
     soup = BeautifulSoup(index_html, "html.parser")
@@ -217,7 +217,6 @@ def extract_items_from_year_page(year_html: str, default_year: int) -> List[Item
 
     return sorted(items.values(), key=lambda x: x.date_str)
 
-# ------------------- Manifest -------------------
 
 def write_manifest_header(path: Path) -> None:
     if not path.exists():
@@ -228,7 +227,6 @@ def append_manifest(row: Tuple[str, int, str, str, int, int, str, str]) -> None:
     with MANIFEST.open("a", newline="", encoding="utf-8") as f:
         csv.writer(f).writerow(row)
 
-# ------------------- Main -------------------
 
 def main() -> int:
     print(f"[INFO] Fetching historical index: {HIST_INDEX_URL}")

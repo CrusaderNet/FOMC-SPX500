@@ -1,4 +1,19 @@
+from pathlib import Path
+from typing import Tuple
+import argparse
+import json
+
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error, r2_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+import pandas as pd
+
+from config_paths import resolve_path, ensure_all_dirs
+import joblib
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Train a simple model to predict the NEXT FOMC-meeting S&P 500 close.
 
@@ -25,26 +40,13 @@ Notes:
     most recent row), but we *still* use the latest available features to produce
     the "next meeting" prediction for deployment.
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-import argparse
-import json
-from pathlib import Path
-from typing import Tuple
-
-import pandas as pd
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, r2_score
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
-import joblib
 
 
-# ----------------------------
+
 # Data loading / preparation
-# ----------------------------
 
 def load_data(
     sentiment_csv: Path,
@@ -109,9 +111,7 @@ def load_data(
     return df_trainable, last_features
 
 
-# ----------------------------
 # Training / evaluation
-# ----------------------------
 
 def train_and_eval(df: pd.DataFrame, holdout_n: int = 5):
     # Guard: tiny datasets
@@ -156,9 +156,7 @@ def write_outputs(model, train_df, eval_df, mae: float, r2: float, out_dir: Path
     eval_out.to_csv(out_dir / resolve_path("model_train_eval_predictions.csv"), index=False)
 
 
-# ----------------------------
 # Next-meeting prediction
-# ----------------------------
 
 def predict_next(model, last_features: pd.Series, out_dir: Path) -> None:
     # Use the last *available* meeting's features (even though it lacks next_close)
@@ -176,9 +174,7 @@ def predict_next(model, last_features: pd.Series, out_dir: Path) -> None:
         }, f, indent=2)
 
 
-# ----------------------------
 # CLI
-# ----------------------------
 
 def main() -> None:
     ap = argparse.ArgumentParser()

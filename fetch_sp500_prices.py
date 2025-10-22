@@ -1,4 +1,23 @@
+from datetime import date, datetime, timedelta
+from pathlib import Path
+from typing import List, Dict, Tuple, Optional
+import argparse
+import csv
+import io
+import json
+import os
+import sys
+import time
+
+import requests
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+from dataclasses import dataclass
+import bisect
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Fetch SP500 closes for a list of dates (YYYY-MM-DD), without yfinance/Yahoo.
 
@@ -23,26 +42,10 @@ Usage examples:
   python fetch_sp500_prices.py --source auto    # stooq then FRED fallback if missing
   FRED_API_KEY=... python fetch_sp500_prices.py --source fred
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-from __future__ import annotations
-import argparse
-import csv
-import io
-import os
-import sys
-import time
-import json
-import bisect
-import requests
-from dataclasses import dataclass
-from typing import List, Dict, Tuple, Optional
-from datetime import date, datetime, timedelta
-from pathlib import Path
 
-# ---------- Config ----------
 STOOQ_URL = "https://stooq.com/q/d/l/?s=%5Espx&i=d"   # ^SPX daily CSV
 STOOQ_CACHE = Path("data/spx_stooq.csv")
 FRED_SERIES = "SP500"
@@ -63,7 +66,6 @@ CANDIDATE_DATE_FILES = [
     ("txt", resolve_path("sp500_dates_unique.txt")),
 ]
 
-# ---------- Small utils ----------
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Fetch SP500 closes for given dates.")
@@ -103,7 +105,6 @@ def http_get(url: str, max_attempts=4, backoff=1.6, timeout=30) -> requests.Resp
                 raise
     raise last_exc
 
-# ---------- Input dates ----------
 
 def load_dates_from_csv(p: Path) -> List[date]:
     dates: List[date] = []
@@ -135,7 +136,7 @@ def load_dates_from_txt(p: Path) -> List[date]:
 def autodetect_dates() -> Tuple[List[date], str]:
     for kind, fname in CANDIDATE_DATE_FILES:
         p = Path(fname)
-        if not p.exists(): 
+        if not p.exists():
             continue
         if kind == "csv":
             return load_dates_from_csv(p), str(p)
@@ -143,7 +144,6 @@ def autodetect_dates() -> Tuple[List[date], str]:
             return load_dates_from_txt(p), str(p)
     raise FileNotFoundError("No input date list found. Provide --dates_csv or --dates_txt.")
 
-# ---------- Stooq loader ----------
 
 def load_stooq_series(force_refresh=False) -> Dict[date, float]:
     """
@@ -173,7 +173,6 @@ def load_stooq_series(force_refresh=False) -> Dict[date, float]:
     return series
 
 
-# ---------- Alignment ----------
 
 @dataclass(order=True)
 class TradingSeries:
@@ -217,7 +216,6 @@ class TradingSeries:
                ((next_d, self.closes_by_date.get(next_d)) if next_d else (None, None))
 
 
-# ---------- Main ----------
 
 def main() -> int:
     args = parse_args()

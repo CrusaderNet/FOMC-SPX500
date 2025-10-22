@@ -1,4 +1,24 @@
+from datetime import datetime
+from pathlib import Path
+from typing import List, Tuple
+import csv
+import os
+import re
+import sys
+import time
+
+from bs4 import BeautifulSoup
+import requests
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+from dataclasses import dataclass
+from urllib import robotparser
+from urllib.parse import urljoin, urlparse
+import hashlib
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Scrape FOMC meeting minutes HTML pages (2020–2025) and save them locally.
 
@@ -9,28 +29,11 @@ Outputs:
 Usage:
   python scrape_fomc_minutes.py
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-from __future__ import annotations
-import csv
-import hashlib
-import os
-import re
-import sys
-import time
-from dataclasses import dataclass
-from datetime import datetime
-from pathlib import Path
-from typing import List, Tuple
-from urllib.parse import urljoin, urlparse
-from urllib import robotparser
 
-import requests
-from bs4 import BeautifulSoup
 
-# ------------------- Config -------------------
 
 BASE = "https://www.federalreserve.gov"
 CAL_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
@@ -55,7 +58,6 @@ PER_REQUEST_SLEEP = 1.0  # seconds between requests
 # Robots handling: set True to bypass robots.txt everywhere
 SKIP_ROBOTS = True
 
-# ------------------- Utilities -------------------
 
 def sha256_bytes(b: bytes) -> str:
     h = hashlib.sha256()
@@ -79,7 +81,6 @@ def within_year_range(yyyymmdd: str) -> bool:
     except ValueError:
         return False
 
-# ------------------- robots.txt -------------------
 
 def can_fetch(url: str, user_agent: str) -> bool:
     """Return True if fetching is allowed, or if SKIP_ROBOTS=True."""
@@ -96,7 +97,6 @@ def can_fetch(url: str, user_agent: str) -> bool:
         return True
     return rp.can_fetch(user_agent, url)
 
-# ------------------- HTTP with retries -------------------
 
 def get_with_retries(url: str, headers=None, max_attempts=4, backoff=1.5, timeout=20) -> requests.Response:
     last_exc = None
@@ -115,7 +115,6 @@ def get_with_retries(url: str, headers=None, max_attempts=4, backoff=1.5, timeou
     if last_exc:
         raise last_exc
 
-# ------------------- scraping core -------------------
 
 def extract_minutes_links(html: str) -> List[MinutesLink]:
     soup = BeautifulSoup(html, "html.parser")
@@ -152,7 +151,6 @@ def append_manifest(row: Tuple[str, int, str, str, int, int, str]) -> None:
         w = csv.writer(f)
         w.writerow(row)
 
-# ------------------- main -------------------
 
 def main() -> int:
     print(f"[INFO] Fetching calendar: {CAL_URL}")

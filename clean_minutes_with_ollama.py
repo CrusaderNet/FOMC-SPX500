@@ -1,4 +1,15 @@
+from pathlib import Path
+from typing import Iterable, List, Optional, Set
+import argparse, os, sys, json, time, re
+
+from tqdm import tqdm
+import requests
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Batch-clean FOMC minutes using a local LLM via Ollama.
 
@@ -29,16 +40,9 @@ Examples:
   # multiple ranges/years (commas/spaces both ok)
   python clean_minutes_with_ollama.py --years "1936-1940,1951 2008..2010"
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
 
 
-from __future__ import annotations
-import argparse, os, sys, json, time, re
-from pathlib import Path
-from typing import Iterable, List, Optional, Set
-import requests
-from tqdm import tqdm
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11434")
 

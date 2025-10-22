@@ -1,4 +1,21 @@
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+import argparse
+import csv
+import json
+import re
+
+from bs4 import BeautifulSoup, Tag
+
+from __future__ import annotations
+from config_paths import resolve_path, ensure_all_dirs
+from dataclasses import asdict, dataclass
+from pdfminer.high_level import extract_text as pdf_extract_text
+import unicodedata
+
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Resume corpus building for specific years:
 - Reads minutes_html/<year>/** (HTM/HTML/PDF)
@@ -11,26 +28,7 @@ Usage examples:
   python resume_corpus_for_years.py 2008
   $years = 2008..2025; python resume_corpus_for_years.py $years
 """
-from config_paths import resolve_path, ensure_all_dirs
 ensure_all_dirs()
-
-
-from __future__ import annotations
-
-import argparse
-import csv
-import json
-import re
-import unicodedata
-from dataclasses import asdict, dataclass
-from datetime import datetime
-from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-
-from bs4 import BeautifulSoup, Tag
-from pdfminer.high_level import extract_text as pdf_extract_text
-
-# ------------- Config -------------
 
 HTML_EXTS = {".htm", ".html"}
 PDF_EXTS = {".pdf"}
@@ -51,7 +49,6 @@ INDEX_CSV_NAME = "minutes_corpus_index.csv"
 MANIFEST_JSONL_NAME = "minutes_corpus_manifest.jsonl"
 MANIFEST_JSON_NAME  = "minutes_corpus_manifest.json"
 
-# ------------- Small utils -------------
 
 def norm_text(s: str) -> str:
     s = unicodedata.normalize("NFKC", s).replace("\xa0", " ")
@@ -74,7 +71,6 @@ def detect_date_from_name(path: Path) -> Tuple[Optional[str], Optional[str]]:
     ymd = m.group(1)
     return ymd, yyyymmdd_to_iso(ymd)
 
-# ------------- HTML/PDF extraction -------------
 
 def extract_text_html(path: Path) -> Tuple[str, Optional[str]]:
     """Extract readable text + title from HTML (hardened)."""
@@ -119,7 +115,6 @@ def extract_text_pdf(path: Path) -> str:
         text = ""
     return norm_text(text)
 
-# ------------- Enrichment from minutes manifests (optional) -------------
 
 def load_minutes_manifests(paths: List[Path]) -> Dict[str, Dict]:
     """
@@ -149,7 +144,6 @@ def lookup_manifest_row(idx: Dict[str, Dict], rel_from_root: str, in_root: Path)
     key2 = rel_from_root
     return idx.get(key1) or idx.get(key2)
 
-# ------------- Metadata model -------------
 
 @dataclass
 class DocMeta:
@@ -174,7 +168,6 @@ def guess_kind_from_name(name: str) -> str:
         return "minutes_html"
     return "unknown"
 
-# ------------- Existing metadata dedup loaders -------------
 
 def load_existing_rel_txt_from_csv(csv_path: Path) -> set[str]:
     s: set[str] = set()
@@ -231,7 +224,6 @@ def load_existing_rel_txt_from_json(json_path: Path) -> Tuple[set[str], List[dic
         arr = []
     return s, arr
 
-# ------------- CLI & Main -------------
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="Resume corpus building and update manifests for specific years.")
