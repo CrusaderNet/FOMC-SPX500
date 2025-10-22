@@ -20,6 +20,9 @@ Outputs:
   - sp500_dates_from_manifest_unique.csv
   - sp500_dates_from_manifest_unique.txt
 """
+from config_paths import resolve_path, ensure_all_dirs
+ensure_all_dirs()
+
 
 from __future__ import annotations
 import argparse
@@ -31,10 +34,10 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
 
 # Default inputs/outputs
-DEFAULT_MANIFESTS = ["minutes_manifest.csv", "minutes_historical_manifest.csv"]
-DEFAULT_FULL = "sp500_dates_from_manifest_full.csv"
-DEFAULT_UNIQUE_CSV = "sp500_dates_from_manifest_unique.csv"
-DEFAULT_UNIQUE_TXT = "sp500_dates_from_manifest_unique.txt"
+DEFAULT_MANIFESTS = [resolve_path("minutes_manifest.csv"), resolve_path("minutes_historical_manifest.csv")]
+DEFAULT_FULL = resolve_path("sp500_dates_from_manifest_full.csv")
+DEFAULT_UNIQUE_CSV = resolve_path("sp500_dates_from_manifest_unique.csv")
+DEFAULT_UNIQUE_TXT = resolve_path("sp500_dates_from_manifest_unique.txt")
 
 # Recognize date in paths/urls as fallback
 DATE_RX = re.compile(r"(?<!\d)(\d{8})(?!\d)")

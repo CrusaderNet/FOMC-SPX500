@@ -9,6 +9,9 @@ Outputs:
 Usage:
   python scrape_fomc_minutes.py
 """
+from config_paths import resolve_path, ensure_all_dirs
+ensure_all_dirs()
+
 
 from __future__ import annotations
 import csv
@@ -34,11 +37,11 @@ CAL_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 MINUTES_RE = re.compile(r"^/monetarypolicy/fomcminutes(\d{8})\.htm$", re.IGNORECASE)
 
 # Year range to include
-YEAR_MIN, YEAR_MAX = 2020, 2025
+YEAR_MIN, YEAR_MAX = 2025, 2025
 
 # Output locations
 OUT_DIR = Path("minutes_html")
-MANIFEST = Path("minutes_manifest.csv")
+MANIFEST = Path(resolve_path("minutes_manifest.csv"))
 
 # HTTP settings
 HEADERS = {

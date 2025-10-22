@@ -11,6 +11,9 @@ Usage examples:
   python resume_corpus_for_years.py 2008
   $years = 2008..2025; python resume_corpus_for_years.py $years
 """
+from config_paths import resolve_path, ensure_all_dirs
+ensure_all_dirs()
+
 
 from __future__ import annotations
 
@@ -43,7 +46,7 @@ LIKELY_NAV_CLASSES = ("nav","menu","breadcrumb","footer","header","skip","toolba
 # default locations/names
 DEFAULT_IN_ROOT = "minutes_html"
 DEFAULT_OUT_ROOT = "minutes_text"
-DEFAULT_MANIFESTS = ["minutes_manifest.csv", "minutes_historical_manifest.csv"]
+DEFAULT_MANIFESTS = [resolve_path("minutes_manifest.csv"), resolve_path("minutes_historical_manifest.csv")]
 INDEX_CSV_NAME = "minutes_corpus_index.csv"
 MANIFEST_JSONL_NAME = "minutes_corpus_manifest.jsonl"
 MANIFEST_JSON_NAME  = "minutes_corpus_manifest.json"

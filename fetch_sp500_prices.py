@@ -23,6 +23,9 @@ Usage examples:
   python fetch_sp500_prices.py --source auto    # stooq then FRED fallback if missing
   FRED_API_KEY=... python fetch_sp500_prices.py --source fred
 """
+from config_paths import resolve_path, ensure_all_dirs
+ensure_all_dirs()
+
 
 from __future__ import annotations
 import argparse
@@ -54,10 +57,10 @@ DEFAULT_ALIGN = "next"            # {exact, next, prev, nearest}
 DEFAULT_SOURCE = "stooq"          # {stooq, fred, auto}
 
 CANDIDATE_DATE_FILES = [
-    ("csv", "sp500_dates_from_manifest_unique.csv"),
-    ("csv", "sp500_dates_unique.csv"),
-    ("txt", "sp500_dates_from_manifest_unique.txt"),
-    ("txt", "sp500_dates_unique.txt"),
+    ("csv", resolve_path("sp500_dates_from_manifest_unique.csv")),
+    ("csv", resolve_path("sp500_dates_unique.csv")),
+    ("txt", resolve_path("sp500_dates_from_manifest_unique.txt")),
+    ("txt", resolve_path("sp500_dates_unique.txt")),
 ]
 
 # ---------- Small utils ----------
@@ -70,8 +73,8 @@ def parse_args() -> argparse.Namespace:
                     help="Data source: stooq (no key), fred (needs FRED_API_KEY), or auto fallback (default: stooq)")
     ap.add_argument("--dates_csv", help="CSV with a 'date_iso' column")
     ap.add_argument("--dates_txt", help="TXT with YYYY-MM-DD one per line")
-    ap.add_argument("--out_csv", default="sp500_prices.csv", help="Output CSV")
-    ap.add_argument("--missing_csv", default="sp500_prices_missing.csv", help="Missing/failed CSV")
+    ap.add_argument("--out_csv", default=resolve_path("sp500_prices.csv"), help="Output CSV")
+    ap.add_argument("--missing_csv", default=resolve_path("sp500_prices_missing.csv"), help="Missing/failed CSV")
     ap.add_argument("--force_refresh", action="store_true", help="Redownload/cold-refresh caches")
     return ap.parse_args()
 
@@ -179,28 +182,40 @@ class TradingSeries:
     source_name: str
 
     def find(self, target: date, align: str) -> Tuple[Optional[date], Optional[float]]:
+        # exact match
         if target in self.closes_by_date:
             return target, self.closes_by_date[target]
 
         ds = self.dates_sorted
         i = bisect.bisect_left(ds, target)
-        prev_d = ds[i-1] if i > 0 else None
+        prev_d = ds[i - 1] if i > 0 else None
         next_d = ds[i] if i < len(ds) else None
 
         if align == "exact":
             return None, None
-        elif align == "next":
-            return (next_d, self.closes_by_date.get(next_d)) if next_d else (None, None)
-        elif align == "prev":
+
+        if align == "next":
+            # normal case
+            if next_d is not None:
+                return next_d, self.closes_by_date.get(next_d)
+            # edge fallback: past the last available date -> use prev
             return (prev_d, self.closes_by_date.get(prev_d)) if prev_d else (None, None)
-        else:  # nearest
-            # choose the closer of prev/next (tie -> next)
-            if prev_d and next_d:
-                if (target - prev_d) <= (next_d - target):
-                    return prev_d, self.closes_by_date.get(prev_d)
-                else:
-                    return next_d, self.closes_by_date.get(next_d)
-            return (prev_d, self.closes_by_date.get(prev_d)) if prev_d else ((next_d, self.closes_by_date.get(next_d)) if next_d else (None, None))
+
+        if align == "prev":
+            # normal case
+            if prev_d is not None:
+                return prev_d, self.closes_by_date.get(prev_d)
+            # edge fallback: before the first available date -> use next
+            return (next_d, self.closes_by_date.get(next_d)) if next_d else (None, None)
+
+        # "nearest": choose closer of prev/next; tie -> next
+        if prev_d and next_d:
+            return (prev_d, self.closes_by_date.get(prev_d)) \
+                if (target - prev_d) <= (next_d - target) \
+                else (next_d, self.closes_by_date.get(next_d))
+        return (prev_d, self.closes_by_date.get(prev_d)) if prev_d else \
+               ((next_d, self.closes_by_date.get(next_d)) if next_d else (None, None))
+
 
 # ---------- Main ----------
 

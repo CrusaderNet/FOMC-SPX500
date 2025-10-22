@@ -22,6 +22,9 @@ Outputs:
 Usage:
   python scrape_fomc_historical_minutes.py
 """
+from config_paths import resolve_path, ensure_all_dirs
+ensure_all_dirs()
+
 
 from __future__ import annotations
 import csv
@@ -58,7 +61,7 @@ YEAR_MAX = 2019
 
 # Output
 OUT_DIR = Path("minutes_html")
-MANIFEST = Path("minutes_historical_manifest.csv")
+MANIFEST = Path(resolve_path("minutes_historical_manifest.csv"))
 
 # HTTP
 HEADERS = {
