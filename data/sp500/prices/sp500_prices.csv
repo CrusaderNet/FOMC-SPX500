@@ -1,4 +1,4 @@
-requested_date,matched_trading_date,close,source,align
+date_iso,matched_trading_date,close,source,align
 1936-03-18,1936-03-18,14.86,stooq,next
 1936-03-19,1936-03-19,15.06,stooq,next
 1936-05-25,1936-05-25,14.25,stooq,next

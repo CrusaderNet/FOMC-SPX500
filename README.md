@@ -37,11 +37,10 @@ All scripts are designed to be re-runnable as new FOMC meetings occur, automatic
 - **Output:** `minutes_text_clean/<year>/...`
 - Uses a local LLM via **Ollama** to refine formatting, spacing, and remove OCR artifacts.
 
-### **4. Sentiment Analysis**
-- **Script:** `analyze_sentiments.py`  
+### **4. Sentiment Analysis** -- UPDATE TO REFLECT CHANGES
+- **Script:** `lexicon_score_minutes.py`, `train_score_lexicon_ann.py`
 - **Inputs:**  
-  - `minutes_text_clean/<year>/...`  
-  - `Economic_Lexicon.csv`  
+  - `minutes_text_clean/<year>/...`   
 - **Output:** `data/fomc/sentiments/sentiment_scores.csv`  
 - Uses **spaCy** for tokenization and lemmatization.  
   Applies a macroeconomic lexicon to compute an aggregate sentiment score for each document.
@@ -53,7 +52,7 @@ All scripts are designed to be re-runnable as new FOMC meetings occur, automatic
   - `data/sp500/prices/sp500_prices.csv`  
 - Extracts meeting dates from manifests and retrieves corresponding or nearest S&P 500 close prices from **Stooq** (and optionally **FRED** if configured).
 
-### **6. Modeling and Prediction**
+### **6. Modeling and Prediction** -- UPDATE TO REFLECT CHANGES
 - **Script:** `predict_sp500.py`  
 - **Inputs:**  
   - `data/fomc/sentiments/sentiment_scores.csv`  

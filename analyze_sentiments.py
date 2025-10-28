@@ -36,7 +36,6 @@ ensure_all_dirs()
 
 
 
-
 def load_lexicon(path: Path) -> Dict[str, Tuple[float, int]]:
     """
     Return dict: lemma -> (sentiment: float, polarity: int{-1,0,1}).
