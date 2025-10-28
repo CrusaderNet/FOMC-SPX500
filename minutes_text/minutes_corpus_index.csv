@@ -1,0 +1,876 @@
+date_iso,yyyymmdd,year,kind,title,char_count,word_count,rel_raw_path,rel_txt_path,url
+1936-03-18,19360318,1936,pdf_histmin,,14932,2236,1936/fomchistmin-19360318.pdf,1936/fomchistmin-19360318.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19360318.pdf
+1936-03-19,19360319,1936,pdf_histmin,,25594,3749,1936/fomchistmin-19360319.pdf,1936/fomchistmin-19360319.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19360319.pdf
+1936-05-25,19360525,1936,pdf_histmin,,28479,4027,1936/fomchistmin-19360525.pdf,1936/fomchistmin-19360525.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19360525.pdf
+1936-11-19,19361119,1936,pdf_histmin,,6741,963,1936/fomchistmin-19361119.pdf,1936/fomchistmin-19361119.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19361119.pdf
+1936-11-20,19361120,1936,pdf_histmin,,21246,3013,1936/fomchistmin-19361120.pdf,1936/fomchistmin-19361120.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19361120.pdf
+1937-03-15,19370315,1937,pdf_histmin,,37185,5376,1937/fomchistmin-19370315.pdf,1937/fomchistmin-19370315.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19370315.pdf
+1937-05-04,19370504,1937,pdf_histmin,,12738,1840,1937/fomchistmin-19370504.pdf,1937/fomchistmin-19370504.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19370504.pdf
+1937-05-05,19370505,1937,pdf_histmin,,33058,4776,1937/fomchistmin-19370505.pdf,1937/fomchistmin-19370505.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19370505.pdf
+1937-06-09,19370609,1937,pdf_histmin,,15042,2183,1937/fomchistmin-19370609.pdf,1937/fomchistmin-19370609.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19370609.pdf
+1937-09-12,19370912,1937,pdf_histmin,,33186,4760,1937/fomchistmin-19370912.pdf,1937/fomchistmin-19370912.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19370912.pdf
+1937-12-01,19371201,1937,pdf_histmin,,44481,6426,1937/fomchistmin-19371201.pdf,1937/fomchistmin-19371201.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19371201.pdf
+1938-03-01,19380301,1938,pdf_histmin,,24924,3620,1938/fomchistmin-19380301.pdf,1938/fomchistmin-19380301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19380301.pdf
+1938-04-22,19380422,1938,pdf_histmin,,36730,5291,1938/fomchistmin-19380422.pdf,1938/fomchistmin-19380422.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19380422.pdf
+1938-04-29,19380429,1938,pdf_histmin,,14981,2129,1938/fomchistmin-19380429.pdf,1938/fomchistmin-19380429.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19380429.pdf
+1938-08-02,19380802,1938,pdf_histmin,,12196,1813,1938/fomchistmin-19380802.pdf,1938/fomchistmin-19380802.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19380802.pdf
+1938-09-21,19380921,1938,pdf_histmin,,14170,2024,1938/fomchistmin-19380921.pdf,1938/fomchistmin-19380921.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19380921.pdf
+1938-12-30,19381230,1938,pdf_histmin,,32965,4800,1938/fomchistmin-19381230.pdf,1938/fomchistmin-19381230.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19381230.pdf
+1939-03-07,19390307,1939,pdf_histmin,,21933,3176,1939/fomchistmin-19390307.pdf,1939/fomchistmin-19390307.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19390307.pdf
+1939-03-20,19390320,1939,pdf_histmin,,12238,1765,1939/fomchistmin-19390320.pdf,1939/fomchistmin-19390320.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19390320.pdf
+1939-04-19,19390419,1939,pdf_histmin,,16204,2312,1939/fomchistmin-19390419.pdf,1939/fomchistmin-19390419.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19390419.pdf
+1939-06-21,19390621,1939,pdf_histmin,,23304,3373,1939/fomchistmin-19390621.pdf,1939/fomchistmin-19390621.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19390621.pdf
+1939-09-18,19390918,1939,pdf_histmin,,25308,3768,1939/fomchistmin-19390918.pdf,1939/fomchistmin-19390918.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19390918.pdf
+1939-12-13,19391213,1939,pdf_histmin,,9653,1396,1939/fomchistmin-19391213.pdf,1939/fomchistmin-19391213.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19391213.pdf
+1940-03-20,19400320,1940,pdf_histmin,,15659,2341,1940/fomchistmin-19400320.pdf,1940/fomchistmin-19400320.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19400320.pdf
+1940-05-28,19400528,1940,pdf_histmin,,22114,3188,1940/fomchistmin-19400528.pdf,1940/fomchistmin-19400528.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19400528.pdf
+1940-09-27,19400927,1940,pdf_histmin,,16180,2382,1940/fomchistmin-19400927.pdf,1940/fomchistmin-19400927.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19400927.pdf
+1940-12-18,19401218,1940,pdf_histmin,,18277,2710,1940/fomchistmin-19401218.pdf,1940/fomchistmin-19401218.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19401218.pdf
+1941-03-17,19410317,1941,pdf_histmin,,19449,2842,1941/fomchistmin-19410317.pdf,1941/fomchistmin-19410317.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19410317.pdf
+1941-06-10,19410610,1941,pdf_histmin,,24158,3566,1941/fomchistmin-19410610.pdf,1941/fomchistmin-19410610.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19410610.pdf
+1941-09-27,19410927,1941,pdf_histmin,,24310,3541,1941/fomchistmin-19410927.pdf,1941/fomchistmin-19410927.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19410927.pdf
+1941-12-12,19411212,1941,pdf_histmin,,16057,2388,1941/fomchistmin-19411212.pdf,1941/fomchistmin-19411212.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19411212.pdf
+1942-02-28,19420228,1942,pdf_histmin,,6391,931,1942/fomchistmin-19420228.pdf,1942/fomchistmin-19420228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420228.pdf
+1942-03-02,19420302,1942,pdf_histmin,,23072,3423,1942/fomchistmin-19420302.pdf,1942/fomchistmin-19420302.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420302.pdf
+1942-05-08,19420508,1942,pdf_histmin,,11982,1777,1942/fomchistmin-19420508.pdf,1942/fomchistmin-19420508.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420508.pdf
+1942-06-22,19420622,1942,pdf_histmin,,22256,3244,1942/fomchistmin-19420622.pdf,1942/fomchistmin-19420622.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420622.pdf
+1942-08-03,19420803,1942,pdf_histmin,,38322,5777,1942/fomchistmin-19420803.pdf,1942/fomchistmin-19420803.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420803.pdf
+1942-09-29,19420929,1942,pdf_histmin,,32659,4776,1942/fomchistmin-19420929.pdf,1942/fomchistmin-19420929.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19420929.pdf
+1942-12-14,19421214,1942,pdf_histmin,,29565,4236,1942/fomchistmin-19421214.pdf,1942/fomchistmin-19421214.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19421214.pdf
+1943-01-26,19430126,1943,pdf_histmin,,28480,4274,1943/fomchistmin-19430126.pdf,1943/fomchistmin-19430126.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19430126.pdf
+1943-03-02,19430302,1943,pdf_histmin,,25230,3701,1943/fomchistmin-19430302.pdf,1943/fomchistmin-19430302.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19430302.pdf
+1943-05-15,19430515,1943,pdf_histmin,,12268,1784,1943/fomchistmin-19430515.pdf,1943/fomchistmin-19430515.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19430515.pdf
+1943-06-28,19430628,1943,pdf_histmin,,27602,4018,1943/fomchistmin-19430628.pdf,1943/fomchistmin-19430628.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19430628.pdf
+1943-10-18,19431018,1943,pdf_histmin,,29780,4335,1943/fomchistmin-19431018.pdf,1943/fomchistmin-19431018.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19431018.pdf
+1944-02-29,19440229,1944,pdf_histmin,,22437,3344,1944/fomchistmin-19440229.pdf,1944/fomchistmin-19440229.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19440229.pdf
+1944-03-01,19440301,1944,pdf_histmin,,28329,4087,1944/fomchistmin-19440301.pdf,1944/fomchistmin-19440301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19440301.pdf
+1944-05-04,19440504,1944,pdf_histmin,,30594,4621,1944/fomchistmin-19440504.pdf,1944/fomchistmin-19440504.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19440504.pdf
+1944-09-22,19440922,1944,pdf_histmin,,40274,5999,1944/fomchistmin-19440922.pdf,1944/fomchistmin-19440922.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19440922.pdf
+1944-12-11,19441211,1944,pdf_histmin,,27884,4131,1944/fomchistmin-19441211.pdf,1944/fomchistmin-19441211.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19441211.pdf
+1945-02-28,19450228,1945,pdf_histmin,,6758,985,1945/fomchistmin-19450228.pdf,1945/fomchistmin-19450228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19450228.pdf
+1945-03-01,19450301,1945,pdf_histmin,,31174,4602,1945/fomchistmin-19450301.pdf,1945/fomchistmin-19450301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19450301.pdf
+1945-06-20,19450620,1945,pdf_histmin,,24522,3534,1945/fomchistmin-19450620.pdf,1945/fomchistmin-19450620.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19450620.pdf
+1945-10-17,19451017,1945,pdf_histmin,,16686,2392,1945/fomchistmin-19451017.pdf,1945/fomchistmin-19451017.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19451017.pdf
+1946-02-28,19460228,1946,pdf_histmin,,9194,1316,1946/fomchistmin-19460228.pdf,1946/fomchistmin-19460228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19460228.pdf
+1946-03-01,19460301,1946,pdf_histmin,,17546,2608,1946/fomchistmin-19460301.pdf,1946/fomchistmin-19460301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19460301.pdf
+1946-06-10,19460610,1946,pdf_histmin,,33033,4894,1946/fomchistmin-19460610.pdf,1946/fomchistmin-19460610.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19460610.pdf
+1946-10-03,19461003,1946,pdf_histmin,,48167,7268,1946/fomchistmin-19461003.pdf,1946/fomchistmin-19461003.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19461003.pdf
+1947-02-28,19470228,1947,pdf_histmin,,26566,3892,1947/fomchistmin-19470228.pdf,1947/fomchistmin-19470228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19470228.pdf
+1947-03-01,19470301,1947,pdf_histmin,,17688,2605,1947/fomchistmin-19470301.pdf,1947/fomchistmin-19470301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19470301.pdf
+1947-06-06,19470606,1947,pdf_histmin,,34986,5182,1947/fomchistmin-19470606.pdf,1947/fomchistmin-19470606.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19470606.pdf
+1947-10-07,19471007,1947,pdf_histmin,,31172,4709,1947/fomchistmin-19471007.pdf,1947/fomchistmin-19471007.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19471007.pdf
+1947-12-09,19471209,1947,pdf_histmin,,32917,4788,1947/fomchistmin-19471209.pdf,1947/fomchistmin-19471209.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19471209.pdf
+1948-02-27,19480227,1948,pdf_histmin,,24336,3740,1948/fomchistmin-19480227.pdf,1948/fomchistmin-19480227.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19480227.pdf
+1948-03-01,19480301,1948,pdf_histmin,,15537,2393,1948/fomchistmin-19480301.pdf,1948/fomchistmin-19480301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19480301.pdf
+1948-05-20,19480520,1948,pdf_histmin,,29835,4385,1948/fomchistmin-19480520.pdf,1948/fomchistmin-19480520.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19480520.pdf
+1948-10-04,19481004,1948,pdf_histmin,,21109,3292,1948/fomchistmin-19481004.pdf,1948/fomchistmin-19481004.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19481004.pdf
+1948-11-15,19481115,1948,pdf_histmin,,14487,2249,1948/fomchistmin-19481115.pdf,1948/fomchistmin-19481115.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19481115.pdf
+1948-11-30,19481130,1948,pdf_histmin,,13585,2012,1948/fomchistmin-19481130.pdf,1948/fomchistmin-19481130.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19481130.pdf
+1949-02-28,19490228,1949,pdf_histmin,,7243,1042,1949/fomchistmin-19490228.pdf,1949/fomchistmin-19490228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19490228.pdf
+1949-03-01,19490301,1949,pdf_histmin,,30672,4663,1949/fomchistmin-19490301.pdf,1949/fomchistmin-19490301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19490301.pdf
+1949-05-03,19490503,1949,pdf_histmin,,15239,2341,1949/fomchistmin-19490503.pdf,1949/fomchistmin-19490503.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19490503.pdf
+1949-06-28,19490628,1949,pdf_histmin,,39417,6030,1949/fomchistmin-19490628.pdf,1949/fomchistmin-19490628.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19490628.pdf
+1949-08-05,19490805,1949,pdf_histmin,,40176,6069,1949/fomchistmin-19490805.pdf,1949/fomchistmin-19490805.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19490805.pdf
+1949-12-13,19491213,1949,pdf_histmin,,25837,3739,1949/fomchistmin-19491213.pdf,1949/fomchistmin-19491213.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19491213.pdf
+1950-02-28,19500228,1950,pdf_histmin,,11201,1663,1950/fomchistmin-19500228.pdf,1950/fomchistmin-19500228.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19500228.pdf
+1950-03-01,19500301,1950,pdf_histmin,,33449,5114,1950/fomchistmin-19500301.pdf,1950/fomchistmin-19500301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19500301.pdf
+1950-06-14,19500614,1950,pdf_histmin,,24637,3663,1950/fomchistmin-19500614.pdf,1950/fomchistmin-19500614.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19500614.pdf
+1950-08-18,19500818,1950,pdf_histmin,,51764,7686,1950/fomchistmin-19500818.pdf,1950/fomchistmin-19500818.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19500818.pdf
+1950-09-28,19500928,1950,pdf_histmin,,28408,4304,1950/fomchistmin-19500928.pdf,1950/fomchistmin-19500928.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19500928.pdf
+1950-10-11,19501011,1950,pdf_histmin,,17748,2679,1950/fomchistmin-19501011.pdf,1950/fomchistmin-19501011.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19501011.pdf
+1950-10-30,19501030,1950,pdf_histmin,,7667,1171,1950/fomchistmin-19501030.pdf,1950/fomchistmin-19501030.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19501030.pdf
+1950-11-27,19501127,1950,pdf_histmin,,24332,3612,1950/fomchistmin-19501127.pdf,1950/fomchistmin-19501127.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19501127.pdf
+1951-01-31,19510131,1951,pdf_histmin,,65102,10311,1951/fomchistmin-19510131.pdf,1951/fomchistmin-19510131.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19510131.pdf
+1951-02-08,19510208,1951,pdf_histmin,,91646,14152,1951/fomchistmin-19510208.pdf,1951/fomchistmin-19510208.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19510208.pdf
+1951-03-02,19510302,1951,pdf_histmin,,88602,13062,1951/fomchistmin-19510302.pdf,1951/fomchistmin-19510302.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19510302.pdf
+1951-03-08,19510308,1951,pdf_histmin,,19243,2953,1951/fomchistmin-19510308.pdf,1951/fomchistmin-19510308.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19510308.pdf
+1951-05-17,19510517,1951,pdf_histmin,,18595,2788,1951/fomchistmin-19510517.pdf,1951/fomchistmin-19510517.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19510517.pdf
+1951-10-04,19511004,1951,pdf_histmin,,25786,3943,1951/fomchistmin-19511004.pdf,1951/fomchistmin-19511004.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19511004.pdf
+1951-11-14,19511114,1951,pdf_histmin,,21006,3098,1951/fomchistmin-19511114.pdf,1951/fomchistmin-19511114.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19511114.pdf
+1952-02-29,19520229,1952,pdf_histmin,,19846,2871,1952/fomchistmin-19520229.pdf,1952/fomchistmin-19520229.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19520229.pdf
+1952-03-01,19520301,1952,pdf_histmin,,20268,2980,1952/fomchistmin-19520301.pdf,1952/fomchistmin-19520301.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19520301.pdf
+1952-06-19,19520619,1952,pdf_histmin,,21186,3145,1952/fomchistmin-19520619.pdf,1952/fomchistmin-19520619.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19520619.pdf
+1952-09-25,19520925,1952,pdf_histmin,,24511,3686,1952/fomchistmin-19520925.pdf,1952/fomchistmin-19520925.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19520925.pdf
+1952-12-08,19521208,1952,pdf_histmin,,27433,4012,1952/fomchistmin-19521208.pdf,1952/fomchistmin-19521208.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19521208.pdf
+1953-03-05,19530305,1953,pdf_histmin,,106384,15830,1953/fomchistmin-19530305.pdf,1953/fomchistmin-19530305.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19530305.pdf
+1953-06-11,19530611,1953,pdf_histmin,,103581,15532,1953/fomchistmin-19530611.pdf,1953/fomchistmin-19530611.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19530611.pdf
+1953-09-24,19530924,1953,pdf_histmin,,61902,9279,1953/fomchistmin-19530924.pdf,1953/fomchistmin-19530924.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19530924.pdf
+1953-12-15,19531215,1953,pdf_histmin,,65158,9557,1953/fomchistmin-19531215.pdf,1953/fomchistmin-19531215.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19531215.pdf
+1954-03-03,19540303,1954,pdf_histmin,,68872,10434,1954/fomchistmin-19540303.pdf,1954/fomchistmin-19540303.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19540303.pdf
+1954-06-23,19540623,1954,pdf_histmin,,37207,5451,1954/fomchistmin-19540623.pdf,1954/fomchistmin-19540623.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19540623.pdf
+1954-09-22,19540922,1954,pdf_histmin,,55574,8317,1954/fomchistmin-19540922.pdf,1954/fomchistmin-19540922.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19540922.pdf
+1954-12-07,19541207,1954,pdf_histmin,,52360,7924,1954/fomchistmin-19541207.pdf,1954/fomchistmin-19541207.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19541207.pdf
+1955-01-11,19550111,1955,pdf_histmin,,58628,8779,1955/fomchistmin-19550111.pdf,1955/fomchistmin-19550111.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550111.pdf
+1955-03-02,19550302,1955,pdf_histmin,,122068,18240,1955/fomchistmin-19550302.pdf,1955/fomchistmin-19550302.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550302.pdf
+1955-05-10,19550510,1955,pdf_histmin,,57529,8572,1955/fomchistmin-19550510.pdf,1955/fomchistmin-19550510.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550510.pdf
+1955-06-22,19550622,1955,pdf_histmin,,111687,17104,1955/fomchistmin-19550622.pdf,1955/fomchistmin-19550622.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550622.pdf
+1955-07-12,19550712,1955,pdf_histmin,,65347,9989,1955/fomchistmin-19550712.pdf,1955/fomchistmin-19550712.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550712.pdf
+1955-08-02,19550802,1955,pdf_histmin,,110602,17271,1955/fomchistmin-19550802.pdf,1955/fomchistmin-19550802.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550802.pdf
+1955-08-23,19550823,1955,pdf_histmin,,83828,13057,1955/fomchistmin-19550823.pdf,1955/fomchistmin-19550823.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550823.pdf
+1955-09-14,19550914,1955,pdf_histmin,,61793,8942,1955/fomchistmin-19550914.pdf,1955/fomchistmin-19550914.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550914.pdf
+1955-09-26,19550926,1955,pdf_histmin,,4104,561,1955/fomchistmin-19550926.pdf,1955/fomchistmin-19550926.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19550926.pdf
+1955-10-04,19551004,1955,pdf_histmin,,64728,10049,1955/fomchistmin-19551004.pdf,1955/fomchistmin-19551004.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551004.pdf
+1955-10-25,19551025,1955,pdf_histmin,,68868,10062,1955/fomchistmin-19551025.pdf,1955/fomchistmin-19551025.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551025.pdf
+1955-11-16,19551116,1955,pdf_histmin,,67137,10269,1955/fomchistmin-19551116.pdf,1955/fomchistmin-19551116.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551116.pdf
+1955-11-30,19551130,1955,pdf_histmin,,29084,4279,1955/fomchistmin-19551130.pdf,1955/fomchistmin-19551130.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551130.pdf
+1955-12-08,19551208,1955,pdf_histmin,,10147,1414,1955/fomchistmin-19551208.pdf,1955/fomchistmin-19551208.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551208.pdf
+1955-12-13,19551213,1955,pdf_histmin,,70115,10503,1955/fomchistmin-19551213.pdf,1955/fomchistmin-19551213.txt,https://www.federalreserve.gov/monetarypolicy/files/FOMChistmin19551213.pdf
+1956-01-10,19560110,1956,pdf_histmin,,59917,8730,1956/fomchistmin-19560110.pdf,1956/fomchistmin-19560110.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560110.pdf
+1956-01-24,19560124,1956,pdf_histmin,,56942,8563,1956/fomchistmin-19560124.pdf,1956/fomchistmin-19560124.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560124.pdf
+1956-02-15,19560215,1956,pdf_histmin,,79790,11765,1956/fomchistmin-19560215.pdf,1956/fomchistmin-19560215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560215.pdf
+1956-03-06,19560306,1956,pdf_histmin,,82024,12205,1956/fomchistmin-19560306.pdf,1956/fomchistmin-19560306.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560306.pdf
+1956-03-27,19560327,1956,pdf_histmin,,87157,12823,1956/fomchistmin-19560327.pdf,1956/fomchistmin-19560327.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560327.pdf
+1956-04-17,19560417,1956,pdf_histmin,,51361,7572,1956/fomchistmin-19560417.pdf,1956/fomchistmin-19560417.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560417.pdf
+1956-05-09,19560509,1956,pdf_histmin,,79001,11746,1956/fomchistmin-19560509.pdf,1956/fomchistmin-19560509.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560509.pdf
+1956-05-23,19560523,1956,pdf_histmin,,85327,12774,1956/fomchistmin-19560523.pdf,1956/fomchistmin-19560523.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560523.pdf
+1956-06-05,19560605,1956,pdf_histmin,,59313,8763,1956/fomchistmin-19560605.pdf,1956/fomchistmin-19560605.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560605.pdf
+1956-06-26,19560626,1956,pdf_histmin,,79222,11625,1956/fomchistmin-19560626.pdf,1956/fomchistmin-19560626.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560626.pdf
+1956-07-17,19560717,1956,pdf_histmin,,79932,11699,1956/fomchistmin-19560717.pdf,1956/fomchistmin-19560717.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560717.pdf
+1956-08-07,19560807,1956,pdf_histmin,,84506,12317,1956/fomchistmin-19560807.pdf,1956/fomchistmin-19560807.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560807.pdf
+1956-08-21,19560821,1956,pdf_histmin,,69140,10205,1956/fomchistmin-19560821.pdf,1956/fomchistmin-19560821.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560821.pdf
+1956-09-11,19560911,1956,pdf_histmin,,92327,13496,1956/fomchistmin-19560911.pdf,1956/fomchistmin-19560911.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560911.pdf
+1956-09-25,19560925,1956,pdf_histmin,,95235,14310,1956/fomchistmin-19560925.pdf,1956/fomchistmin-19560925.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19560925.pdf
+1956-10-16,19561016,1956,pdf_histmin,,75418,11250,1956/fomchistmin-19561016.pdf,1956/fomchistmin-19561016.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19561016.pdf
+1956-11-13,19561113,1956,pdf_histmin,,67211,10135,1956/fomchistmin-19561113.pdf,1956/fomchistmin-19561113.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19561113.pdf
+1956-11-27,19561127,1956,pdf_histmin,,82459,12232,1956/fomchistmin-19561127.pdf,1956/fomchistmin-19561127.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19561127.pdf
+1956-12-10,19561210,1956,pdf_histmin,,43492,6454,1956/fomchistmin-19561210.pdf,1956/fomchistmin-19561210.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19561210.pdf
+1957-01-08,19570108,1957,pdf_histmin,,87402,13214,1957/fomchistmin-19570108.pdf,1957/fomchistmin-19570108.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570108.pdf
+1957-01-28,19570128,1957,pdf_histmin,,83452,12660,1957/fomchistmin-19570128.pdf,1957/fomchistmin-19570128.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570128.pdf
+1957-02-18,19570218,1957,pdf_histmin,,85334,12792,1957/fomchistmin-19570218.pdf,1957/fomchistmin-19570218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570218.pdf
+1957-03-05,19570305,1957,pdf_histmin,,88064,13068,1957/fomchistmin-19570305.pdf,1957/fomchistmin-19570305.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570305.pdf
+1957-03-26,19570326,1957,pdf_histmin,,94324,13910,1957/fomchistmin-19570326.pdf,1957/fomchistmin-19570326.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570326.pdf
+1957-04-16,19570416,1957,pdf_histmin,,77201,11616,1957/fomchistmin-19570416.pdf,1957/fomchistmin-19570416.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570416.pdf
+1957-04-24,19570424,1957,pdf_histmin,,26135,3939,1957/fomchistmin-19570424.pdf,1957/fomchistmin-19570424.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570424.pdf
+1957-05-07,19570507,1957,pdf_histmin,,88959,13169,1957/fomchistmin-19570507.pdf,1957/fomchistmin-19570507.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570507.pdf
+1957-05-28,19570528,1957,pdf_histmin,,77499,11457,1957/fomchistmin-19570528.pdf,1957/fomchistmin-19570528.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570528.pdf
+1957-06-18,19570618,1957,pdf_histmin,,102711,15241,1957/fomchistmin-19570618.pdf,1957/fomchistmin-19570618.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570618.pdf
+1957-07-09,19570709,1957,pdf_histmin,,77999,11413,1957/fomchistmin-19570709.pdf,1957/fomchistmin-19570709.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570709.pdf
+1957-07-30,19570730,1957,pdf_histmin,,84513,12639,1957/fomchistmin-19570730.pdf,1957/fomchistmin-19570730.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570730.pdf
+1957-08-20,19570820,1957,pdf_histmin,,92613,13936,1957/fomchistmin-19570820.pdf,1957/fomchistmin-19570820.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570820.pdf
+1957-09-10,19570910,1957,pdf_histmin,,92993,13707,1957/fomchistmin-19570910.pdf,1957/fomchistmin-19570910.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19570910.pdf
+1957-10-01,19571001,1957,pdf_histmin,,55853,8082,1957/fomchistmin-19571001.pdf,1957/fomchistmin-19571001.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19571001.pdf
+1957-10-22,19571022,1957,pdf_histmin,,87261,12869,1957/fomchistmin-19571022.pdf,1957/fomchistmin-19571022.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19571022.pdf
+1957-11-12,19571112,1957,pdf_histmin,,108738,16137,1957/fomchistmin-19571112.pdf,1957/fomchistmin-19571112.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19571112.pdf
+1957-12-03,19571203,1957,pdf_histmin,,104516,15550,1957/fomchistmin-19571203.pdf,1957/fomchistmin-19571203.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19571203.pdf
+1957-12-17,19571217,1957,pdf_histmin,,99195,14554,1957/fomchistmin-19571217.pdf,1957/fomchistmin-19571217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19571217.pdf
+1958-01-07,19580107,1958,pdf_histmin,,112871,17099,1958/fomchistmin-19580107.pdf,1958/fomchistmin-19580107.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580107.pdf
+1958-01-28,19580128,1958,pdf_histmin,,85640,12933,1958/fomchistmin-19580128.pdf,1958/fomchistmin-19580128.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580128.pdf
+1958-02-11,19580211,1958,pdf_histmin,,101840,15147,1958/fomchistmin-19580211.pdf,1958/fomchistmin-19580211.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580211.pdf
+1958-03-04,19580304,1958,pdf_histmin,,113273,16908,1958/fomchistmin-19580304.pdf,1958/fomchistmin-19580304.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580304.pdf
+1958-03-25,19580325,1958,pdf_histmin,,98514,14534,1958/fomchistmin-19580325.pdf,1958/fomchistmin-19580325.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580325.pdf
+1958-04-15,19580415,1958,pdf_histmin,,103815,15416,1958/fomchistmin-19580415.pdf,1958/fomchistmin-19580415.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580415.pdf
+1958-05-06,19580506,1958,pdf_histmin,,100258,14847,1958/fomchistmin-19580506.pdf,1958/fomchistmin-19580506.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580506.pdf
+1958-05-27,19580527,1958,pdf_histmin,,94971,14240,1958/fomchistmin-19580527.pdf,1958/fomchistmin-19580527.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580527.pdf
+1958-06-17,19580617,1958,pdf_histmin,,79134,11781,1958/fomchistmin-19580617.pdf,1958/fomchistmin-19580617.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580617.pdf
+1958-07-08,19580708,1958,pdf_histmin,,105772,15716,1958/fomchistmin-19580708.pdf,1958/fomchistmin-19580708.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580708.pdf
+1958-07-15,19580715,1958,pdf_histmin,,12060,1809,1958/fomchistmin-19580715.pdf,1958/fomchistmin-19580715.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580715.pdf
+1958-07-18,19580718,1958,pdf_histmin,,30251,4581,1958/fomchistmin-19580718.pdf,1958/fomchistmin-19580718.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580718.pdf
+1958-07-21,19580721,1958,pdf_histmin,,8449,1247,1958/fomchistmin-19580721.pdf,1958/fomchistmin-19580721.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580721.pdf
+1958-07-22,19580722,1958,pdf_histmin,,13165,1967,1958/fomchistmin-19580722.pdf,1958/fomchistmin-19580722.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580722.pdf
+1958-07-23,19580723,1958,pdf_histmin,,15371,2319,1958/fomchistmin-19580723.pdf,1958/fomchistmin-19580723.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580723.pdf
+1958-07-24,19580724,1958,pdf_histmin,,8556,1240,1958/fomchistmin-19580724.pdf,1958/fomchistmin-19580724.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580724.pdf
+1958-07-25,19580725,1958,pdf_histmin,,4314,612,1958/fomchistmin-19580725.pdf,1958/fomchistmin-19580725.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580725.pdf
+1958-07-29,19580729,1958,pdf_histmin,,146517,22168,1958/fomchistmin-19580729.pdf,1958/fomchistmin-19580729.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580729.pdf
+1958-07-30,19580730,1958,pdf_histmin,,6383,936,1958/fomchistmin-19580730.pdf,1958/fomchistmin-19580730.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580730.pdf
+1958-07-31,19580731,1958,pdf_histmin,,6752,974,1958/fomchistmin-19580731.pdf,1958/fomchistmin-19580731.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580731.pdf
+1958-08-01,19580801,1958,pdf_histmin,,5075,741,1958/fomchistmin-19580801.pdf,1958/fomchistmin-19580801.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580801.pdf
+1958-08-04,19580804,1958,pdf_histmin,,18825,2802,1958/fomchistmin-19580804.pdf,1958/fomchistmin-19580804.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580804.pdf
+1958-08-19,19580819,1958,pdf_histmin,,118345,17632,1958/fomchistmin-19580819.pdf,1958/fomchistmin-19580819.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580819.pdf
+1958-09-09,19580909,1958,pdf_histmin,,112530,17117,1958/fomchistmin-19580909.pdf,1958/fomchistmin-19580909.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580909.pdf
+1958-09-30,19580930,1958,pdf_histmin,,94357,13926,1958/fomchistmin-19580930.pdf,1958/fomchistmin-19580930.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19580930.pdf
+1958-10-21,19581021,1958,pdf_histmin,,85630,12658,1958/fomchistmin-19581021.pdf,1958/fomchistmin-19581021.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19581021.pdf
+1958-11-10,19581110,1958,pdf_histmin,,79628,11635,1958/fomchistmin-19581110.pdf,1958/fomchistmin-19581110.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19581110.pdf
+1958-12-02,19581202,1958,pdf_histmin,,108179,16338,1958/fomchistmin-19581202.pdf,1958/fomchistmin-19581202.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19581202.pdf
+1958-12-16,19581216,1958,pdf_histmin,,92697,13646,1958/fomchistmin-19581216.pdf,1958/fomchistmin-19581216.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19581216.pdf
+1959-01-06,19590106,1959,pdf_histmin,,69840,10192,1959/fomchistmin-19590106.pdf,1959/fomchistmin-19590106.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590106.pdf
+1959-01-27,19590127,1959,pdf_histmin,,83589,12035,1959/fomchistmin-19590127.pdf,1959/fomchistmin-19590127.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590127.pdf
+1959-02-10,19590210,1959,pdf_histmin,,85050,12452,1959/fomchistmin-19590210.pdf,1959/fomchistmin-19590210.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590210.pdf
+1959-03-03,19590303,1959,pdf_histmin,,191199,28179,1959/fomchistmin-19590303.pdf,1959/fomchistmin-19590303.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590303.pdf
+1959-03-24,19590324,1959,pdf_histmin,,65427,9433,1959/fomchistmin-19590324.pdf,1959/fomchistmin-19590324.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590324.pdf
+1959-04-14,19590414,1959,pdf_histmin,,78156,11243,1959/fomchistmin-19590414.pdf,1959/fomchistmin-19590414.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590414.pdf
+1959-05-05,19590505,1959,pdf_histmin,,87554,12531,1959/fomchistmin-19590505.pdf,1959/fomchistmin-19590505.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590505.pdf
+1959-05-26,19590526,1959,pdf_histmin,,120688,17879,1959/fomchistmin-19590526.pdf,1959/fomchistmin-19590526.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590526.pdf
+1959-06-16,19590616,1959,pdf_histmin,,67377,9699,1959/fomchistmin-19590616.pdf,1959/fomchistmin-19590616.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590616.pdf
+1959-07-07,19590707,1959,pdf_histmin,,102685,14912,1959/fomchistmin-19590707.pdf,1959/fomchistmin-19590707.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590707.pdf
+1959-07-28,19590728,1959,pdf_histmin,,78893,11693,1959/fomchistmin-19590728.pdf,1959/fomchistmin-19590728.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590728.pdf
+1959-08-18,19590818,1959,pdf_histmin,,91135,13233,1959/fomchistmin-19590818.pdf,1959/fomchistmin-19590818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590818.pdf
+1959-09-01,19590901,1959,pdf_histmin,,94905,13981,1959/fomchistmin-19590901.pdf,1959/fomchistmin-19590901.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590901.pdf
+1959-09-22,19590922,1959,pdf_histmin,,78938,11459,1959/fomchistmin-19590922.pdf,1959/fomchistmin-19590922.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19590922.pdf
+1959-10-13,19591013,1959,pdf_histmin,,121721,17520,1959/fomchistmin-19591013.pdf,1959/fomchistmin-19591013.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19591013.pdf
+1959-11-04,19591104,1959,pdf_histmin,,138105,20248,1959/fomchistmin-19591104.pdf,1959/fomchistmin-19591104.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19591104.pdf
+1959-11-24,19591124,1959,pdf_histmin,,88413,12761,1959/fomchistmin-19591124.pdf,1959/fomchistmin-19591124.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19591124.pdf
+1959-12-15,19591215,1959,pdf_histmin,,101692,15228,1959/fomchistmin-19591215.pdf,1959/fomchistmin-19591215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19591215.pdf
+1960-01-12,19600112,1960,pdf_histmin,,133482,19350,1960/fomchistmin-19600112.pdf,1960/fomchistmin-19600112.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600112.pdf
+1960-01-26,19600126,1960,pdf_histmin,,93309,13504,1960/fomchistmin-19600126.pdf,1960/fomchistmin-19600126.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600126.pdf
+1960-02-09,19600209,1960,pdf_histmin,,134616,19624,1960/fomchistmin-19600209.pdf,1960/fomchistmin-19600209.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600209.pdf
+1960-03-01,19600301,1960,pdf_histmin,,151788,21899,1960/fomchistmin-19600301.pdf,1960/fomchistmin-19600301.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600301.pdf
+1960-03-22,19600322,1960,pdf_histmin,,131636,19190,1960/fomchistmin-19600322.pdf,1960/fomchistmin-19600322.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600322.pdf
+1960-04-12,19600412,1960,pdf_histmin,,138944,20276,1960/fomchistmin-19600412.pdf,1960/fomchistmin-19600412.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600412.pdf
+1960-05-03,19600503,1960,pdf_histmin,,116196,16803,1960/fomchistmin-19600503.pdf,1960/fomchistmin-19600503.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600503.pdf
+1960-05-24,19600524,1960,pdf_histmin,,129699,18698,1960/fomchistmin-19600524.pdf,1960/fomchistmin-19600524.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600524.pdf
+1960-06-14,19600614,1960,pdf_histmin,,85885,12445,1960/fomchistmin-19600614.pdf,1960/fomchistmin-19600614.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600614.pdf
+1960-07-06,19600706,1960,pdf_histmin,,105183,15154,1960/fomchistmin-19600706.pdf,1960/fomchistmin-19600706.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600706.pdf
+1960-07-26,19600726,1960,pdf_histmin,,115589,16974,1960/fomchistmin-19600726.pdf,1960/fomchistmin-19600726.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600726.pdf
+1960-08-16,19600816,1960,pdf_histmin,,120590,17740,1960/fomchistmin-19600816.pdf,1960/fomchistmin-19600816.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600816.pdf
+1960-09-13,19600913,1960,pdf_histmin,,108274,15841,1960/fomchistmin-19600913.pdf,1960/fomchistmin-19600913.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19600913.pdf
+1960-10-04,19601004,1960,pdf_histmin,,100298,14401,1960/fomchistmin-19601004.pdf,1960/fomchistmin-19601004.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19601004.pdf
+1960-10-25,19601025,1960,pdf_histmin,,127502,18377,1960/fomchistmin-19601025.pdf,1960/fomchistmin-19601025.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19601025.pdf
+1960-11-22,19601122,1960,pdf_histmin,,102649,14950,1960/fomchistmin-19601122.pdf,1960/fomchistmin-19601122.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19601122.pdf
+1960-12-13,19601213,1960,pdf_histmin,,93068,13496,1960/fomchistmin-19601213.pdf,1960/fomchistmin-19601213.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19601213.pdf
+1961-01-10,19610110,1961,pdf_histmin,,107105,15961,1961/fomchistmin-19610110.pdf,1961/fomchistmin-19610110.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610110.pdf
+1961-01-24,19610124,1961,pdf_histmin,,78091,11448,1961/fomchistmin-19610124.pdf,1961/fomchistmin-19610124.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610124.pdf
+1961-02-07,19610207,1961,pdf_histmin,,125723,18843,1961/fomchistmin-19610207.pdf,1961/fomchistmin-19610207.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610207.pdf
+1961-03-07,19610307,1961,pdf_histmin,,143318,21608,1961/fomchistmin-19610307.pdf,1961/fomchistmin-19610307.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610307.pdf
+1961-03-28,19610328,1961,pdf_histmin,,135762,19707,1961/fomchistmin-19610328.pdf,1961/fomchistmin-19610328.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610328.pdf
+1961-04-18,19610418,1961,pdf_histmin,,131439,19823,1961/fomchistmin-19610418.pdf,1961/fomchistmin-19610418.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610418.pdf
+1961-05-09,19610509,1961,pdf_histmin,,138999,20395,1961/fomchistmin-19610509.pdf,1961/fomchistmin-19610509.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610509.pdf
+1961-06-06,19610606,1961,pdf_histmin,,125786,19127,1961/fomchistmin-19610606.pdf,1961/fomchistmin-19610606.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610606.pdf
+1961-06-20,19610620,1961,pdf_histmin,,82302,12546,1961/fomchistmin-19610620.pdf,1961/fomchistmin-19610620.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610620.pdf
+1961-07-11,19610711,1961,pdf_histmin,,143571,21783,1961/fomchistmin-19610711.pdf,1961/fomchistmin-19610711.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610711.pdf
+1961-08-01,19610801,1961,pdf_histmin,,130297,18946,1961/fomchistmin-19610801.pdf,1961/fomchistmin-19610801.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610801.pdf
+1961-08-22,19610822,1961,pdf_histmin,,113718,16670,1961/fomchistmin-19610822.pdf,1961/fomchistmin-19610822.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610822.pdf
+1961-09-12,19610912,1961,pdf_histmin,,127027,18427,1961/fomchistmin-19610912.pdf,1961/fomchistmin-19610912.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19610912.pdf
+1961-10-03,19611003,1961,pdf_histmin,,57522,8327,1961/fomchistmin-19611003.pdf,1961/fomchistmin-19611003.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19611003.pdf
+1961-10-24,19611024,1961,pdf_histmin,,110197,16267,1961/fomchistmin-19611024.pdf,1961/fomchistmin-19611024.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19611024.pdf
+1961-11-14,19611114,1961,pdf_histmin,,151722,21724,1961/fomchistmin-19611114.pdf,1961/fomchistmin-19611114.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19611114.pdf
+1961-12-05,19611205,1961,pdf_histmin,,152167,22597,1961/fomchistmin-19611205.pdf,1961/fomchistmin-19611205.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19611205.pdf
+1961-12-19,19611219,1961,pdf_histmin,,190637,27974,1961/fomchistmin-19611219.pdf,1961/fomchistmin-19611219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19611219.pdf
+1962-01-09,19620109,1962,pdf_histmin,,148082,21779,1962/fomchistmin-19620109.pdf,1962/fomchistmin-19620109.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620109.pdf
+1962-01-23,19620123,1962,pdf_histmin,,82835,12018,1962/fomchistmin-19620123.pdf,1962/fomchistmin-19620123.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620123.pdf
+1962-02-13,19620213,1962,pdf_histmin,,181130,26910,1962/fomchistmin-19620213.pdf,1962/fomchistmin-19620213.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620213.pdf
+1962-03-06,19620306,1962,pdf_histmin,,152991,22732,1962/fomchistmin-19620306.pdf,1962/fomchistmin-19620306.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620306.pdf
+1962-03-27,19620327,1962,pdf_histmin,,117363,17367,1962/fomchistmin-19620327.pdf,1962/fomchistmin-19620327.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620327.pdf
+1962-04-17,19620417,1962,pdf_histmin,,199018,29258,1962/fomchistmin-19620417.pdf,1962/fomchistmin-19620417.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620417.pdf
+1962-05-08,19620508,1962,pdf_histmin,,95882,13816,1962/fomchistmin-19620508.pdf,1962/fomchistmin-19620508.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620508.pdf
+1962-05-29,19620529,1962,pdf_histmin,,128698,18821,1962/fomchistmin-19620529.pdf,1962/fomchistmin-19620529.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620529.pdf
+1962-06-19,19620619,1962,pdf_histmin,,85334,12275,1962/fomchistmin-19620619.pdf,1962/fomchistmin-19620619.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620619.pdf
+1962-06-21,19620621,1962,pdf_histmin,,16772,2555,1962/fomchistmin-19620621.pdf,1962/fomchistmin-19620621.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620621.pdf
+1962-07-10,19620710,1962,pdf_histmin,,133001,19668,1962/fomchistmin-19620710.pdf,1962/fomchistmin-19620710.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620710.pdf
+1962-07-31,19620731,1962,pdf_histmin,,94115,13898,1962/fomchistmin-19620731.pdf,1962/fomchistmin-19620731.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620731.pdf
+1962-08-21,19620821,1962,pdf_histmin,,107602,15910,1962/fomchistmin-19620821.pdf,1962/fomchistmin-19620821.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620821.pdf
+1962-09-11,19620911,1962,pdf_histmin,,143056,21700,1962/fomchistmin-19620911.pdf,1962/fomchistmin-19620911.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19620911.pdf
+1962-10-02,19621002,1962,pdf_histmin,,113686,17245,1962/fomchistmin-19621002.pdf,1962/fomchistmin-19621002.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19621002.pdf
+1962-10-23,19621023,1962,pdf_histmin,,102458,15474,1962/fomchistmin-19621023.pdf,1962/fomchistmin-19621023.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19621023.pdf
+1962-11-13,19621113,1962,pdf_histmin,,114369,17479,1962/fomchistmin-19621113.pdf,1962/fomchistmin-19621113.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19621113.pdf
+1962-12-04,19621204,1962,pdf_histmin,,110745,16895,1962/fomchistmin-19621204.pdf,1962/fomchistmin-19621204.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19621204.pdf
+1962-12-18,19621218,1962,pdf_histmin,,187600,28548,1962/fomchistmin-19621218.pdf,1962/fomchistmin-19621218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19621218.pdf
+1963-01-08,19630108,1963,pdf_histmin,,137367,20220,1963/fomchistmin-19630108.pdf,1963/fomchistmin-19630108.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630108.pdf
+1963-01-29,19630129,1963,pdf_histmin,,106442,15988,1963/fomchistmin-19630129.pdf,1963/fomchistmin-19630129.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630129.pdf
+1963-02-12,19630212,1963,pdf_histmin,,112014,16787,1963/fomchistmin-19630212.pdf,1963/fomchistmin-19630212.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630212.pdf
+1963-03-05,19630305,1963,pdf_histmin,,178050,26229,1963/fomchistmin-19630305.pdf,1963/fomchistmin-19630305.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630305.pdf
+1963-03-26,19630326,1963,pdf_histmin,,98246,14557,1963/fomchistmin-19630326.pdf,1963/fomchistmin-19630326.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630326.pdf
+1963-04-16,19630416,1963,pdf_histmin,,98698,14488,1963/fomchistmin-19630416.pdf,1963/fomchistmin-19630416.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630416.pdf
+1963-05-07,19630507,1963,pdf_histmin,,124841,18384,1963/fomchistmin-19630507.pdf,1963/fomchistmin-19630507.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630507.pdf
+1963-05-28,19630528,1963,pdf_histmin,,118147,17316,1963/fomchistmin-19630528.pdf,1963/fomchistmin-19630528.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630528.pdf
+1963-06-18,19630618,1963,pdf_histmin,,120769,17921,1963/fomchistmin-19630618.pdf,1963/fomchistmin-19630618.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630618.pdf
+1963-07-09,19630709,1963,pdf_histmin,,155745,23120,1963/fomchistmin-19630709.pdf,1963/fomchistmin-19630709.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630709.pdf
+1963-07-30,19630730,1963,pdf_histmin,,121610,18159,1963/fomchistmin-19630730.pdf,1963/fomchistmin-19630730.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630730.pdf
+1963-08-20,19630820,1963,pdf_histmin,,114906,17172,1963/fomchistmin-19630820.pdf,1963/fomchistmin-19630820.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630820.pdf
+1963-09-10,19630910,1963,pdf_histmin,,96657,14597,1963/fomchistmin-19630910.pdf,1963/fomchistmin-19630910.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19630910.pdf
+1963-10-01,19631001,1963,pdf_histmin,,107489,15878,1963/fomchistmin-19631001.pdf,1963/fomchistmin-19631001.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631001.pdf
+1963-10-22,19631022,1963,pdf_histmin,,110841,16406,1963/fomchistmin-19631022.pdf,1963/fomchistmin-19631022.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631022.pdf
+1963-11-12,19631112,1963,pdf_histmin,,124120,18038,1963/fomchistmin-19631112.pdf,1963/fomchistmin-19631112.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631112.pdf
+1963-11-26,19631126,1963,pdf_histmin,,10240,1505,1963/fomchistmin-19631126.pdf,1963/fomchistmin-19631126.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631126.pdf
+1963-12-03,19631203,1963,pdf_histmin,,141041,21157,1963/fomchistmin-19631203.pdf,1963/fomchistmin-19631203.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631203.pdf
+1963-12-17,19631217,1963,pdf_histmin,,111018,16573,1963/fomchistmin-19631217.pdf,1963/fomchistmin-19631217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19631217.pdf
+1964-01-07,19640107,1964,pdf_histmin,,102513,15205,1964/fomchistmin-19640107.pdf,1964/fomchistmin-19640107.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640107.pdf
+1964-01-28,19640128,1964,pdf_histmin,,95993,14135,1964/fomchistmin-19640128.pdf,1964/fomchistmin-19640128.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640128.pdf
+1964-02-11,19640211,1964,pdf_histmin,,108315,16561,1964/fomchistmin-19640211.pdf,1964/fomchistmin-19640211.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640211.pdf
+1964-03-03,19640303,1964,pdf_histmin,,189922,27922,1964/fomchistmin-19640303.pdf,1964/fomchistmin-19640303.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640303.pdf
+1964-03-24,19640324,1964,pdf_histmin,,126496,19084,1964/fomchistmin-19640324.pdf,1964/fomchistmin-19640324.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640324.pdf
+1964-04-14,19640414,1964,pdf_histmin,,130684,19455,1964/fomchistmin-19640414.pdf,1964/fomchistmin-19640414.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640414.pdf
+1964-05-05,19640505,1964,pdf_histmin,,110796,16470,1964/fomchistmin-19640505.pdf,1964/fomchistmin-19640505.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640505.pdf
+1964-05-26,19640526,1964,pdf_histmin,,88017,12921,1964/fomchistmin-19640526.pdf,1964/fomchistmin-19640526.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640526.pdf
+1964-06-17,19640617,1964,pdf_histmin,,117664,17556,1964/fomchistmin-19640617.pdf,1964/fomchistmin-19640617.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640617.pdf
+1964-07-07,19640707,1964,pdf_histmin,,97680,14397,1964/fomchistmin-19640707.pdf,1964/fomchistmin-19640707.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640707.pdf
+1964-07-28,19640728,1964,pdf_histmin,,157257,23168,1964/fomchistmin-19640728.pdf,1964/fomchistmin-19640728.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640728.pdf
+1964-08-18,19640818,1964,pdf_histmin,,123293,18588,1964/fomchistmin-19640818.pdf,1964/fomchistmin-19640818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640818.pdf
+1964-09-08,19640908,1964,pdf_histmin,,116575,17165,1964/fomchistmin-19640908.pdf,1964/fomchistmin-19640908.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640908.pdf
+1964-09-29,19640929,1964,pdf_histmin,,152161,22975,1964/fomchistmin-19640929.pdf,1964/fomchistmin-19640929.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19640929.pdf
+1964-10-20,19641020,1964,pdf_histmin,,125373,18743,1964/fomchistmin-19641020.pdf,1964/fomchistmin-19641020.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19641020.pdf
+1964-11-10,19641110,1964,pdf_histmin,,189634,28270,1964/fomchistmin-19641110.pdf,1964/fomchistmin-19641110.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19641110.pdf
+1964-11-24,19641124,1964,pdf_histmin,,17223,2541,1964/fomchistmin-19641124.pdf,1964/fomchistmin-19641124.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19641124.pdf
+1964-12-01,19641201,1964,pdf_histmin,,135186,20054,1964/fomchistmin-19641201.pdf,1964/fomchistmin-19641201.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19641201.pdf
+1964-12-15,19641215,1964,pdf_histmin,,176563,25967,1964/fomchistmin-19641215.pdf,1964/fomchistmin-19641215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19641215.pdf
+1965-01-12,19650112,1965,pdf_histmin,,170655,25281,1965/fomchistmin-19650112.pdf,1965/fomchistmin-19650112.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650112.pdf
+1965-02-02,19650202,1965,pdf_histmin,,160136,23562,1965/fomchistmin-19650202.pdf,1965/fomchistmin-19650202.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650202.pdf
+1965-03-02,19650302,1965,pdf_histmin,,205858,30263,1965/fomchistmin-19650302.pdf,1965/fomchistmin-19650302.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650302.pdf
+1965-03-23,19650323,1965,pdf_histmin,,184462,27441,1965/fomchistmin-19650323.pdf,1965/fomchistmin-19650323.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650323.pdf
+1965-04-13,19650413,1965,pdf_histmin,,151414,22213,1965/fomchistmin-19650413.pdf,1965/fomchistmin-19650413.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650413.pdf
+1965-05-11,19650511,1965,pdf_histmin,,142637,20749,1965/fomchistmin-19650511.pdf,1965/fomchistmin-19650511.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650511.pdf
+1965-05-25,19650525,1965,pdf_histmin,,125261,18544,1965/fomchistmin-19650525.pdf,1965/fomchistmin-19650525.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650525.pdf
+1965-06-15,19650615,1965,pdf_histmin,,160555,23789,1965/fomchistmin-19650615.pdf,1965/fomchistmin-19650615.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650615.pdf
+1965-07-13,19650713,1965,pdf_histmin,,180190,26756,1965/fomchistmin-19650713.pdf,1965/fomchistmin-19650713.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650713.pdf
+1965-08-10,19650810,1965,pdf_histmin,,164095,23946,1965/fomchistmin-19650810.pdf,1965/fomchistmin-19650810.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650810.pdf
+1965-08-31,19650831,1965,pdf_histmin,,143316,20855,1965/fomchistmin-19650831.pdf,1965/fomchistmin-19650831.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650831.pdf
+1965-09-08,19650908,1965,pdf_histmin,,10369,1547,1965/fomchistmin-19650908.pdf,1965/fomchistmin-19650908.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650908.pdf
+1965-09-28,19650928,1965,pdf_histmin,,189923,28014,1965/fomchistmin-19650928.pdf,1965/fomchistmin-19650928.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19650928.pdf
+1965-10-12,19651012,1965,pdf_histmin,,156955,23128,1965/fomchistmin-19651012.pdf,1965/fomchistmin-19651012.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19651012.pdf
+1965-11-02,19651102,1965,pdf_histmin,,117000,17018,1965/fomchistmin-19651102.pdf,1965/fomchistmin-19651102.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19651102.pdf
+1965-11-04,19651104,1965,pdf_histmin,,9524,1409,1965/fomchistmin-19651104.pdf,1965/fomchistmin-19651104.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19651104.pdf
+1965-11-23,19651123,1965,pdf_histmin,,171152,25436,1965/fomchistmin-19651123.pdf,1965/fomchistmin-19651123.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19651123.pdf
+1965-12-14,19651214,1965,pdf_histmin,,122391,18158,1965/fomchistmin-19651214.pdf,1965/fomchistmin-19651214.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19651214.pdf
+1966-01-11,19660111,1966,pdf_histmin,,151217,22333,1966/fomchistmin-19660111.pdf,1966/fomchistmin-19660111.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660111.pdf
+1966-02-08,19660208,1966,pdf_histmin,,146921,21758,1966/fomchistmin-19660208.pdf,1966/fomchistmin-19660208.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660208.pdf
+1966-03-01,19660301,1966,pdf_histmin,,181148,26657,1966/fomchistmin-19660301.pdf,1966/fomchistmin-19660301.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660301.pdf
+1966-03-22,19660322,1966,pdf_histmin,,158910,23579,1966/fomchistmin-19660322.pdf,1966/fomchistmin-19660322.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660322.pdf
+1966-04-12,19660412,1966,pdf_histmin,,141814,20952,1966/fomchistmin-19660412.pdf,1966/fomchistmin-19660412.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660412.pdf
+1966-05-10,19660510,1966,pdf_histmin,,183841,27190,1966/fomchistmin-19660510.pdf,1966/fomchistmin-19660510.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660510.pdf
+1966-06-07,19660607,1966,pdf_histmin,,194951,28593,1966/fomchistmin-19660607.pdf,1966/fomchistmin-19660607.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660607.pdf
+1966-06-28,19660628,1966,pdf_histmin,,189466,28144,1966/fomchistmin-19660628.pdf,1966/fomchistmin-19660628.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660628.pdf
+1966-07-11,19660711,1966,pdf_histmin,,32328,4936,1966/fomchistmin-19660711.pdf,1966/fomchistmin-19660711.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660711.pdf
+1966-07-26,19660726,1966,pdf_histmin,,167536,25203,1966/fomchistmin-19660726.pdf,1966/fomchistmin-19660726.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660726.pdf
+1966-08-23,19660823,1966,pdf_histmin,,188458,28270,1966/fomchistmin-19660823.pdf,1966/fomchistmin-19660823.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660823.pdf
+1966-09-13,19660913,1966,pdf_histmin,,148331,21989,1966/fomchistmin-19660913.pdf,1966/fomchistmin-19660913.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19660913.pdf
+1966-10-04,19661004,1966,pdf_histmin,,150725,22455,1966/fomchistmin-19661004.pdf,1966/fomchistmin-19661004.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19661004.pdf
+1966-11-01,19661101,1966,pdf_histmin,,163946,24017,1966/fomchistmin-19661101.pdf,1966/fomchistmin-19661101.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19661101.pdf
+1966-11-22,19661122,1966,pdf_histmin,,179650,26700,1966/fomchistmin-19661122.pdf,1966/fomchistmin-19661122.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19661122.pdf
+1966-12-13,19661213,1966,pdf_histmin,,170578,25393,1966/fomchistmin-19661213.pdf,1966/fomchistmin-19661213.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19661213.pdf
+1967-01-10,19670110,1967,pdf_histmin,,143536,21059,1967/fomchistmin-19670110.pdf,1967/fomchistmin-19670110.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670110.pdf
+1967-02-07,19670207,1967,pdf_histmin,,169678,24846,1967/fomchistmin-19670207.pdf,1967/fomchistmin-19670207.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670207.pdf
+1967-03-07,19670307,1967,pdf_histmin,,214730,31693,1967/fomchistmin-19670307.pdf,1967/fomchistmin-19670307.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670307.pdf
+1967-04-04,19670404,1967,pdf_histmin,,180268,27320,1967/fomchistmin-19670404.pdf,1967/fomchistmin-19670404.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670404.pdf
+1967-05-02,19670502,1967,pdf_histmin,,164431,24663,1967/fomchistmin-19670502.pdf,1967/fomchistmin-19670502.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670502.pdf
+1967-05-23,19670523,1967,pdf_histmin,,189906,28063,1967/fomchistmin-19670523.pdf,1967/fomchistmin-19670523.txt,https://www.federalreserve.gov/monetarypolicy/files/fomchistmin19670523.pdf
+1967-06-20,19670620,1967,pdf_moa,,25263,3688,1967/fomcmoa-19670620.pdf,1967/fomcmoa-19670620.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19670620.pdf
+1967-07-18,19670718,1967,pdf_moa,,9234,1298,1967/fomcmoa-19670718.pdf,1967/fomcmoa-19670718.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19670718.pdf
+1967-08-15,19670815,1967,pdf_moa,,5774,797,1967/fomcmoa-19670815.pdf,1967/fomcmoa-19670815.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19670815.pdf
+1967-09-12,19670912,1967,pdf_moa,,4904,671,1967/fomcmoa-19670912.pdf,1967/fomcmoa-19670912.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19670912.pdf
+1967-10-03,19671003,1967,pdf_moa,,5443,758,1967/fomcmoa-19671003.pdf,1967/fomcmoa-19671003.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19671003.pdf
+1967-10-24,19671024,1967,pdf_moa,,9640,1341,1967/fomcmoa-19671024.pdf,1967/fomcmoa-19671024.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19671024.pdf
+1967-11-14,19671114,1967,pdf_moa,,8195,1117,1967/fomcmoa-19671114.pdf,1967/fomcmoa-19671114.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19671114.pdf
+1967-11-27,19671127,1967,pdf_moa,,7028,978,1967/fomcmoa-19671127.pdf,1967/fomcmoa-19671127.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19671127.pdf
+1967-12-12,19671212,1967,pdf_moa,,6108,844,1967/fomcmoa-19671212.pdf,1967/fomcmoa-19671212.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19671212.pdf
+1968-01-09,19680109,1968,pdf_moa,,6588,901,1968/fomcmoa-19680109.pdf,1968/fomcmoa-19680109.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680109.pdf
+1968-02-06,19680206,1968,pdf_moa,,5246,728,1968/fomcmoa-19680206.pdf,1968/fomcmoa-19680206.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680206.pdf
+1968-03-05,19680305,1968,pdf_moa,,37084,5378,1968/fomcmoa-19680305.pdf,1968/fomcmoa-19680305.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680305.pdf
+1968-03-14,19680314,1968,pdf_moa,,8017,1180,1968/fomcmoa-19680314.pdf,1968/fomcmoa-19680314.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680314.pdf
+1968-04-02,19680402,1968,pdf_moa,,7392,1039,1968/fomcmoa-19680402.pdf,1968/fomcmoa-19680402.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680402.pdf
+1968-04-19,19680419,1968,pdf_moa,,2276,316,1968/fomcmoa-19680419.pdf,1968/fomcmoa-19680419.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680419.pdf
+1968-04-30,19680430,1968,pdf_moa,,5845,820,1968/fomcmoa-19680430.pdf,1968/fomcmoa-19680430.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680430.pdf
+1968-05-28,19680528,1968,pdf_moa,,7541,1056,1968/fomcmoa-19680528.pdf,1968/fomcmoa-19680528.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680528.pdf
+1968-06-18,19680618,1968,pdf_moa,,4863,695,1968/fomcmoa-19680618.pdf,1968/fomcmoa-19680618.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680618.pdf
+1968-07-16,19680716,1968,pdf_moa,,9041,1285,1968/fomcmoa-19680716.pdf,1968/fomcmoa-19680716.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680716.pdf
+1968-08-13,19680813,1968,pdf_moa,,5518,758,1968/fomcmoa-19680813.pdf,1968/fomcmoa-19680813.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680813.pdf
+1968-08-19,19680819,1968,pdf_moa,,2574,351,1968/fomcmoa-19680819.pdf,1968/fomcmoa-19680819.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680819.pdf
+1968-09-10,19680910,1968,pdf_moa,,5038,694,1968/fomcmoa-19680910.pdf,1968/fomcmoa-19680910.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19680910.pdf
+1968-10-08,19681008,1968,pdf_moa,,6970,974,1968/fomcmoa-19681008.pdf,1968/fomcmoa-19681008.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19681008.pdf
+1968-10-29,19681029,1968,pdf_moa,,5691,788,1968/fomcmoa-19681029.pdf,1968/fomcmoa-19681029.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19681029.pdf
+1968-11-26,19681126,1968,pdf_moa,,5584,777,1968/fomcmoa-19681126.pdf,1968/fomcmoa-19681126.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19681126.pdf
+1968-12-17,19681217,1968,pdf_moa,,4737,664,1968/fomcmoa-19681217.pdf,1968/fomcmoa-19681217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19681217.pdf
+1969-01-14,19690114,1969,pdf_moa,,5074,706,1969/fomcmoa-19690114.pdf,1969/fomcmoa-19690114.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690114.pdf
+1969-02-04,19690204,1969,pdf_moa,,5007,709,1969/fomcmoa-19690204.pdf,1969/fomcmoa-19690204.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690204.pdf
+1969-03-04,19690304,1969,pdf_moa,,35391,5216,1969/fomcmoa-19690304.pdf,1969/fomcmoa-19690304.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690304.pdf
+1969-04-01,19690401,1969,pdf_moa,,5532,784,1969/fomcmoa-19690401.pdf,1969/fomcmoa-19690401.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690401.pdf
+1969-04-29,19690429,1969,pdf_moa,,5732,807,1969/fomcmoa-19690429.pdf,1969/fomcmoa-19690429.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690429.pdf
+1969-05-27,19690527,1969,pdf_moa,,7214,1031,1969/fomcmoa-19690527.pdf,1969/fomcmoa-19690527.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690527.pdf
+1969-06-24,19690624,1969,pdf_moa,,6093,855,1969/fomcmoa-19690624.pdf,1969/fomcmoa-19690624.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690624.pdf
+1969-07-15,19690715,1969,pdf_moa,,6144,855,1969/fomcmoa-19690715.pdf,1969/fomcmoa-19690715.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690715.pdf
+1969-08-12,19690812,1969,pdf_moa,,5851,813,1969/fomcmoa-19690812.pdf,1969/fomcmoa-19690812.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690812.pdf
+1969-09-09,19690909,1969,pdf_moa,,7346,1034,1969/fomcmoa-19690909.pdf,1969/fomcmoa-19690909.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19690909.pdf
+1969-10-07,19691007,1969,pdf_moa,,9296,1308,1969/fomcmoa-19691007.pdf,1969/fomcmoa-19691007.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19691007.pdf
+1969-10-28,19691028,1969,pdf_moa,,7233,1010,1969/fomcmoa-19691028.pdf,1969/fomcmoa-19691028.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19691028.pdf
+1969-11-25,19691125,1969,pdf_moa,,11753,1672,1969/fomcmoa-19691125.pdf,1969/fomcmoa-19691125.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19691125.pdf
+1969-12-16,19691216,1969,pdf_moa,,5798,796,1969/fomcmoa-19691216.pdf,1969/fomcmoa-19691216.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19691216.pdf
+1970-01-15,19700115,1970,pdf_moa,,6128,850,1970/fomcmoa-19700115.pdf,1970/fomcmoa-19700115.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700115.pdf
+1970-02-10,19700210,1970,pdf_moa,,6085,847,1970/fomcmoa-19700210.pdf,1970/fomcmoa-19700210.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700210.pdf
+1970-03-10,19700310,1970,pdf_moa,,38013,5512,1970/fomcmoa-19700310.pdf,1970/fomcmoa-19700310.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700310.pdf
+1970-04-07,19700407,1970,pdf_moa,,6755,935,1970/fomcmoa-19700407.pdf,1970/fomcmoa-19700407.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700407.pdf
+1970-05-05,19700505,1970,pdf_moa,,6388,881,1970/fomcmoa-19700505.pdf,1970/fomcmoa-19700505.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700505.pdf
+1970-05-26,19700526,1970,pdf_moa,,5537,764,1970/fomcmoa-19700526.pdf,1970/fomcmoa-19700526.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700526.pdf
+1970-06-23,19700623,1970,pdf_moa,,5692,784,1970/fomcmoa-19700623.pdf,1970/fomcmoa-19700623.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700623.pdf
+1970-07-21,19700721,1970,pdf_moa,,13239,1915,1970/fomcmoa-19700721.pdf,1970/fomcmoa-19700721.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700721.pdf
+1970-08-18,19700818,1970,pdf_moa,,6579,902,1970/fomcmoa-19700818.pdf,1970/fomcmoa-19700818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700818.pdf
+1970-09-15,19700915,1970,pdf_moa,,5576,795,1970/fomcmoa-19700915.pdf,1970/fomcmoa-19700915.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19700915.pdf
+1970-10-20,19701020,1970,pdf_moa,,5949,837,1970/fomcmoa-19701020.pdf,1970/fomcmoa-19701020.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19701020.pdf
+1970-11-17,19701117,1970,pdf_moa,,6799,960,1970/fomcmoa-19701117.pdf,1970/fomcmoa-19701117.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19701117.pdf
+1970-12-15,19701215,1970,pdf_moa,,7439,1042,1970/fomcmoa-19701215.pdf,1970/fomcmoa-19701215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19701215.pdf
+1971-01-12,19710112,1971,pdf_moa,,6195,855,1971/fomcmoa-19710112.pdf,1971/fomcmoa-19710112.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710112.pdf
+1971-02-09,19710209,1971,pdf_moa,,7144,963,1971/fomcmoa-19710209.pdf,1971/fomcmoa-19710209.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710209.pdf
+1971-03-09,19710309,1971,pdf_moa,,29214,4252,1971/fomcmoa-19710309.pdf,1971/fomcmoa-19710309.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710309.pdf
+1971-04-06,19710406,1971,pdf_moa,,6547,904,1971/fomcmoa-19710406.pdf,1971/fomcmoa-19710406.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710406.pdf
+1971-05-11,19710511,1971,pdf_moa,,6829,963,1971/fomcmoa-19710511.pdf,1971/fomcmoa-19710511.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710511.pdf
+1971-06-08,19710608,1971,pdf_moa,,7732,1113,1971/fomcmoa-19710608.pdf,1971/fomcmoa-19710608.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710608.pdf
+1971-06-29,19710629,1971,pdf_moa,,6977,1005,1971/fomcmoa-19710629.pdf,1971/fomcmoa-19710629.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710629.pdf
+1971-07-27,19710727,1971,pdf_moa,,6316,889,1971/fomcmoa-19710727.pdf,1971/fomcmoa-19710727.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710727.pdf
+1971-08-24,19710824,1971,pdf_moa,,11448,1622,1971/fomcmoa-19710824.pdf,1971/fomcmoa-19710824.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710824.pdf
+1971-09-21,19710921,1971,pdf_moa,,9117,1300,1971/fomcmoa-19710921.pdf,1971/fomcmoa-19710921.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19710921.pdf
+1971-10-19,19711019,1971,pdf_moa,,5896,806,1971/fomcmoa-19711019.pdf,1971/fomcmoa-19711019.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19711019.pdf
+1971-11-16,19711116,1971,pdf_moa,,7167,994,1971/fomcmoa-19711116.pdf,1971/fomcmoa-19711116.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19711116.pdf
+1971-12-14,19711214,1971,pdf_moa,,5878,823,1971/fomcmoa-19711214.pdf,1971/fomcmoa-19711214.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19711214.pdf
+1972-01-11,19720111,1972,pdf_moa,,6202,840,1972/fomcmoa-19720111.pdf,1972/fomcmoa-19720111.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720111.pdf
+1972-02-15,19720215,1972,pdf_moa,,6454,932,1972/fomcmoa-19720215.pdf,1972/fomcmoa-19720215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720215.pdf
+1972-03-21,19720321,1972,pdf_moa,,32397,4667,1972/fomcmoa-19720321.pdf,1972/fomcmoa-19720321.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720321.pdf
+1972-04-17,19720417,1972,pdf_moa,,3981,564,1972/fomcmoa-19720417.pdf,1972/fomcmoa-19720417.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720417.pdf
+1972-04-18,19720418,1972,pdf_moa,,7224,1008,1972/fomcmoa-19720418.pdf,1972/fomcmoa-19720418.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720418.pdf
+1972-05-23,19720523,1972,pdf_moa,,6611,924,1972/fomcmoa-19720523.pdf,1972/fomcmoa-19720523.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720523.pdf
+1972-06-20,19720620,1972,pdf_moa,,7476,1053,1972/fomcmoa-19720620.pdf,1972/fomcmoa-19720620.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720620.pdf
+1972-07-18,19720718,1972,pdf_moa,,8482,1232,1972/fomcmoa-19720718.pdf,1972/fomcmoa-19720718.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720718.pdf
+1972-08-15,19720815,1972,pdf_moa,,6012,845,1972/fomcmoa-19720815.pdf,1972/fomcmoa-19720815.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720815.pdf
+1972-09-19,19720919,1972,pdf_moa,,5378,747,1972/fomcmoa-19720919.pdf,1972/fomcmoa-19720919.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19720919.pdf
+1972-10-17,19721017,1972,pdf_moa,,6090,853,1972/fomcmoa-19721017.pdf,1972/fomcmoa-19721017.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19721017.pdf
+1972-11-21,19721121,1972,pdf_moa,,7724,1084,1972/fomcmoa-19721121.pdf,1972/fomcmoa-19721121.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19721121.pdf
+1972-12-19,19721219,1972,pdf_moa,,5096,702,1972/fomcmoa-19721219.pdf,1972/fomcmoa-19721219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19721219.pdf
+1973-01-16,19730116,1973,pdf_moa,,36369,5486,1973/fomcmoa-19730116.pdf,1973/fomcmoa-19730116.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730116.pdf
+1973-02-13,19730213,1973,pdf_moa,,5913,840,1973/fomcmoa-19730213.pdf,1973/fomcmoa-19730213.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730213.pdf
+1973-03-20,19730320,1973,pdf_moa,,31496,4512,1973/fomcmoa-19730320.pdf,1973/fomcmoa-19730320.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730320.pdf
+1973-04-17,19730417,1973,pdf_moa,,7236,1035,1973/fomcmoa-19730417.pdf,1973/fomcmoa-19730417.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730417.pdf
+1973-05-15,19730515,1973,pdf_moa,,7741,1119,1973/fomcmoa-19730515.pdf,1973/fomcmoa-19730515.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730515.pdf
+1973-06-19,19730619,1973,pdf_moa,,8147,1149,1973/fomcmoa-19730619.pdf,1973/fomcmoa-19730619.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730619.pdf
+1973-07-09,19730709,1973,pdf_moa,,3205,460,1973/fomcmoa-19730709.pdf,1973/fomcmoa-19730709.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730709.pdf
+1973-07-17,19730717,1973,pdf_moa,,7298,1011,1973/fomcmoa-19730717.pdf,1973/fomcmoa-19730717.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730717.pdf
+1973-08-21,19730821,1973,pdf_moa,,6168,866,1973/fomcmoa-19730821.pdf,1973/fomcmoa-19730821.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730821.pdf
+1973-09-18,19730918,1973,pdf_moa,,6496,915,1973/fomcmoa-19730918.pdf,1973/fomcmoa-19730918.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19730918.pdf
+1973-10-16,19731016,1973,pdf_moa,,6799,926,1973/fomcmoa-19731016.pdf,1973/fomcmoa-19731016.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19731016.pdf
+1973-11-20,19731120,1973,pdf_moa,,8462,1170,1973/fomcmoa-19731120.pdf,1973/fomcmoa-19731120.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19731120.pdf
+1973-12-18,19731218,1973,pdf_moa,,7403,1016,1973/fomcmoa-19731218.pdf,1973/fomcmoa-19731218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19731218.pdf
+1974-01-22,19740122,1974,pdf_moa,,8573,1173,1974/fomcmoa-19740122.pdf,1974/fomcmoa-19740122.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740122.pdf
+1974-02-20,19740220,1974,pdf_moa,,6113,830,1974/fomcmoa-19740220.pdf,1974/fomcmoa-19740220.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740220.pdf
+1974-03-19,19740319,1974,pdf_moa,,32927,4584,1974/fomcmoa-19740319.pdf,1974/fomcmoa-19740319.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740319.pdf
+1974-04-16,19740416,1974,pdf_moa,,7056,961,1974/fomcmoa-19740416.pdf,1974/fomcmoa-19740416.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740416.pdf
+1974-05-21,19740521,1974,pdf_moa,,6282,863,1974/fomcmoa-19740521.pdf,1974/fomcmoa-19740521.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740521.pdf
+1974-06-18,19740618,1974,pdf_moa,,6733,937,1974/fomcmoa-19740618.pdf,1974/fomcmoa-19740618.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740618.pdf
+1974-07-16,19740716,1974,pdf_moa,,7750,1095,1974/fomcmoa-19740716.pdf,1974/fomcmoa-19740716.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740716.pdf
+1974-08-20,19740820,1974,pdf_moa,,7341,1018,1974/fomcmoa-19740820.pdf,1974/fomcmoa-19740820.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740820.pdf
+1974-09-10,19740910,1974,pdf_moa,,5978,827,1974/fomcmoa-19740910.pdf,1974/fomcmoa-19740910.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19740910.pdf
+1974-10-15,19741015,1974,pdf_moa,,7547,1033,1974/fomcmoa-19741015.pdf,1974/fomcmoa-19741015.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19741015.pdf
+1974-11-19,19741119,1974,pdf_moa,,7961,1089,1974/fomcmoa-19741119.pdf,1974/fomcmoa-19741119.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19741119.pdf
+1974-12-17,19741217,1974,pdf_moa,,7634,1003,1974/fomcmoa-19741217.pdf,1974/fomcmoa-19741217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19741217.pdf
+1975-01-21,19750121,1975,pdf_moa,,15270,2212,1975/fomcmoa-19750121.pdf,1975/fomcmoa-19750121.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750121.pdf
+1975-02-19,19750219,1975,pdf_moa,,14115,1972,1975/fomcmoa-19750219.pdf,1975/fomcmoa-19750219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750219.pdf
+1975-03-18,19750318,1975,pdf_moa,,30257,4279,1975/fomcmoa-19750318.pdf,1975/fomcmoa-19750318.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750318.pdf
+1975-04-15,19750415,1975,pdf_moa,,7418,1036,1975/fomcmoa-19750415.pdf,1975/fomcmoa-19750415.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750415.pdf
+1975-05-20,19750520,1975,pdf_moa,,14603,2035,1975/fomcmoa-19750520.pdf,1975/fomcmoa-19750520.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750520.pdf
+1975-06-17,19750617,1975,pdf_moa,,8980,1236,1975/fomcmoa-19750617.pdf,1975/fomcmoa-19750617.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750617.pdf
+1975-07-15,19750715,1975,pdf_moa,,6181,872,1975/fomcmoa-19750715.pdf,1975/fomcmoa-19750715.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750715.pdf
+1975-08-19,19750819,1975,pdf_moa,,8067,1096,1975/fomcmoa-19750819.pdf,1975/fomcmoa-19750819.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750819.pdf
+1975-09-16,19750916,1975,pdf_moa,,6374,871,1975/fomcmoa-19750916.pdf,1975/fomcmoa-19750916.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19750916.pdf
+1975-10-21,19751021,1975,pdf_moa,,7156,969,1975/fomcmoa-19751021.pdf,1975/fomcmoa-19751021.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19751021.pdf
+1975-11-18,19751118,1975,pdf_moa,,6860,954,1975/fomcmoa-19751118.pdf,1975/fomcmoa-19751118.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19751118.pdf
+1975-12-16,19751216,1975,pdf_moa,,6069,813,1975/fomcmoa-19751216.pdf,1975/fomcmoa-19751216.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19751216.pdf
+1976-01-20,19760120,1976,pdf_moa,,7099,983,1976/fomcmoa-19760120.pdf,1976/fomcmoa-19760120.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760120.pdf
+1976-02-18,19760218,1976,pdf_moa,,7014,957,1976/fomcmoa-19760218.pdf,1976/fomcmoa-19760218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760218.pdf
+1976-03-16,19760316,1976,pdf_moa,,29044,4128,1976/fomcmoa-19760316.pdf,1976/fomcmoa-19760316.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760316.pdf
+1976-04-20,19760420,1976,pdf_moa,,5208,730,1976/fomcmoa-19760420.pdf,1976/fomcmoa-19760420.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760420.pdf
+1976-05-18,19760518,1976,pdf_moa,,6943,974,1976/fomcmoa-19760518.pdf,1976/fomcmoa-19760518.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760518.pdf
+1976-06-22,19760622,1976,pdf_moa,,7301,1065,1976/fomcmoa-19760622.pdf,1976/fomcmoa-19760622.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760622.pdf
+1976-07-20,19760720,1976,pdf_moa,,5924,850,1976/fomcmoa-19760720.pdf,1976/fomcmoa-19760720.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760720.pdf
+1976-08-17,19760817,1976,pdf_moa,,5387,756,1976/fomcmoa-19760817.pdf,1976/fomcmoa-19760817.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760817.pdf
+1976-09-21,19760921,1976,pdf_moa,,5431,779,1976/fomcmoa-19760921.pdf,1976/fomcmoa-19760921.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19760921.pdf
+1976-10-19,19761019,1976,pdf_moa,,6404,916,1976/fomcmoa-19761019.pdf,1976/fomcmoa-19761019.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19761019.pdf
+1976-11-08,19761108,1976,pdf_moa,,2201,302,1976/fomcmoa-19761108.pdf,1976/fomcmoa-19761108.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19761108.pdf
+1976-11-16,19761116,1976,pdf_moa,,5849,791,1976/fomcmoa-19761116.pdf,1976/fomcmoa-19761116.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19761116.pdf
+1976-12-21,19761221,1976,pdf_moa,,20428,2759,1976/fomcmoa-19761221.pdf,1976/fomcmoa-19761221.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19761221.pdf
+1977-01-18,19770118,1977,pdf_moa,,12314,1746,1977/fomcmoa-19770118.pdf,1977/fomcmoa-19770118.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770118.pdf
+1977-02-15,19770215,1977,pdf_moa,,15592,2249,1977/fomcmoa-19770215.pdf,1977/fomcmoa-19770215.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770215.pdf
+1977-03-15,19770315,1977,pdf_moa,,31213,4423,1977/fomcmoa-19770315.pdf,1977/fomcmoa-19770315.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770315.pdf
+1977-04-19,19770419,1977,pdf_moa,,7156,1020,1977/fomcmoa-19770419.pdf,1977/fomcmoa-19770419.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770419.pdf
+1977-05-17,19770517,1977,pdf_moa,,6550,924,1977/fomcmoa-19770517.pdf,1977/fomcmoa-19770517.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770517.pdf
+1977-06-21,19770621,1977,pdf_moa,,7126,1010,1977/fomcmoa-19770621.pdf,1977/fomcmoa-19770621.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770621.pdf
+1977-07-19,19770719,1977,pdf_moa,,7171,1048,1977/fomcmoa-19770719.pdf,1977/fomcmoa-19770719.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770719.pdf
+1977-08-16,19770816,1977,pdf_moa,,7308,1032,1977/fomcmoa-19770816.pdf,1977/fomcmoa-19770816.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770816.pdf
+1977-09-20,19770920,1977,pdf_moa,,7930,1128,1977/fomcmoa-19770920.pdf,1977/fomcmoa-19770920.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19770920.pdf
+1977-10-18,19771018,1977,pdf_moa,,8164,1123,1977/fomcmoa-19771018.pdf,1977/fomcmoa-19771018.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19771018.pdf
+1977-11-15,19771115,1977,pdf_moa,,8155,1141,1977/fomcmoa-19771115.pdf,1977/fomcmoa-19771115.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19771115.pdf
+1977-12-20,19771220,1977,pdf_moa,,7631,1061,1977/fomcmoa-19771220.pdf,1977/fomcmoa-19771220.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19771220.pdf
+1978-01-17,19780117,1978,pdf_moa,,10206,1452,1978/fomcmoa-19780117.pdf,1978/fomcmoa-19780117.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780117.pdf
+1978-02-28,19780228,1978,pdf_moa,,7502,1060,1978/fomcmoa-19780228.pdf,1978/fomcmoa-19780228.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780228.pdf
+1978-03-10,19780310,1978,pdf_moa,,3349,464,1978/fomcmoa-19780310.pdf,1978/fomcmoa-19780310.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780310.pdf
+1978-03-21,19780321,1978,pdf_moa,,32902,4743,1978/fomcmoa-19780321.pdf,1978/fomcmoa-19780321.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780321.pdf
+1978-04-18,19780418,1978,pdf_moa,,7323,1093,1978/fomcmoa-19780418.pdf,1978/fomcmoa-19780418.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780418.pdf
+1978-05-05,19780505,1978,pdf_moa,,1633,230,1978/fomcmoa-19780505.pdf,1978/fomcmoa-19780505.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780505.pdf
+1978-05-16,19780516,1978,pdf_moa,,7132,1033,1978/fomcmoa-19780516.pdf,1978/fomcmoa-19780516.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780516.pdf
+1978-06-20,19780620,1978,pdf_moa,,11843,1782,1978/fomcmoa-19780620.pdf,1978/fomcmoa-19780620.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780620.pdf
+1978-07-18,19780718,1978,pdf_moa,,8087,1189,1978/fomcmoa-19780718.pdf,1978/fomcmoa-19780718.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780718.pdf
+1978-08-15,19780815,1978,pdf_moa,,8065,1166,1978/fomcmoa-19780815.pdf,1978/fomcmoa-19780815.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780815.pdf
+1978-09-08,19780908,1978,pdf_moa,,1678,233,1978/fomcmoa-19780908.pdf,1978/fomcmoa-19780908.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780908.pdf
+1978-09-19,19780919,1978,pdf_moa,,8536,1228,1978/fomcmoa-19780919.pdf,1978/fomcmoa-19780919.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19780919.pdf
+1978-10-17,19781017,1978,pdf_moa,,9118,1298,1978/fomcmoa-19781017.pdf,1978/fomcmoa-19781017.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19781017.pdf
+1978-11-21,19781121,1978,pdf_moa,,10898,1568,1978/fomcmoa-19781121.pdf,1978/fomcmoa-19781121.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19781121.pdf
+1978-12-19,19781219,1978,pdf_moa,,9903,1423,1978/fomcmoa-19781219.pdf,1978/fomcmoa-19781219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19781219.pdf
+1979-02-06,19790206,1979,pdf_moa,,8059,1153,1979/fomcmoa-19790206.pdf,1979/fomcmoa-19790206.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790206.pdf
+1979-03-02,19790302,1979,pdf_moa,,2838,376,1979/fomcmoa-19790302.pdf,1979/fomcmoa-19790302.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790302.pdf
+1979-03-20,19790320,1979,pdf_moa,,32733,4687,1979/fomcmoa-19790320.pdf,1979/fomcmoa-19790320.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790320.pdf
+1979-04-17,19790417,1979,pdf_moa,,8855,1266,1979/fomcmoa-19790417.pdf,1979/fomcmoa-19790417.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790417.pdf
+1979-05-22,19790522,1979,pdf_moa,,7730,1105,1979/fomcmoa-19790522.pdf,1979/fomcmoa-19790522.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790522.pdf
+1979-07-11,19790711,1979,pdf_moa,,10138,1437,1979/fomcmoa-19790711.pdf,1979/fomcmoa-19790711.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790711.pdf
+1979-08-14,19790814,1979,pdf_moa,,19014,2751,1979/fomcmoa-19790814.pdf,1979/fomcmoa-19790814.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790814.pdf
+1979-09-18,19790918,1979,pdf_moa,,9179,1320,1979/fomcmoa-19790918.pdf,1979/fomcmoa-19790918.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19790918.pdf
+1979-10-06,19791006,1979,pdf_moa,,4270,613,1979/fomcmoa-19791006.pdf,1979/fomcmoa-19791006.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19791006.pdf
+1979-11-20,19791120,1979,pdf_moa,,11654,1617,1979/fomcmoa-19791120.pdf,1979/fomcmoa-19791120.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19791120.pdf
+1980-01-09,19800109,1980,pdf_moa,,7570,1124,1980/fomcmoa-19800109.pdf,1980/fomcmoa-19800109.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800109.pdf
+1980-02-05,19800205,1980,pdf_moa,,6769,994,1980/fomcmoa-19800205.pdf,1980/fomcmoa-19800205.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800205.pdf
+1980-03-07,19800307,1980,pdf_moa,,1928,259,1980/fomcmoa-19800307.pdf,1980/fomcmoa-19800307.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800307.pdf
+1980-03-18,19800318,1980,pdf_moa,,35212,5048,1980/fomcmoa-19800318.pdf,1980/fomcmoa-19800318.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800318.pdf
+1980-04-22,19800422,1980,pdf_moa,,6697,982,1980/fomcmoa-19800422.pdf,1980/fomcmoa-19800422.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800422.pdf
+1980-05-06,19800506,1980,pdf_moa,,2237,288,1980/fomcmoa-19800506.pdf,1980/fomcmoa-19800506.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800506.pdf
+1980-05-20,19800520,1980,pdf_moa,,7194,1023,1980/fomcmoa-19800520.pdf,1980/fomcmoa-19800520.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800520.pdf
+1980-07-09,19800709,1980,pdf_moa,,8016,1141,1980/fomcmoa-19800709.pdf,1980/fomcmoa-19800709.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800709.pdf
+1980-08-12,19800812,1980,pdf_moa,,7272,1033,1980/fomcmoa-19800812.pdf,1980/fomcmoa-19800812.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800812.pdf
+1980-09-16,19800916,1980,pdf_moa,,7462,1061,1980/fomcmoa-19800916.pdf,1980/fomcmoa-19800916.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19800916.pdf
+1980-10-21,19801021,1980,pdf_moa,,7525,1089,1980/fomcmoa-19801021.pdf,1980/fomcmoa-19801021.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801021.pdf
+1980-11-18,19801118,1980,pdf_moa,,8943,1299,1980/fomcmoa-19801118.pdf,1980/fomcmoa-19801118.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801118.pdf
+1980-11-26,19801126,1980,pdf_moa,,2218,297,1980/fomcmoa-19801126.pdf,1980/fomcmoa-19801126.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801126.pdf
+1980-12-05,19801205,1980,pdf_moa,,2730,380,1980/fomcmoa-19801205.pdf,1980/fomcmoa-19801205.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801205.pdf
+1980-12-12,19801212,1980,pdf_moa,,3258,427,1980/fomcmoa-19801212.pdf,1980/fomcmoa-19801212.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801212.pdf
+1980-12-19,19801219,1980,pdf_moa,,8729,1225,1980/fomcmoa-19801219.pdf,1980/fomcmoa-19801219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19801219.pdf
+1981-02-03,19810203,1981,pdf_moa,,7918,1138,1981/fomcmoa-19810203.pdf,1981/fomcmoa-19810203.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810203.pdf
+1981-02-24,19810224,1981,pdf_moa,,2979,405,1981/fomcmoa-19810224.pdf,1981/fomcmoa-19810224.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810224.pdf
+1981-03-31,19810331,1981,pdf_moa,,32469,4681,1981/fomcmoa-19810331.pdf,1981/fomcmoa-19810331.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810331.pdf
+1981-05-06,19810506,1981,pdf_moa,,2612,351,1981/fomcmoa-19810506.pdf,1981/fomcmoa-19810506.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810506.pdf
+1981-05-18,19810518,1981,pdf_moa,,7068,1037,1981/fomcmoa-19810518.pdf,1981/fomcmoa-19810518.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810518.pdf
+1981-07-07,19810707,1981,pdf_moa,,10239,1503,1981/fomcmoa-19810707.pdf,1981/fomcmoa-19810707.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810707.pdf
+1981-08-07,19810807,1981,pdf_moa,,1391,191,1981/fomcmoa-19810807.pdf,1981/fomcmoa-19810807.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810807.pdf
+1981-08-18,19810818,1981,pdf_moa,,8372,1218,1981/fomcmoa-19810818.pdf,1981/fomcmoa-19810818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19810818.pdf
+1981-10-06,19811006,1981,pdf_moa,,8187,1214,1981/fomcmoa-19811006.pdf,1981/fomcmoa-19811006.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19811006.pdf
+1981-11-17,19811117,1981,pdf_moa,,8685,1301,1981/fomcmoa-19811117.pdf,1981/fomcmoa-19811117.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19811117.pdf
+1981-12-22,19811222,1981,pdf_moa,,8851,1282,1981/fomcmoa-19811222.pdf,1981/fomcmoa-19811222.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19811222.pdf
+1982-02-02,19820202,1982,pdf_moa,,7270,1055,1982/fomcmoa-19820202.pdf,1982/fomcmoa-19820202.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820202.pdf
+1982-03-30,19820330,1982,pdf_moa,,32590,4796,1982/fomcmoa-19820330.pdf,1982/fomcmoa-19820330.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820330.pdf
+1982-05-18,19820518,1982,pdf_moa,,7205,1085,1982/fomcmoa-19820518.pdf,1982/fomcmoa-19820518.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820518.pdf
+1982-07-01,19820701,1982,pdf_moa,,6877,1005,1982/fomcmoa-19820701.pdf,1982/fomcmoa-19820701.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820701.pdf
+1982-07-15,19820715,1982,pdf_moa,,5584,820,1982/fomcmoa-19820715.pdf,1982/fomcmoa-19820715.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820715.pdf
+1982-08-24,19820824,1982,pdf_moa,,8029,1166,1982/fomcmoa-19820824.pdf,1982/fomcmoa-19820824.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19820824.pdf
+1982-10-05,19821005,1982,pdf_moa,,8691,1295,1982/fomcmoa-19821005.pdf,1982/fomcmoa-19821005.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19821005.pdf
+1982-11-16,19821116,1982,pdf_moa,,9608,1435,1982/fomcmoa-19821116.pdf,1982/fomcmoa-19821116.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19821116.pdf
+1982-12-21,19821221,1982,pdf_moa,,9440,1340,1982/fomcmoa-19821221.pdf,1982/fomcmoa-19821221.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19821221.pdf
+1983-02-09,19830209,1983,pdf_moa,,10522,1510,1983/fomcmoa-19830209.pdf,1983/fomcmoa-19830209.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19830209.pdf
+1983-03-29,19830329,1983,pdf_moa,,41391,5866,1983/fomcmoa-19830329.pdf,1983/fomcmoa-19830329.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19830329.pdf
+1983-05-24,19830524,1983,pdf_moa,,9605,1363,1983/fomcmoa-19830524.pdf,1983/fomcmoa-19830524.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19830524.pdf
+1983-07-13,19830713,1983,pdf_moa,,11772,1711,1983/fomcmoa-19830713.pdf,1983/fomcmoa-19830713.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19830713.pdf
+1983-08-23,19830823,1983,pdf_moa,,9070,1312,1983/fomcmoa-19830823.pdf,1983/fomcmoa-19830823.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19830823.pdf
+1983-10-04,19831004,1983,pdf_moa,,9254,1324,1983/fomcmoa-19831004.pdf,1983/fomcmoa-19831004.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19831004.pdf
+1983-11-15,19831115,1983,pdf_moa,,10762,1553,1983/fomcmoa-19831115.pdf,1983/fomcmoa-19831115.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19831115.pdf
+1983-12-20,19831220,1983,pdf_moa,,9334,1347,1983/fomcmoa-19831220.pdf,1983/fomcmoa-19831220.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19831220.pdf
+1984-01-31,19840131,1984,pdf_moa,,9404,1365,1984/fomcmoa-19840131.pdf,1984/fomcmoa-19840131.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19840131.pdf
+1984-03-27,19840327,1984,pdf_moa,,32028,4687,1984/fomcmoa-19840327.pdf,1984/fomcmoa-19840327.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19840327.pdf
+1984-05-22,19840522,1984,pdf_moa,,7777,1129,1984/fomcmoa-19840522.pdf,1984/fomcmoa-19840522.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19840522.pdf
+1984-07-17,19840717,1984,pdf_moa,,10200,1491,1984/fomcmoa-19840717.pdf,1984/fomcmoa-19840717.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19840717.pdf
+1984-08-21,19840821,1984,pdf_moa,,8364,1238,1984/fomcmoa-19840821.pdf,1984/fomcmoa-19840821.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19840821.pdf
+1984-10-02,19841002,1984,pdf_moa,,7830,1127,1984/fomcmoa-19841002.pdf,1984/fomcmoa-19841002.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19841002.pdf
+1984-11-07,19841107,1984,pdf_moa,,10350,1509,1984/fomcmoa-19841107.pdf,1984/fomcmoa-19841107.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19841107.pdf
+1984-12-18,19841218,1984,pdf_moa,,9054,1331,1984/fomcmoa-19841218.pdf,1984/fomcmoa-19841218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19841218.pdf
+1985-02-13,19850213,1985,pdf_moa,,10471,1506,1985/fomcmoa-19850213.pdf,1985/fomcmoa-19850213.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19850213.pdf
+1985-03-26,19850326,1985,pdf_moa,,31144,4547,1985/fomcmoa-19850326.pdf,1985/fomcmoa-19850326.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19850326.pdf
+1985-05-21,19850521,1985,pdf_moa,,7459,1079,1985/fomcmoa-19850521.pdf,1985/fomcmoa-19850521.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19850521.pdf
+1985-07-10,19850710,1985,pdf_moa,,10803,1608,1985/fomcmoa-19850710.pdf,1985/fomcmoa-19850710.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19850710.pdf
+1985-08-20,19850820,1985,pdf_moa,,8472,1226,1985/fomcmoa-19850820.pdf,1985/fomcmoa-19850820.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19850820.pdf
+1985-10-01,19851001,1985,pdf_moa,,9838,1404,1985/fomcmoa-19851001.pdf,1985/fomcmoa-19851001.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19851001.pdf
+1985-11-05,19851105,1985,pdf_moa,,10606,1542,1985/fomcmoa-19851105.pdf,1985/fomcmoa-19851105.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19851105.pdf
+1985-12-17,19851217,1985,pdf_moa,,8218,1187,1985/fomcmoa-19851217.pdf,1985/fomcmoa-19851217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19851217.pdf
+1986-02-12,19860212,1986,pdf_moa,,9818,1426,1986/fomcmoa-19860212.pdf,1986/fomcmoa-19860212.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860212.pdf
+1986-04-01,19860401,1986,pdf_moa,,30506,4459,1986/fomcmoa-19860401.pdf,1986/fomcmoa-19860401.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860401.pdf
+1986-05-20,19860520,1986,pdf_moa,,8235,1178,1986/fomcmoa-19860520.pdf,1986/fomcmoa-19860520.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860520.pdf
+1986-07-09,19860709,1986,pdf_moa,,11115,1608,1986/fomcmoa-19860709.pdf,1986/fomcmoa-19860709.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860709.pdf
+1986-08-19,19860819,1986,pdf_moa,,9414,1355,1986/fomcmoa-19860819.pdf,1986/fomcmoa-19860819.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860819.pdf
+1986-09-23,19860923,1986,pdf_moa,,8436,1215,1986/fomcmoa-19860923.pdf,1986/fomcmoa-19860923.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19860923.pdf
+1986-11-05,19861105,1986,pdf_moa,,9931,1427,1986/fomcmoa-19861105.pdf,1986/fomcmoa-19861105.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19861105.pdf
+1986-12-16,19861216,1986,pdf_moa,,7904,1167,1986/fomcmoa-19861216.pdf,1986/fomcmoa-19861216.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19861216.pdf
+1987-02-11,19870211,1987,pdf_moa,,11929,1701,1987/fomcmoa-19870211.pdf,1987/fomcmoa-19870211.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870211.pdf
+1987-03-31,19870331,1987,pdf_moa,,31754,4616,1987/fomcmoa-19870331.pdf,1987/fomcmoa-19870331.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870331.pdf
+1987-05-19,19870519,1987,pdf_moa,,8647,1261,1987/fomcmoa-19870519.pdf,1987/fomcmoa-19870519.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870519.pdf
+1987-07-07,19870707,1987,pdf_moa,,12000,1773,1987/fomcmoa-19870707.pdf,1987/fomcmoa-19870707.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870707.pdf
+1987-08-18,19870818,1987,pdf_moa,,9323,1359,1987/fomcmoa-19870818.pdf,1987/fomcmoa-19870818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870818.pdf
+1987-09-22,19870922,1987,pdf_moa,,9265,1360,1987/fomcmoa-19870922.pdf,1987/fomcmoa-19870922.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19870922.pdf
+1987-11-03,19871103,1987,pdf_moa,,11193,1626,1987/fomcmoa-19871103.pdf,1987/fomcmoa-19871103.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19871103.pdf
+1987-12-16,19871216,1987,pdf_moa,,10902,1566,1987/fomcmoa-19871216.pdf,1987/fomcmoa-19871216.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19871216.pdf
+1988-01-05,19880105,1988,pdf_moa,,3208,449,1988/fomcmoa-19880105.pdf,1988/fomcmoa-19880105.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880105.pdf
+1988-02-10,19880210,1988,pdf_moa,,9929,1434,1988/fomcmoa-19880210.pdf,1988/fomcmoa-19880210.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880210.pdf
+1988-03-29,19880329,1988,pdf_moa,,31623,4546,1988/fomcmoa-19880329.pdf,1988/fomcmoa-19880329.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880329.pdf
+1988-05-17,19880517,1988,pdf_moa,,7397,1062,1988/fomcmoa-19880517.pdf,1988/fomcmoa-19880517.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880517.pdf
+1988-06-30,19880630,1988,pdf_moa,,9875,1457,1988/fomcmoa-19880630.pdf,1988/fomcmoa-19880630.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880630.pdf
+1988-08-16,19880816,1988,pdf_moa,,7237,1068,1988/fomcmoa-19880816.pdf,1988/fomcmoa-19880816.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880816.pdf
+1988-09-20,19880920,1988,pdf_moa,,7507,1101,1988/fomcmoa-19880920.pdf,1988/fomcmoa-19880920.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19880920.pdf
+1988-11-01,19881101,1988,pdf_moa,,9761,1444,1988/fomcmoa-19881101.pdf,1988/fomcmoa-19881101.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19881101.pdf
+1988-12-14,19881214,1988,pdf_moa,,8455,1196,1988/fomcmoa-19881214.pdf,1988/fomcmoa-19881214.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19881214.pdf
+1989-02-08,19890208,1989,pdf_moa,,9061,1316,1989/fomcmoa-19890208.pdf,1989/fomcmoa-19890208.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19890208.pdf
+1989-03-28,19890328,1989,pdf_moa,,30246,4333,1989/fomcmoa-19890328.pdf,1989/fomcmoa-19890328.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19890328.pdf
+1989-05-16,19890516,1989,pdf_moa,,6672,961,1989/fomcmoa-19890516.pdf,1989/fomcmoa-19890516.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19890516.pdf
+1989-07-06,19890706,1989,pdf_moa,,9808,1441,1989/fomcmoa-19890706.pdf,1989/fomcmoa-19890706.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19890706.pdf
+1989-08-22,19890822,1989,pdf_moa,,8034,1187,1989/fomcmoa-19890822.pdf,1989/fomcmoa-19890822.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19890822.pdf
+1989-10-03,19891003,1989,pdf_moa,,7126,1054,1989/fomcmoa-19891003.pdf,1989/fomcmoa-19891003.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19891003.pdf
+1989-11-14,19891114,1989,pdf_moa,,8362,1230,1989/fomcmoa-19891114.pdf,1989/fomcmoa-19891114.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19891114.pdf
+1989-12-19,19891219,1989,pdf_moa,,8336,1209,1989/fomcmoa-19891219.pdf,1989/fomcmoa-19891219.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19891219.pdf
+1990-02-07,19900207,1990,pdf_moa,,38695,5769,1990/fomcmoa-19900207.pdf,1990/fomcmoa-19900207.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19900207.pdf
+1990-03-27,19900327,1990,pdf_moa,,8137,1184,1990/fomcmoa-19900327.pdf,1990/fomcmoa-19900327.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19900327.pdf
+1990-05-15,19900515,1990,pdf_moa,,6620,971,1990/fomcmoa-19900515.pdf,1990/fomcmoa-19900515.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19900515.pdf
+1990-07-03,19900703,1990,pdf_moa,,10001,1500,1990/fomcmoa-19900703.pdf,1990/fomcmoa-19900703.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19900703.pdf
+1990-08-21,19900821,1990,pdf_moa,,7525,1101,1990/fomcmoa-19900821.pdf,1990/fomcmoa-19900821.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19900821.pdf
+1990-10-02,19901002,1990,pdf_moa,,7662,1153,1990/fomcmoa-19901002.pdf,1990/fomcmoa-19901002.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19901002.pdf
+1990-11-13,19901113,1990,pdf_moa,,7852,1153,1990/fomcmoa-19901113.pdf,1990/fomcmoa-19901113.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19901113.pdf
+1990-12-18,19901218,1990,pdf_moa,,7286,1064,1990/fomcmoa-19901218.pdf,1990/fomcmoa-19901218.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19901218.pdf
+1991-02-06,19910206,1991,pdf_moa,,30884,4582,1991/fomcmoa-19910206.pdf,1991/fomcmoa-19910206.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19910206.pdf
+1991-03-26,19910326,1991,pdf_moa,,6394,911,1991/fomcmoa-19910326.pdf,1991/fomcmoa-19910326.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19910326.pdf
+1991-05-14,19910514,1991,pdf_moa,,6339,913,1991/fomcmoa-19910514.pdf,1991/fomcmoa-19910514.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19910514.pdf
+1991-07-03,19910703,1991,pdf_moa,,7942,1191,1991/fomcmoa-19910703.pdf,1991/fomcmoa-19910703.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19910703.pdf
+1991-08-20,19910820,1991,pdf_moa,,6468,913,1991/fomcmoa-19910820.pdf,1991/fomcmoa-19910820.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19910820.pdf
+1991-10-01,19911001,1991,pdf_moa,,6974,983,1991/fomcmoa-19911001.pdf,1991/fomcmoa-19911001.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19911001.pdf
+1991-11-05,19911105,1991,pdf_moa,,7593,1054,1991/fomcmoa-19911105.pdf,1991/fomcmoa-19911105.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19911105.pdf
+1991-12-17,19911217,1991,pdf_moa,,7668,1065,1991/fomcmoa-19911217.pdf,1991/fomcmoa-19911217.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19911217.pdf
+1992-02-05,19920205,1992,pdf_moa,,30769,4479,1992/fomcmoa-19920205.pdf,1992/fomcmoa-19920205.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19920205.pdf
+1992-03-31,19920331,1992,pdf_moa,,6959,949,1992/fomcmoa-19920331.pdf,1992/fomcmoa-19920331.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19920331.pdf
+1992-05-19,19920519,1992,pdf_moa,,6394,890,1992/fomcmoa-19920519.pdf,1992/fomcmoa-19920519.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19920519.pdf
+1992-07-01,19920701,1992,pdf_moa,,8610,1218,1992/fomcmoa-19920701.pdf,1992/fomcmoa-19920701.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19920701.pdf
+1992-08-18,19920818,1992,pdf_moa,,7759,1108,1992/fomcmoa-19920818.pdf,1992/fomcmoa-19920818.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19920818.pdf
+1992-10-06,19921006,1992,pdf_moa,,6471,905,1992/fomcmoa-19921006.pdf,1992/fomcmoa-19921006.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19921006.pdf
+1992-11-17,19921117,1992,pdf_moa,,8648,1196,1992/fomcmoa-19921117.pdf,1992/fomcmoa-19921117.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19921117.pdf
+1992-12-22,19921222,1992,pdf_moa,,6345,880,1992/fomcmoa-19921222.pdf,1992/fomcmoa-19921222.txt,https://www.federalreserve.gov/monetarypolicy/files/fomcmoa19921222.pdf
+1993-02-03,19930203,1993,html_old_deep,"FRB: FOMC Minutes--February 2-3, 1993",72955,10581,1993/fomcminutes-19930203.htm,1993/fomcminutes-19930203.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930203min.htm
+1993-03-23,19930323,1993,html_old_deep,"FRB: FOMC Minutes--March 23, 1993",41085,5809,1993/fomcminutes-19930323.htm,1993/fomcminutes-19930323.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930323min.htm
+1993-05-18,19930518,1993,html_old_deep,"FRB: FOMC Minutes--May 18, 1993",35639,5029,1993/fomcminutes-19930518.htm,1993/fomcminutes-19930518.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930518min.htm
+1993-07-07,19930707,1993,html_old_deep,"FRB: FOMC Minutes--July 6-7, 1993",49413,7226,1993/fomcminutes-19930707.htm,1993/fomcminutes-19930707.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930707min.htm
+1993-08-17,19930817,1993,html_old_deep,"FRB: FOMC Minutes--August 17, 1993",33023,4725,1993/fomcminutes-19930817.htm,1993/fomcminutes-19930817.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930817min.htm
+1993-09-21,19930921,1993,html_old_deep,"FRB: FOMC Minutes--September 21, 1993",35450,5024,1993/fomcminutes-19930921.htm,1993/fomcminutes-19930921.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19930921min.htm
+1993-11-16,19931116,1993,html_old_deep,"FRB: FOMC Minutes--November 16, 1993",43242,6169,1993/fomcminutes-19931116.htm,1993/fomcminutes-19931116.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19931116min.htm
+1993-12-21,19931221,1993,html_old_deep,"FRB: FOMC Minutes--December 21, 1993",39793,5884,1993/fomcminutes-19931221.htm,1993/fomcminutes-19931221.txt,https://www.federalreserve.gov/fomc/MINUTES/1993/19931221min.htm
+1994-02-04,19940204,1994,html_old_deep,"FRB: FOMC Minutes--February 3-4, 1994",72812,10545,1994/fomcminutes-19940204.htm,1994/fomcminutes-19940204.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940204min.htm
+1994-03-22,19940322,1994,html_old_deep,"FRB: FOMC Minutes--March 22, 1994",43811,6448,1994/fomcminutes-19940322.htm,1994/fomcminutes-19940322.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940322min.htm
+1994-05-17,19940517,1994,html_old_deep,"FRB: FOMC Minutes--May 17, 1994",33686,4965,1994/fomcminutes-19940517.htm,1994/fomcminutes-19940517.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940517min.htm
+1994-07-06,19940706,1994,html_old_deep,"FRB: FOMC Minutes--July 5-6, 1994",45717,6809,1994/fomcminutes-19940706.htm,1994/fomcminutes-19940706.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940706min.htm
+1994-08-16,19940816,1994,html_old_deep,"FRB: FOMC Minutes--August 16, 1994",33444,4969,1994/fomcminutes-19940816.htm,1994/fomcminutes-19940816.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940816min.htm
+1994-09-27,19940927,1994,html_old_deep,"FRB: FOMC Minutes--September 27, 1994",34957,5155,1994/fomcminutes-19940927.htm,1994/fomcminutes-19940927.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19940927min.htm
+1994-11-15,19941115,1994,html_old_deep,"FRB: FOMC Minutes--November 15, 1994",39256,5694,1994/fomcminutes-19941115.htm,1994/fomcminutes-19941115.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19941115min.htm
+1994-12-20,19941220,1994,html_old_deep,"FRB: FOMC Minutes--December 20, 1994",39280,5775,1994/fomcminutes-19941220.htm,1994/fomcminutes-19941220.txt,https://www.federalreserve.gov/fomc/MINUTES/1994/19941220min.htm
+1995-02-01,19950201,1995,html_old_deep,"FRB: FOMC Minutes--January 31-February 1, 1995",57427,8352,1995/fomcminutes-19950201.htm,1995/fomcminutes-19950201.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950201min.htm
+1995-03-28,19950328,1995,html_old_deep,"FRB: FOMC Minutes--March 28, 1995",54781,7858,1995/fomcminutes-19950328.htm,1995/fomcminutes-19950328.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950328min.htm
+1995-05-23,19950523,1995,html_old_deep,"FRB: FOMC Minutes--May 23, 1995",35126,5043,1995/fomcminutes-19950523.htm,1995/fomcminutes-19950523.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950523min.htm
+1995-07-06,19950706,1995,html_old_deep,"FRB: FOMC Minutes--July 5-6, 1995",47989,7070,1995/fomcminutes-19950706.htm,1995/fomcminutes-19950706.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950706min.htm
+1995-08-22,19950822,1995,html_old_deep,"FRB: FOMC Minutes--August 22, 1995",31289,4435,1995/fomcminutes-19950822.htm,1995/fomcminutes-19950822.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950822min.htm
+1995-09-26,19950926,1995,html_old_deep,"FRB: FOMC Minutes--September 26, 1995",34398,4967,1995/fomcminutes-19950926.htm,1995/fomcminutes-19950926.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19950926min.htm
+1995-11-15,19951115,1995,html_old_deep,"FRB: FOMC Minutes--November 15, 1995",35688,5135,1995/fomcminutes-19951115.htm,1995/fomcminutes-19951115.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19951115min.htm
+1995-12-19,19951219,1995,html_old_deep,"FRB: FOMC Minutes--December 19, 1995",34496,4938,1995/fomcminutes-19951219.htm,1995/fomcminutes-19951219.txt,https://www.federalreserve.gov/fomc/MINUTES/1995/19951219min.htm
+1996-01-30,19960130,1996,html_old_flat,"FRB: FOMC Minutes - January 30-31, 1996",66082,9808,1996/fomcminutes-19960130.htm,1996/fomcminutes-19960130.txt,https://www.federalreserve.gov/fomc/minutes/19960130.htm
+1996-03-26,19960326,1996,html_old_flat,"FRB: FOMC Minutes - March 26, 1996",31067,4583,1996/fomcminutes-19960326.htm,1996/fomcminutes-19960326.txt,https://www.federalreserve.gov/fomc/minutes/19960326.htm
+1996-05-21,19960521,1996,html_old_flat,"FRB: FOMC Minutes - May 21, 1996",31623,4688,1996/fomcminutes-19960521.htm,1996/fomcminutes-19960521.txt,https://www.federalreserve.gov/fomc/minutes/19960521.htm
+1996-07-02,19960702,1996,html_old_flat,"FRB: FOMC Minutes - July 2-3, 1996",41515,6248,1996/fomcminutes-19960702.htm,1996/fomcminutes-19960702.txt,https://www.federalreserve.gov/fomc/minutes/19960702.htm
+1996-08-20,19960820,1996,html_old_flat,"FRB: FOMC Minutes - August 20, 1996",28105,4151,1996/fomcminutes-19960820.htm,1996/fomcminutes-19960820.txt,https://www.federalreserve.gov/fomc/minutes/19960820.htm
+1996-09-24,19960924,1996,html_old_flat,"FRB: FOMC Minutes - September 24, 1996",34119,5021,1996/fomcminutes-19960924.htm,1996/fomcminutes-19960924.txt,https://www.federalreserve.gov/fomc/minutes/19960924.htm
+1996-11-13,19961113,1996,html_old_flat,"FRB: FOMC Minutes - November 13, 1996",32805,4808,1996/fomcminutes-19961113.htm,1996/fomcminutes-19961113.txt,https://www.federalreserve.gov/fomc/minutes/19961113.htm
+1996-12-17,19961217,1996,html_old_flat,"FRB: FOMC Minutes - December 17, 1996",31667,4693,1996/fomcminutes-19961217.htm,1996/fomcminutes-19961217.txt,https://www.federalreserve.gov/fomc/minutes/19961217.htm
+1997-02-04,19970204,1997,html_old_flat,"FRB: FOMC Minutes - February 4-5, 1997",59619,8928,1997/fomcminutes-19970204.htm,1997/fomcminutes-19970204.txt,https://www.federalreserve.gov/fomc/minutes/19970204.htm
+1997-03-25,19970325,1997,html_old_flat,"FRB: FOMC Minutes - March 25, 1997",32013,4717,1997/fomcminutes-19970325.htm,1997/fomcminutes-19970325.txt,https://www.federalreserve.gov/fomc/minutes/19970325.htm
+1997-05-20,19970520,1997,html_old_flat,"FRB: FOMC Minutes - May 20, 1997",32765,4834,1997/fomcminutes-19970520.htm,1997/fomcminutes-19970520.txt,https://www.federalreserve.gov/fomc/minutes/19970520.htm
+1997-07-01,19970701,1997,html_old_flat,"FRB: FOMC Minutes - July 1-2, 1997",39486,5966,1997/fomcminutes-19970701.htm,1997/fomcminutes-19970701.txt,https://www.federalreserve.gov/fomc/minutes/19970701.htm
+1997-08-19,19970819,1997,html_old_flat,"FRB: FOMC Minutes - August 19, 1997",31225,4668,1997/fomcminutes-19970819.htm,1997/fomcminutes-19970819.txt,https://www.federalreserve.gov/fomc/minutes/19970819.htm
+1997-09-30,19970930,1997,html_old_flat,"FRB: FOMC Minutes - September 30, 1997",30188,4481,1997/fomcminutes-19970930.htm,1997/fomcminutes-19970930.txt,https://www.federalreserve.gov/fomc/minutes/19970930.htm
+1997-11-12,19971112,1997,html_old_flat,"FRB: FOMC Minutes - November 12, 1997",32187,4744,1997/fomcminutes-19971112.htm,1997/fomcminutes-19971112.txt,https://www.federalreserve.gov/fomc/minutes/19971112.htm
+1997-12-16,19971216,1997,html_old_flat,"FRB: FOMC Minutes - December 16, 1997",30989,4577,1997/fomcminutes-19971216.htm,1997/fomcminutes-19971216.txt,https://www.federalreserve.gov/fomc/minutes/19971216.htm
+1998-02-03,19980203,1998,html_old_flat,"FRB: FOMC Minutes - February 3-4, 1998",61079,9090,1998/fomcminutes-19980203.htm,1998/fomcminutes-19980203.txt,https://www.federalreserve.gov/fomc/minutes/19980203.htm
+1998-03-31,19980331,1998,html_old_flat,"FRB: FOMC Minutes - march 31, 1998",30513,4477,1998/fomcminutes-19980331.htm,1998/fomcminutes-19980331.txt,https://www.federalreserve.gov/fomc/minutes/19980331.htm
+1998-05-19,19980519,1998,html_old_flat,"FRB: FOMC Minutes - May 19, 1998",36613,5389,1998/fomcminutes-19980519.htm,1998/fomcminutes-19980519.txt,https://www.federalreserve.gov/fomc/minutes/19980519.htm
+1998-06-30,19980630,1998,html_old_flat,"FRB: FOMC Minutes - June 30-July 1, 1998",42738,6428,1998/fomcminutes-19980630.htm,1998/fomcminutes-19980630.txt,https://www.federalreserve.gov/fomc/minutes/19980630.htm
+1998-08-18,19980818,1998,html_old_flat,"FRB: FOMC Minutes - August 18, 1998",34520,5115,1998/fomcminutes-19980818.htm,1998/fomcminutes-19980818.txt,https://www.federalreserve.gov/fomc/minutes/19980818.htm
+1998-09-29,19980929,1998,html_old_flat,"FRB: FOMC Minutes - September 29, 1998",37847,5590,1998/fomcminutes-19980929.htm,1998/fomcminutes-19980929.txt,https://www.federalreserve.gov/fomc/minutes/19980929.htm
+1998-11-17,19981117,1998,html_old_flat,"FRB: FOMC Minutes - November 17, 1998",45139,6706,1998/fomcminutes-19981117.htm,1998/fomcminutes-19981117.txt,https://www.federalreserve.gov/fomc/minutes/19981117.htm
+1998-12-22,19981222,1998,html_old_flat,"FRB: FOMC Minutes - December 22, 1998",32670,4808,1998/fomcminutes-19981222.htm,1998/fomcminutes-19981222.txt,https://www.federalreserve.gov/fomc/minutes/19981222.htm
+1999-02-02,19990202,1999,html_old_flat,"FRB: FOMC Minutes - February 2-3, 1999",59826,8731,1999/fomcminutes-19990202.htm,1999/fomcminutes-19990202.txt,https://www.federalreserve.gov/fomc/minutes/19990202.htm
+1999-03-30,19990330,1999,html_old_flat,"FRB: FOMC Minutes - March 30, 1999",29875,4428,1999/fomcminutes-19990330.htm,1999/fomcminutes-19990330.txt,https://www.federalreserve.gov/fomc/minutes/19990330.htm
+1999-05-18,19990518,1999,html_old_flat,"FRB: FOMC Minutes - May 18, 1999",30362,4508,1999/fomcminutes-19990518.htm,1999/fomcminutes-19990518.txt,https://www.federalreserve.gov/fomc/minutes/19990518.htm
+1999-06-29,19990629,1999,html_old_flat,"FRB: FOMC Minutes - June 29 - 30, 1999",39638,6075,1999/fomcminutes-19990629.htm,1999/fomcminutes-19990629.txt,https://www.federalreserve.gov/fomc/minutes/19990629.htm
+1999-08-24,19990824,1999,html_old_flat,"FRB: FOMC Minutes - August 24, 1999",42564,6416,1999/fomcminutes-19990824.htm,1999/fomcminutes-19990824.txt,https://www.federalreserve.gov/fomc/minutes/19990824.htm
+1999-10-05,19991005,1999,html_old_flat,"FRB: FOMC Minutes - October 5, 1999",29273,4439,1999/fomcminutes-19991005.htm,1999/fomcminutes-19991005.txt,https://www.federalreserve.gov/fomc/minutes/19991005.htm
+1999-11-16,19991116,1999,html_old_flat,"FRB: FOMC Minutes - November 16, 1999",30647,4657,1999/fomcminutes-19991116.htm,1999/fomcminutes-19991116.txt,https://www.federalreserve.gov/fomc/minutes/19991116.htm
+1999-12-21,19991221,1999,html_old_flat,"FRB: FOMC Minutes - December 21, 1999",30778,4661,1999/fomcminutes-19991221.htm,1999/fomcminutes-19991221.txt,https://www.federalreserve.gov/fomc/minutes/19991221.htm
+2000-02-02,20000202,2000,html_old_flat,"FRB: FOMC Minutes - February 1-2, 2000",54834,8394,2000/fomcminutes-20000202.htm,2000/fomcminutes-20000202.txt,https://www.federalreserve.gov/fomc/minutes/20000202.htm
+2000-03-21,20000321,2000,html_old_flat,"FRB: FOMC Minutes - March 21, 2000",29364,4439,2000/fomcminutes-20000321.htm,2000/fomcminutes-20000321.txt,https://www.federalreserve.gov/fomc/minutes/20000321.htm
+2000-05-16,20000516,2000,html_old_flat,"FRB: FOMC minutes - May 16, 2000",26797,4072,2000/fomcminutes-20000516.htm,2000/fomcminutes-20000516.txt,https://www.federalreserve.gov/fomc/minutes/20000516.htm
+2000-06-28,20000628,2000,html_old_flat,"FRB: FOMC Minutes - June 27-28, 2000",28853,4391,2000/fomcminutes-20000628.htm,2000/fomcminutes-20000628.txt,https://www.federalreserve.gov/fomc/minutes/20000628.htm
+2000-08-22,20000822,2000,html_old_flat,"FRB: FOMC Minutes - August 22, 2000",28298,4201,2000/fomcminutes-20000822.htm,2000/fomcminutes-20000822.txt,https://www.federalreserve.gov/fomc/minutes/20000822.htm
+2000-10-03,20001003,2000,html_old_flat,"FRB: FOMC Minutes - October 3, 2000",25297,3774,2000/fomcminutes-20001003.htm,2000/fomcminutes-20001003.txt,https://www.federalreserve.gov/fomc/minutes/20001003.htm
+2000-11-15,20001115,2000,html_old_flat,"FRB: FOMC Minutes - November 15, 2000",29277,4386,2000/fomcminutes-20001115.htm,2000/fomcminutes-20001115.txt,https://www.federalreserve.gov/fomc/minutes/20001115.htm
+2000-12-19,20001219,2000,html_old_flat,"FRB: FOMC Minutes - December 19, 2000",34000,5130,2000/fomcminutes-20001219.htm,2000/fomcminutes-20001219.txt,https://www.federalreserve.gov/fomc/minutes/20001219.htm
+2001-01-31,20010131,2001,html_old_flat,"FRB: FOMC Minutes - January 30-31, 2001",60017,9015,2001/fomcminutes-20010131.htm,2001/fomcminutes-20010131.txt,https://www.federalreserve.gov/fomc/minutes/20010131.htm
+2001-03-20,20010320,2001,html_old_flat,"FRB: FOMC Minutes - March 20, 2001",32271,4815,2001/fomcminutes-20010320.htm,2001/fomcminutes-20010320.txt,https://www.federalreserve.gov/fomc/minutes/20010320.htm
+2001-05-15,20010515,2001,html_old_flat,"FRB: FOMC Minutes - May 15, 2001",32695,4971,2001/fomcminutes-20010515.htm,2001/fomcminutes-20010515.txt,https://www.federalreserve.gov/fomc/minutes/20010515.htm
+2001-06-27,20010627,2001,html_old_flat,"FRB: FOMC Minutes - June 26-27, 2001",32621,4950,2001/fomcminutes-20010627.htm,2001/fomcminutes-20010627.txt,https://www.federalreserve.gov/fomc/minutes/20010627.htm
+2001-08-21,20010821,2001,html_old_flat,"FRB: FOMC Minutes - August 21, 2001",32428,4800,2001/fomcminutes-20010821.htm,2001/fomcminutes-20010821.txt,https://www.federalreserve.gov/fomc/minutes/20010821.htm
+2001-10-02,20011002,2001,html_old_flat,"FRB: FOMC Minutes - October 2, 2001",29751,4390,2001/fomcminutes-20011002.htm,2001/fomcminutes-20011002.txt,https://www.federalreserve.gov/fomc/minutes/20011002.htm
+2001-11-06,20011106,2001,html_old_flat,"FRB: FOMC Minutes - November 6, 2001",28921,4242,2001/fomcminutes-20011106.htm,2001/fomcminutes-20011106.txt,https://www.federalreserve.gov/fomc/minutes/20011106.htm
+2001-12-11,20011211,2001,html_old_flat,"FRB: FOMC Minutes - December 11, 2001",30514,4557,2001/fomcminutes-20011211.htm,2001/fomcminutes-20011211.txt,https://www.federalreserve.gov/fomc/minutes/20011211.htm
+2002-01-30,20020130,2002,html_old_flat,"FRB: FOMC Minutes - January 29-30, 2002",52279,7918,2002/fomcminutes-20020130.htm,2002/fomcminutes-20020130.txt,https://www.federalreserve.gov/fomc/minutes/20020130.htm
+2002-03-19,20020319,2002,html_old_flat,"FRB: FOMC Minutes - March 19, 2002",30607,4582,2002/fomcminutes-20020319.htm,2002/fomcminutes-20020319.txt,https://www.federalreserve.gov/fomc/minutes/20020319.htm
+2002-05-07,20020507,2002,html_old_flat,"FRB: FOMC Minutes - May 7, 2002",26078,3915,2002/fomcminutes-20020507.htm,2002/fomcminutes-20020507.txt,https://www.federalreserve.gov/fomc/minutes/20020507.htm
+2002-06-26,20020626,2002,html_old_flat,"FRB: FOMC Minutes - June 25 and 26, 2002",27950,4236,2002/fomcminutes-20020626.htm,2002/fomcminutes-20020626.txt,https://www.federalreserve.gov/fomc/minutes/20020626.htm
+2002-08-13,20020813,2002,html_old_flat,"FRB: FOMC Minutes - August 13, 2002",27139,4007,2002/fomcminutes-20020813.htm,2002/fomcminutes-20020813.txt,https://www.federalreserve.gov/fomc/minutes/20020813.htm
+2002-09-24,20020924,2002,html_old_flat,"FRB: FOMC Minutes - September 24, 2002",27842,3784,2002/fomcminutes-20020924.htm,2002/fomcminutes-20020924.txt,https://www.federalreserve.gov/fomc/minutes/20020924.htm
+2002-11-06,20021106,2002,html_old_flat,"FRB: FOMC Minutes - November 6, 2002",30324,4516,2002/fomcminutes-20021106.htm,2002/fomcminutes-20021106.txt,https://www.federalreserve.gov/fomc/minutes/20021106.htm
+2002-12-10,20021210,2002,html_old_flat,"FRB: FOMC Minutes - December 10, 2002",22069,3252,2002/fomcminutes-20021210.htm,2002/fomcminutes-20021210.txt,https://www.federalreserve.gov/fomc/minutes/20021210.htm
+2003-01-29,20030129,2003,html_old_flat,"FRB: FOMC Minutes - January 28-29, 2003",49596,7464,2003/fomcminutes-20030129.htm,2003/fomcminutes-20030129.txt,https://www.federalreserve.gov/fomc/minutes/20030129.htm
+2003-03-18,20030318,2003,html_old_flat,"FRB: FOMC Minutes - March 18, 2003",24622,3650,2003/fomcminutes-20030318.htm,2003/fomcminutes-20030318.txt,https://www.federalreserve.gov/fomc/minutes/20030318.htm
+2003-05-06,20030506,2003,html_old_flat,"FRB: FOMC Minutes - May 6, 2003",26344,3932,2003/fomcminutes-20030506.htm,2003/fomcminutes-20030506.txt,https://www.federalreserve.gov/fomc/minutes/20030506.htm
+2003-06-25,20030625,2003,html_old_flat,"FRB: FOMC Minutes - June 24-25, 2003",32945,4972,2003/fomcminutes-20030625.htm,2003/fomcminutes-20030625.txt,https://www.federalreserve.gov/fomc/minutes/20030625.htm
+2003-08-12,20030812,2003,html_old_flat,"FRB: FOMC Minutes - August 12, 2003",25716,3826,2003/fomcminutes-20030812.htm,2003/fomcminutes-20030812.txt,https://www.federalreserve.gov/fomc/minutes/20030812.htm
+2003-09-16,20030916,2003,html_old_flat,"FRB: FOMC Minutes - September 16, 2003",26679,3933,2003/fomcminutes-20030916.htm,2003/fomcminutes-20030916.txt,https://www.federalreserve.gov/fomc/minutes/20030916.htm
+2003-10-28,20031028,2003,html_old_flat,"FRB: FOMC Minutes - October 28, 2003",25313,3741,2003/fomcminutes-20031028.htm,2003/fomcminutes-20031028.txt,https://www.federalreserve.gov/fomc/minutes/20031028.htm
+2003-12-09,20031209,2003,html_old_flat,"FRB: FOMC Minutes--December 9, 2003",31086,4261,2003/fomcminutes-20031209.htm,2003/fomcminutes-20031209.txt,https://www.federalreserve.gov/fomc/minutes/20031209.htm
+2004-01-28,20040128,2004,html_old_flat,"FRB: FOMC Minutes--January 27-28, 2004",61549,8560,2004/fomcminutes-20040128.htm,2004/fomcminutes-20040128.txt,https://www.federalreserve.gov/fomc/minutes/20040128.htm
+2004-03-16,20040316,2004,html_old_flat,"FRB: FOMC Minutes--March 16, 2004",25936,3910,2004/fomcminutes-20040316.htm,2004/fomcminutes-20040316.txt,https://www.federalreserve.gov/fomc/minutes/20040316.htm
+2004-05-04,20040504,2004,html_old_flat,"FRB: FOMC Minutes--May 4, 2004",31375,4750,2004/fomcminutes-20040504.htm,2004/fomcminutes-20040504.txt,https://www.federalreserve.gov/fomc/minutes/20040504.htm
+2004-06-30,20040630,2004,html_old_flat,"FRB: FOMC Minutes--June 29-30, 2004",30069,4537,2004/fomcminutes-20040630.htm,2004/fomcminutes-20040630.txt,https://www.federalreserve.gov/fomc/minutes/20040630.htm
+2004-08-10,20040810,2004,html_old_flat,"FRB: FOMC Minutes--August 10, 2004",25455,3834,2004/fomcminutes-20040810.htm,2004/fomcminutes-20040810.txt,https://www.federalreserve.gov/fomc/minutes/20040810.htm
+2004-09-21,20040921,2004,html_old_flat,"FRB: FOMC Minutes--September 21, 2004",26731,4055,2004/fomcminutes-20040921.htm,2004/fomcminutes-20040921.txt,https://www.federalreserve.gov/fomc/minutes/20040921.htm
+2004-11-10,20041110,2004,html_old_flat,"FRB: FOMC Minutes--November 10, 2004",23742,3558,2004/fomcminutes-20041110.htm,2004/fomcminutes-20041110.txt,https://www.federalreserve.gov/fomc/minutes/20041110.htm
+2004-12-14,20041214,2004,html_old_flat,"FRB: FOMC Minutes--December 14, 2004",26343,3942,2004/fomcminutes-20041214.htm,2004/fomcminutes-20041214.txt,https://www.federalreserve.gov/fomc/minutes/20041214.htm
+2005-02-02,20050202,2005,html_old_flat,"FRB: FOMC Minutes--February 1-2, 2005",46572,7112,2005/fomcminutes-20050202.htm,2005/fomcminutes-20050202.txt,https://www.federalreserve.gov/fomc/minutes/20050202.htm
+2005-03-22,20050322,2005,html_old_flat,"FRB: FOMC Minutes--March 22, 2005",28594,4257,2005/fomcminutes-20050322.htm,2005/fomcminutes-20050322.txt,https://www.federalreserve.gov/fomc/minutes/20050322.htm
+2005-05-03,20050503,2005,html_old_flat,"FRB: FOMC Minutes--May 3, 2005",30149,4159,2005/fomcminutes-20050503.htm,2005/fomcminutes-20050503.txt,https://www.federalreserve.gov/fomc/minutes/20050503.htm
+2005-06-30,20050630,2005,html_old_flat,"FRB: FOMC Minutes--June 29-30, 2005",31303,4321,2005/fomcminutes-20050630.htm,2005/fomcminutes-20050630.txt,https://www.federalreserve.gov/fomc/minutes/20050630.htm
+2005-08-09,20050809,2005,html_old_flat,"FRB: FOMC Minutes--August 9, 2005",21880,3264,2005/fomcminutes-20050809.htm,2005/fomcminutes-20050809.txt,https://www.federalreserve.gov/fomc/minutes/20050809.htm
+2005-09-20,20050920,2005,html_old_flat,"FRB: FOMC Minutes--September 20, 2005",23289,3440,2005/fomcminutes-20050920.htm,2005/fomcminutes-20050920.txt,https://www.federalreserve.gov/fomc/minutes/20050920.htm
+2005-11-01,20051101,2005,html_old_flat,"FRB: FOMC Minutes--November 1, 2005",24676,3683,2005/fomcminutes-20051101.htm,2005/fomcminutes-20051101.txt,https://www.federalreserve.gov/fomc/minutes/20051101.htm
+2005-12-13,20051213,2005,html_old_flat,"FRB: FOMC Minutes--December 13, 2005",26086,3489,2005/fomcminutes-20051213.htm,2005/fomcminutes-20051213.txt,https://www.federalreserve.gov/fomc/minutes/20051213.htm
+2006-01-31,20060131,2006,html_old_flat,"FRB: FOMC Minutes--January 31, 2006",44635,6766,2006/fomcminutes-20060131.htm,2006/fomcminutes-20060131.txt,https://www.federalreserve.gov/fomc/minutes/20060131.htm
+2006-03-28,20060328,2006,html_old_flat,"FRB: FOMC Minutes--March 27-28, 2006",27128,4027,2006/fomcminutes-20060328.htm,2006/fomcminutes-20060328.txt,https://www.federalreserve.gov/fomc/minutes/20060328.htm
+2006-05-10,20060510,2006,html_old_flat,"FRB: FOMC Minutes--May 10, 2006",28487,4317,2006/fomcminutes-20060510.htm,2006/fomcminutes-20060510.txt,https://www.federalreserve.gov/fomc/minutes/20060510.htm
+2006-06-29,20060629,2006,html_old_flat,"FRB: FOMC Minutes--June 28-29, 2006",27266,4167,2006/fomcminutes-20060629.htm,2006/fomcminutes-20060629.txt,https://www.federalreserve.gov/fomc/minutes/20060629.htm
+2006-08-08,20060808,2006,html_old_flat,"FRB: FOMC Minutes--August 8, 2006",24704,3695,2006/fomcminutes-20060808.htm,2006/fomcminutes-20060808.txt,https://www.federalreserve.gov/fomc/minutes/20060808.htm
+2006-09-20,20060920,2006,html_old_flat,"FRB: FOMC Minutes--September 20, 2006",24905,3717,2006/fomcminutes-20060920.htm,2006/fomcminutes-20060920.txt,https://www.federalreserve.gov/fomc/minutes/20060920.htm
+2006-10-25,20061025,2006,html_old_flat,"FRB: FOMC Minutes--October 24-25, 2006",29587,4431,2006/fomcminutes-20061025.htm,2006/fomcminutes-20061025.txt,https://www.federalreserve.gov/fomc/minutes/20061025.htm
+2006-12-12,20061212,2006,html_old_flat,"FRB: FOMC Minutes--December 12, 2006",27361,4129,2006/fomcminutes-20061212.htm,2006/fomcminutes-20061212.txt,https://www.federalreserve.gov/fomc/minutes/20061212.htm
+2007-01-31,20070131,2007,html_old_flat,"FRB: FOMC Minutes--January 30-31, 2007",50165,7637,2007/fomcminutes-20070131.htm,2007/fomcminutes-20070131.txt,https://www.federalreserve.gov/fomc/minutes/20070131.htm
+2007-03-21,20070321,2007,html_old_flat,"FRB: FOMC Minutes--March 20-21, 2007",27837,4136,2007/fomcminutes-20070321.htm,2007/fomcminutes-20070321.txt,https://www.federalreserve.gov/fomc/minutes/20070321.htm
+2007-05-09,20070509,2007,html_old_flat,"FRB: FOMC Minutes--May 9, 2007",28332,4229,2007/fomcminutes-20070509.htm,2007/fomcminutes-20070509.txt,https://www.federalreserve.gov/fomc/minutes/20070509.htm
+2007-06-28,20070628,2007,html_old_flat,"FRB: FOMC Minutes--June 27-28, 2007",30835,4662,2007/fomcminutes-20070628.htm,2007/fomcminutes-20070628.txt,https://www.federalreserve.gov/fomc/minutes/20070628.htm
+2007-08-07,20070807,2007,html_old_flat,"FRB: FOMC Minutes--August 7, 2007",29534,4370,2007/fomcminutes-20070807.htm,2007/fomcminutes-20070807.txt,https://www.federalreserve.gov/fomc/minutes/20070807.htm
+2007-09-18,20070918,2007,html_old_flat,"FRB: FOMC Minutes--September 18, 2007",37242,5559,2007/fomcminutes-20070918.htm,2007/fomcminutes-20070918.txt,https://www.federalreserve.gov/fomc/minutes/20070918.htm
+2008-01-30,20080130,2008,html_modern,"FRB: FOMC Minutes, January 29-30, 2008",63455,9591,2008/fomcminutes-20080130.htm,2008/fomcminutes-20080130.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20080130.htm
+2008-03-18,20080318,2008,html_modern,"FRB: FOMC Minutes, March 18, 2008",40383,6031,2008/fomcminutes-20080318.htm,2008/fomcminutes-20080318.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20080318.htm
+2008-04-30,20080430,2008,html_modern,"FRB: FOMC Minutes, April 29-30, 2008",46378,6996,2008/fomcminutes-20080430.htm,2008/fomcminutes-20080430.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20080430.htm
+2008-08-05,20080805,2008,html_modern,"FRB: FOMC Minutes, August 5, 2008",34449,5137,2008/fomcminutes-20080805.htm,2008/fomcminutes-20080805.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20080805.htm
+2008-09-16,20080916,2008,html_modern,"FRB: FOMC Minutes, September 16, 2008",30551,4556,2008/fomcminutes-20080916.htm,2008/fomcminutes-20080916.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20080916.htm
+2008-10-29,20081029,2008,html_modern,"FRB: FOMC Minutes, October 28-29, 2008",53130,7892,2008/fomcminutes-20081029.htm,2008/fomcminutes-20081029.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20081029.htm
+2008-12-16,20081216,2008,html_modern,"FRB: FOMC Minutes, December 15-16, 2008",50721,7485,2008/fomcminutes-20081216.htm,2008/fomcminutes-20081216.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20081216.htm
+2009-01-28,20090128,2009,html_modern,"FRB: FOMC Minutes, January 27-28, 2009",71859,10769,2009/fomcminutes-20090128.htm,2009/fomcminutes-20090128.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090128.htm
+2009-03-18,20090318,2009,html_modern,"FRB: FOMC Minutes, March 17-18, 2009",46088,6925,2009/fomcminutes-20090318.htm,2009/fomcminutes-20090318.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090318.htm
+2009-04-29,20090429,2009,html_modern,"FRB: FOMC Minutes, April 28-29, 2009",43622,6481,2009/fomcminutes-20090429.htm,2009/fomcminutes-20090429.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090429.htm
+2009-06-24,20090624,2009,html_modern,"FRB: FOMC Minutes, June 23-24, 2009",54481,8202,2009/fomcminutes-20090624.htm,2009/fomcminutes-20090624.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090624.htm
+2009-08-12,20090812,2009,html_modern,"FRB: FOMC Minutes, August 11-12, 2009",45844,6938,2009/fomcminutes-20090812.htm,2009/fomcminutes-20090812.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090812.htm
+2009-09-23,20090923,2009,html_modern,"FRB: FOMC Minutes, September 22-23, 2009",49517,7472,2009/fomcminutes-20090923.htm,2009/fomcminutes-20090923.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20090923.htm
+2009-11-04,20091104,2009,html_modern,"FRB: FOMC Minutes, November 3-4, 2009",46281,6972,2009/fomcminutes-20091104.htm,2009/fomcminutes-20091104.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20091104.htm
+2009-12-16,20091216,2009,html_modern,"FRB: FOMC Minutes, December 15-16, 2009",54050,7937,2009/fomcminutes-20091216.htm,2009/fomcminutes-20091216.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20091216.htm
+2010-01-27,20100127,2010,html_modern,"FRB: FOMC Minutes, January 26-27, 2010",74535,11295,2010/fomcminutes-20100127.htm,2010/fomcminutes-20100127.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100127.htm
+2010-03-16,20100316,2010,html_modern,"FRB: FOMC Minutes, March 16, 2010",44683,6561,2010/fomcminutes-20100316.htm,2010/fomcminutes-20100316.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100316.htm
+2010-04-28,20100428,2010,html_modern,"FRB: FOMC Minutes, April 27-28, 2010",47511,7000,2010/fomcminutes-20100428.htm,2010/fomcminutes-20100428.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100428.htm
+2010-06-23,20100623,2010,html_modern,"FRB: FOMC Minutes, June 22-23, 2010",53330,7858,2010/fomcminutes-20100623.htm,2010/fomcminutes-20100623.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100623.htm
+2010-08-10,20100810,2010,html_modern,"FRB: FOMC Minutes, August 10, 2010",45230,6641,2010/fomcminutes-20100810.htm,2010/fomcminutes-20100810.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100810.htm
+2010-09-21,20100921,2010,html_modern,"FRB: FOMC Minutes, September 21, 2010",40942,6000,2010/fomcminutes-20100921.htm,2010/fomcminutes-20100921.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20100921.htm
+2010-11-03,20101103,2010,html_modern,"FRB: FOMC Minutes, November 2-3, 2010",48359,7005,2010/fomcminutes-20101103.htm,2010/fomcminutes-20101103.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20101103.htm
+2010-12-14,20101214,2010,html_modern,"FRB: FOMC Minutes, December 14, 2010",45273,6633,2010/fomcminutes-20101214.htm,2010/fomcminutes-20101214.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20101214.htm
+2011-01-26,20110126,2011,html_modern,"FRB: FOMC Minutes, January 25-26, 2011",71369,10424,2011/fomcminutes-20110126.htm,2011/fomcminutes-20110126.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110126.htm
+2011-03-15,20110315,2011,html_modern,"FRB: FOMC Minutes, March 15, 2011",45587,6700,2011/fomcminutes-20110315.htm,2011/fomcminutes-20110315.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110315.htm
+2011-04-27,20110427,2011,html_modern,"FRB: FOMC Minutes, April 26-27, 2011",52063,7673,2011/fomcminutes-20110427.htm,2011/fomcminutes-20110427.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110427.htm
+2011-06-22,20110622,2011,html_modern,"FRB: FOMC Minutes, June 21-22, 2011",50306,7409,2011/fomcminutes-20110622.htm,2011/fomcminutes-20110622.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110622.htm
+2011-08-09,20110809,2011,html_modern,"FRB: FOMC Minutes, August 9, 2011",44676,6590,2011/fomcminutes-20110809.htm,2011/fomcminutes-20110809.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110809.htm
+2011-09-21,20110921,2011,html_modern,"FRB: FOMC Minutes, September 20-21, 2011",56856,8350,2011/fomcminutes-20110921.htm,2011/fomcminutes-20110921.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20110921.htm
+2011-11-02,20111102,2011,html_modern,"FRB: FOMC Minutes, November 1-2, 2011",51909,7613,2011/fomcminutes-20111102.htm,2011/fomcminutes-20111102.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm
+2011-12-13,20111213,2011,html_modern,"FRB: FOMC Minutes, December 13, 2011",52023,7568,2011/fomcminutes-20111213.htm,2011/fomcminutes-20111213.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20111213.htm
+2012-01-25,20120125,2012,html_modern,The Fed - Monetary Policy:,72562,10729,2012/fomcminutes-20120125.htm,2012/fomcminutes-20120125.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120125.htm
+2012-03-13,20120313,2012,html_modern,The Fed - Monetary Policy:,42769,6395,2012/fomcminutes-20120313.htm,2012/fomcminutes-20120313.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120313.htm
+2012-04-25,20120425,2012,html_modern,The Fed - Monetary Policy:,47334,7080,2012/fomcminutes-20120425.htm,2012/fomcminutes-20120425.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120425.htm
+2012-06-20,20120620,2012,html_modern,The Fed - Monetary Policy:,53439,8007,2012/fomcminutes-20120620.htm,2012/fomcminutes-20120620.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120620.htm
+2012-08-01,20120801,2012,html_modern,The Fed - Monetary Policy:,47978,7177,2012/fomcminutes-20120801.htm,2012/fomcminutes-20120801.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120801.htm
+2012-09-13,20120913,2012,html_modern,The Fed - Monetary Policy:,50896,7522,2012/fomcminutes-20120913.htm,2012/fomcminutes-20120913.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20120913.htm
+2012-10-24,20121024,2012,html_modern,The Fed - Monetary Policy:,45133,6619,2012/fomcminutes-20121024.htm,2012/fomcminutes-20121024.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20121024.htm
+2012-12-12,20121212,2012,html_modern,The Fed - Monetary Policy:,51299,7599,2012/fomcminutes-20121212.htm,2012/fomcminutes-20121212.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20121212.htm
+2013-01-30,20130130,2013,html_modern,The Fed - Monetary Policy:,73673,11009,2013/fomcminutes-20130130.htm,2013/fomcminutes-20130130.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130130.htm
+2013-03-20,20130320,2013,html_modern,The Fed - Monetary Policy:,48638,7246,2013/fomcminutes-20130320.htm,2013/fomcminutes-20130320.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130320.htm
+2013-05-01,20130501,2013,html_modern,The Fed - Monetary Policy:,45994,6905,2013/fomcminutes-20130501.htm,2013/fomcminutes-20130501.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130501.htm
+2013-06-19,20130619,2013,html_modern,The Fed - Monetary Policy:,54505,8172,2013/fomcminutes-20130619.htm,2013/fomcminutes-20130619.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130619.htm
+2013-07-31,20130731,2013,html_modern,The Fed - Monetary Policy:,47943,7181,2013/fomcminutes-20130731.htm,2013/fomcminutes-20130731.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130731.htm
+2013-09-18,20130918,2013,html_modern,The Fed - Monetary Policy:,54865,8244,2013/fomcminutes-20130918.htm,2013/fomcminutes-20130918.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20130918.htm
+2013-10-30,20131030,2013,html_modern,The Fed - Monetary Policy:,51306,7641,2013/fomcminutes-20131030.htm,2013/fomcminutes-20131030.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20131030.htm
+2013-12-18,20131218,2013,html_modern,The Fed - Monetary Policy:,58904,8812,2013/fomcminutes-20131218.htm,2013/fomcminutes-20131218.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20131218.htm
+2014-01-29,20140129,2014,html_modern,The Fed - Monetary Policy:,80055,12026,2014/fomcminutes-20140129.htm,2014/fomcminutes-20140129.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140129.htm
+2014-03-19,20140319,2014,html_modern,The Fed - Monetary Policy:,55881,8319,2014/fomcminutes-20140319.htm,2014/fomcminutes-20140319.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140319.htm
+2014-04-30,20140430,2014,html_modern,The Fed - Monetary Policy:,45388,6791,2014/fomcminutes-20140430.htm,2014/fomcminutes-20140430.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140430.htm
+2014-06-18,20140618,2014,html_modern,The Fed - Monetary Policy:,57172,8592,2014/fomcminutes-20140618.htm,2014/fomcminutes-20140618.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140618.htm
+2014-07-30,20140730,2014,html_modern,The Fed - Monetary Policy:,53511,8039,2014/fomcminutes-20140730.htm,2014/fomcminutes-20140730.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140730.htm
+2014-09-17,20140917,2014,html_modern,The Fed - Monetary Policy:,61067,9165,2014/fomcminutes-20140917.htm,2014/fomcminutes-20140917.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20140917.htm
+2014-10-29,20141029,2014,html_modern,The Fed - Monetary Policy:,55846,8345,2014/fomcminutes-20141029.htm,2014/fomcminutes-20141029.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20141029.htm
+2014-12-17,20141217,2014,html_modern,The Fed - Monetary Policy:,50623,7574,2014/fomcminutes-20141217.htm,2014/fomcminutes-20141217.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20141217.htm
+2015-01-28,20150128,2015,html_modern,The Fed - Monetary Policy:,95778,14470,2015/fomcminutes-20150128.htm,2015/fomcminutes-20150128.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150128.htm
+2015-03-18,20150318,2015,html_modern,The Fed - Monetary Policy:,56422,8574,2015/fomcminutes-20150318.htm,2015/fomcminutes-20150318.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150318.htm
+2015-04-29,20150429,2015,html_modern,The Fed - Monetary Policy:,51101,7626,2015/fomcminutes-20150429.htm,2015/fomcminutes-20150429.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150429.htm
+2015-06-17,20150617,2015,html_modern,The Fed - Monetary Policy:,53970,8114,2015/fomcminutes-20150617.htm,2015/fomcminutes-20150617.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150617.htm
+2015-07-29,20150729,2015,html_modern,The Fed - Monetary Policy:,56719,8479,2015/fomcminutes-20150729.htm,2015/fomcminutes-20150729.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150729.htm
+2015-09-17,20150917,2015,html_modern,The Fed - Monetary Policy:,50197,7483,2015/fomcminutes-20150917.htm,2015/fomcminutes-20150917.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20150917.htm
+2015-10-28,20151028,2015,html_modern,The Fed - Monetary Policy:,54458,8090,2015/fomcminutes-20151028.htm,2015/fomcminutes-20151028.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm
+2015-12-16,20151216,2015,html_modern,The Fed - Monetary Policy:,51513,7675,2015/fomcminutes-20151216.htm,2015/fomcminutes-20151216.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20151216.htm
+2016-01-27,20160127,2016,html_modern,The Fed - Monetary Policy:,91400,13665,2016/fomcminutes-20160127.htm,2016/fomcminutes-20160127.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160127.htm
+2016-03-16,20160316,2016,html_modern,The Fed - Monetary Policy:,52049,7788,2016/fomcminutes-20160316.htm,2016/fomcminutes-20160316.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160316.htm
+2016-04-27,20160427,2016,html_modern,The Fed - Monetary Policy:,62360,9334,2016/fomcminutes-20160427.htm,2016/fomcminutes-20160427.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160427.htm
+2016-06-15,20160615,2016,html_modern,The Fed - Monetary Policy:,55280,8373,2016/fomcminutes-20160615.htm,2016/fomcminutes-20160615.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160615.htm
+2016-07-27,20160727,2016,html_modern,The Fed - Monetary Policy:,68680,10277,2016/fomcminutes-20160727.htm,2016/fomcminutes-20160727.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160727.htm
+2016-09-21,20160921,2016,html_modern,The Fed - Monetary Policy:,72450,10796,2016/fomcminutes-20160921.htm,2016/fomcminutes-20160921.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20160921.htm
+2016-11-02,20161102,2016,html_modern,The Fed - Monetary Policy:,62046,9294,2016/fomcminutes-20161102.htm,2016/fomcminutes-20161102.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20161102.htm
+2016-12-14,20161214,2016,html_modern,The Fed - Monetary Policy:,56280,8429,2016/fomcminutes-20161214.htm,2016/fomcminutes-20161214.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20161214.htm
+2017-02-01,20170201,2017,html_modern,The Fed - Monetary Policy:,83995,12506,2017/fomcminutes-20170201.htm,2017/fomcminutes-20170201.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170201.htm
+2017-03-15,20170315,2017,html_modern,The Fed - Monetary Policy:,60307,9068,2017/fomcminutes-20170315.htm,2017/fomcminutes-20170315.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170315.htm
+2017-05-03,20170503,2017,html_modern,The Fed - Monetary Policy:,57379,8608,2017/fomcminutes-20170503.htm,2017/fomcminutes-20170503.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170503.htm
+2017-06-14,20170614,2017,html_modern,The Fed - Monetary Policy:,59087,8881,2017/fomcminutes-20170614.htm,2017/fomcminutes-20170614.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170614.htm
+2017-07-26,20170726,2017,html_modern,The Fed - Monetary Policy:,50424,7568,2017/fomcminutes-20170726.htm,2017/fomcminutes-20170726.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170726.htm
+2017-09-20,20170920,2017,html_modern,The Fed - Monetary Policy:,57904,8771,2017/fomcminutes-20170920.htm,2017/fomcminutes-20170920.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20170920.htm
+2017-11-01,20171101,2017,html_modern,The Fed - Monetary Policy:,51408,7625,2017/fomcminutes-20171101.htm,2017/fomcminutes-20171101.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20171101.htm
+2017-12-13,20171213,2017,html_modern,The Fed - Monetary Policy:,50073,7511,2017/fomcminutes-20171213.htm,2017/fomcminutes-20171213.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20171213.htm
+2018-01-31,20180131,2018,html_modern,The Fed - Monetary Policy:,82342,12268,2018/fomcminutes-20180131.htm,2018/fomcminutes-20180131.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180131.htm
+2018-03-21,20180321,2018,html_modern,The Fed - Monetary Policy:,49198,7402,2018/fomcminutes-20180321.htm,2018/fomcminutes-20180321.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180321.htm
+2018-05-02,20180502,2018,html_modern,The Fed - Monetary Policy:,53257,8090,2018/fomcminutes-20180502.htm,2018/fomcminutes-20180502.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180502.htm
+2018-06-13,20180613,2018,html_modern,The Fed - Monetary Policy:,48126,7290,2018/fomcminutes-20180613.htm,2018/fomcminutes-20180613.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180613.htm
+2018-08-01,20180801,2018,html_modern,The Fed - Monetary Policy:,56036,8404,2018/fomcminutes-20180801.htm,2018/fomcminutes-20180801.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180801.htm
+2018-09-26,20180926,2018,html_modern,The Fed - Monetary Policy:,48174,7250,2018/fomcminutes-20180926.htm,2018/fomcminutes-20180926.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20180926.htm
+2018-11-08,20181108,2018,html_modern,The Fed - Monetary Policy:,56289,8376,2018/fomcminutes-20181108.htm,2018/fomcminutes-20181108.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20181108.htm
+2018-12-19,20181219,2018,html_modern,The Fed - Monetary Policy:,57253,8521,2018/fomcminutes-20181219.htm,2018/fomcminutes-20181219.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm
+2019-01-30,20190130,2019,html_modern,The Fed - Monetary Policy:,95329,14227,2019/fomcminutes-20190130.htm,2019/fomcminutes-20190130.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190130.htm
+2019-03-20,20190320,2019,html_modern,The Fed - Monetary Policy:,64895,9685,2019/fomcminutes-20190320.htm,2019/fomcminutes-20190320.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190320.htm
+2019-05-01,20190501,2019,html_modern,The Fed - Monetary Policy:,62821,9489,2019/fomcminutes-20190501.htm,2019/fomcminutes-20190501.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190501.htm
+2019-06-19,20190619,2019,html_modern,The Fed - Monetary Policy:,55902,8406,2019/fomcminutes-20190619.htm,2019/fomcminutes-20190619.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190619.htm
+2019-07-31,20190731,2019,html_modern,The Fed - Monetary Policy:,72132,10819,2019/fomcminutes-20190731.htm,2019/fomcminutes-20190731.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190731.htm
+2019-09-18,20190918,2019,html_modern,The Fed - Monetary Policy:,71932,10778,2019/fomcminutes-20190918.htm,2019/fomcminutes-20190918.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20190918.htm
+2019-10-30,20191030,2019,html_modern,The Fed - Monetary Policy:,84685,12669,2019/fomcminutes-20191030.htm,2019/fomcminutes-20191030.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20191030.htm
+2019-12-11,20191211,2019,html_modern,The Fed - Monetary Policy:,57869,8565,2019/fomcminutes-20191211.htm,2019/fomcminutes-20191211.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20191211.htm
+2020-01-29,20200129,2020,minutes_html,The Fed - Monetary Policy:,89022,13247,2020/fomcminutes-20200129.htm,2020/fomcminutes-20200129.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200129.htm
+2020-03-15,20200315,2020,minutes_html,The Fed - Monetary Policy:,66699,10036,2020/fomcminutes-20200315.htm,2020/fomcminutes-20200315.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200315.htm
+2020-04-29,20200429,2020,minutes_html,The Fed - Monetary Policy:,63741,9383,2020/fomcminutes-20200429.htm,2020/fomcminutes-20200429.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm
+2020-06-10,20200610,2020,minutes_html,The Fed - Monetary Policy:,67882,10111,2020/fomcminutes-20200610.htm,2020/fomcminutes-20200610.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200610.htm
+2020-07-29,20200729,2020,minutes_html,The Fed - Monetary Policy:,61129,9052,2020/fomcminutes-20200729.htm,2020/fomcminutes-20200729.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200729.htm
+2020-09-16,20200916,2020,minutes_html,The Fed - Monetary Policy:,66824,10044,2020/fomcminutes-20200916.htm,2020/fomcminutes-20200916.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20200916.htm
+2020-11-05,20201105,2020,minutes_html,The Fed - Monetary Policy:,64612,9481,2020/fomcminutes-20201105.htm,2020/fomcminutes-20201105.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20201105.htm
+2020-12-16,20201216,2020,minutes_html,The Fed - Monetary Policy:,56452,8283,2020/fomcminutes-20201216.htm,2020/fomcminutes-20201216.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20201216.htm
+2021-01-27,20210127,2021,minutes_html,The Fed - Monetary Policy:,85422,12668,2021/fomcminutes-20210127.htm,2021/fomcminutes-20210127.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210127.htm
+2021-03-17,20210317,2021,minutes_html,The Fed - Monetary Policy:,59017,8785,2021/fomcminutes-20210317.htm,2021/fomcminutes-20210317.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210317.htm
+2021-04-28,20210428,2021,minutes_html,The Fed - Monetary Policy:,59673,8813,2021/fomcminutes-20210428.htm,2021/fomcminutes-20210428.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210428.htm
+2021-06-16,20210616,2021,minutes_html,The Fed - Monetary Policy:,64487,9604,2021/fomcminutes-20210616.htm,2021/fomcminutes-20210616.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210616.htm
+2021-07-28,20210728,2021,minutes_html,The Fed - Monetary Policy:,71220,10550,2021/fomcminutes-20210728.htm,2021/fomcminutes-20210728.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210728.htm
+2021-09-22,20210922,2021,minutes_html,The Fed - Monetary Policy:,59251,8876,2021/fomcminutes-20210922.htm,2021/fomcminutes-20210922.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20210922.htm
+2021-11-03,20211103,2021,minutes_html,The Fed - Monetary Policy:,56441,8376,2021/fomcminutes-20211103.htm,2021/fomcminutes-20211103.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20211103.htm
+2021-12-15,20211215,2021,minutes_html,The Fed - Monetary Policy:,63656,9461,2021/fomcminutes-20211215.htm,2021/fomcminutes-20211215.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20211215.htm
+2022-01-26,20220126,2022,minutes_html,The Fed - Monetary Policy:,90838,13588,2022/fomcminutes-20220126.htm,2022/fomcminutes-20220126.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220126.htm
+2022-03-16,20220316,2022,minutes_html,The Fed - Monetary Policy:,58571,8698,2022/fomcminutes-20220316.htm,2022/fomcminutes-20220316.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220316.htm
+2022-05-04,20220504,2022,minutes_html,The Fed - Monetary Policy:,53202,7898,2022/fomcminutes-20220504.htm,2022/fomcminutes-20220504.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220504.htm
+2022-06-15,20220615,2022,minutes_html,The Fed - Monetary Policy:,53862,8080,2022/fomcminutes-20220615.htm,2022/fomcminutes-20220615.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220615.htm
+2022-07-27,20220727,2022,minutes_html,The Fed - Monetary Policy:,57835,8625,2022/fomcminutes-20220727.htm,2022/fomcminutes-20220727.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm
+2022-09-21,20220921,2022,minutes_html,The Fed - Monetary Policy:,53005,7883,2022/fomcminutes-20220921.htm,2022/fomcminutes-20220921.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm
+2022-11-02,20221102,2022,minutes_html,The Fed - Monetary Policy:,54969,8103,2022/fomcminutes-20221102.htm,2022/fomcminutes-20221102.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20221102.htm
+2022-12-14,20221214,2022,minutes_html,The Fed - Monetary Policy:,52732,7810,2022/fomcminutes-20221214.htm,2022/fomcminutes-20221214.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20221214.htm
+2023-02-01,20230201,2023,minutes_html,The Fed - Monetary Policy:,59201,8789,2023/fomcminutes-20230201.htm,2023/fomcminutes-20230201.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230201.htm
+2023-03-22,20230322,2023,minutes_html,The Fed - Monetary Policy:,50976,7571,2023/fomcminutes-20230322.htm,2023/fomcminutes-20230322.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230322.htm
+2023-05-03,20230503,2023,minutes_html,The Fed - Monetary Policy:,55804,8305,2023/fomcminutes-20230503.htm,2023/fomcminutes-20230503.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230503.htm
+2023-06-14,20230614,2023,minutes_html,The Fed - Monetary Policy:,47977,7173,2023/fomcminutes-20230614.htm,2023/fomcminutes-20230614.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230614.htm
+2023-07-26,20230726,2023,minutes_html,The Fed - Monetary Policy:,47098,7017,2023/fomcminutes-20230726.htm,2023/fomcminutes-20230726.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230726.htm
+2023-09-20,20230920,2023,minutes_html,The Fed - Monetary Policy:,44801,6717,2023/fomcminutes-20230920.htm,2023/fomcminutes-20230920.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20230920.htm
+2023-11-01,20231101,2023,minutes_html,The Fed - Monetary Policy:,47373,7000,2023/fomcminutes-20231101.htm,2023/fomcminutes-20231101.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20231101.htm
+2023-12-13,20231213,2023,minutes_html,The Fed - Monetary Policy:,46849,6970,2023/fomcminutes-20231213.htm,2023/fomcminutes-20231213.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20231213.htm
+2024-01-31,20240131,2024,minutes_html,The Fed - Monetary Policy:,51306,7645,2024/fomcminutes-20240131.htm,2024/fomcminutes-20240131.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240131.htm
+2024-03-20,20240320,2024,minutes_html,The Fed - Monetary Policy:,49733,7398,2024/fomcminutes-20240320.htm,2024/fomcminutes-20240320.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240320.htm
+2024-05-01,20240501,2024,minutes_html,The Fed - Monetary Policy:,48709,7257,2024/fomcminutes-20240501.htm,2024/fomcminutes-20240501.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240501.htm
+2024-06-12,20240612,2024,minutes_html,The Fed - Monetary Policy:,44728,6660,2024/fomcminutes-20240612.htm,2024/fomcminutes-20240612.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240612.htm
+2024-07-31,20240731,2024,minutes_html,The Fed - Monetary Policy:,45721,6830,2024/fomcminutes-20240731.htm,2024/fomcminutes-20240731.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240731.htm
+2024-09-18,20240918,2024,minutes_html,The Fed - Monetary Policy:,45232,6816,2024/fomcminutes-20240918.htm,2024/fomcminutes-20240918.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20240918.htm
+2024-11-07,20241107,2024,minutes_html,The Fed - Monetary Policy:,50082,7394,2024/fomcminutes-20241107.htm,2024/fomcminutes-20241107.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20241107.htm
+2024-12-18,20241218,2024,minutes_html,The Fed - Monetary Policy:,46795,6971,2024/fomcminutes-20241218.htm,2024/fomcminutes-20241218.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20241218.htm
+2025-01-29,20250129,2025,minutes_html,The Fed - Monetary Policy:,55840,8244,2025/fomcminutes-20250129.htm,2025/fomcminutes-20250129.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250129.htm
+2025-03-19,20250319,2025,minutes_html,The Fed - Monetary Policy:,49596,7347,2025/fomcminutes-20250319.htm,2025/fomcminutes-20250319.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250319.htm
+2025-05-07,20250507,2025,minutes_html,The Fed - Monetary Policy:,51915,7674,2025/fomcminutes-20250507.htm,2025/fomcminutes-20250507.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250507.htm
+2025-06-18,20250618,2025,minutes_html,The Fed - Monetary Policy:,48200,7142,2025/fomcminutes-20250618.htm,2025/fomcminutes-20250618.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm
+2025-07-30,20250730,2025,minutes_html,The Fed - Monetary Policy:,48315,7173,2025/fomcminutes-20250730.htm,2025/fomcminutes-20250730.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm
+2025-09-17,20250917,2025,minutes_html,The Fed - Monetary Policy:,43008,6448,2025/fomcminutes-20250917.htm,2025/fomcminutes-20250917.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm

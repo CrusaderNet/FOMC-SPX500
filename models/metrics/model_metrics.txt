@@ -1,0 +1,6 @@
+MAE: 252.5064
+R2: 0.461340
+Train size: 197  Eval size: 5
+Features: ['sentiment_sum','close']  Target: next_close
+Train span: 2000-02-02 -> 2024-12-18
+Eval  span: 2025-01-29 -> 2025-07-30
