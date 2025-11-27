@@ -270,7 +270,7 @@ def main() -> int:
 
     # Write outputs
     with open(args.out_csv, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f); w.writerow(["requested_date", "matched_trading_date", "close", "source", "align"])
+        w = csv.writer(f); w.writerow(["requested_date", "date", "close", "source", "align"])
         for row in out_rows: w.writerow(row)
 
     with open(args.missing_csv, "w", newline="", encoding="utf-8") as f:

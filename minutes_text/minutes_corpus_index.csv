@@ -874,3 +874,6 @@ date_iso,yyyymmdd,year,kind,title,char_count,word_count,rel_raw_path,rel_txt_pat
 2025-06-18,20250618,2025,minutes_html,The Fed - Monetary Policy:,48200,7142,2025/fomcminutes-20250618.htm,2025/fomcminutes-20250618.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250618.htm
 2025-07-30,20250730,2025,minutes_html,The Fed - Monetary Policy:,48315,7173,2025/fomcminutes-20250730.htm,2025/fomcminutes-20250730.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm
 2025-09-17,20250917,2025,minutes_html,The Fed - Monetary Policy:,43008,6448,2025/fomcminutes-20250917.htm,2025/fomcminutes-20250917.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm
+2007-10-31,20071031,2007,minutes_html,"FRB: FOMC Minutes, October 30-31, 2007",36528,5488,2007/fomcminutes-20071031.htm,2007/fomcminutes-20071031.txt,
+2007-12-11,20071211,2007,minutes_html,"FRB: FOMC Minutes, December 11, 2007",39903,5935,2007/fomcminutes-20071211.htm,2007/fomcminutes-20071211.txt,
+2025-10-29,20251029,2025,minutes_html,The Fed - Monetary Policy:,56757,8419,2025/fomcminutes-20251029.htm,2025/fomcminutes-20251029.txt,https://www.federalreserve.gov/monetarypolicy/fomcminutes20251029.htm
