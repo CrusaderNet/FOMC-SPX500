@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Predict next SP500 close using sentiment and delta sentiment (no returns, no current price).
+Walk-forward SP500 next-day prediction from FOMC sentiment.
 
-Inputs:
-  --sent    path to sentiment scores CSV (must have: date_iso, sentiment_sum)
-  --prices  path to SP500 prices CSV (must have: date_iso, close)
-  --start-year  First year to keep (default 2000)
-  --end-year    Last year to keep  (default 2025)
-
-Outputs:
-  artifacts_spx_from_sent_delta/predictions.csv
-  artifacts_spx_from_sent_delta/fit_summary.json
-  artifacts_spx_from_sent_delta/model.json
+Differences from the previous version:
+- same expanding / walk-forward training
+- BUT the plot now only:
+    * plots the original true series once
+    * plots predictions ONLY for validation rows (split startswith "val_")
+so you don't get the fan-of-lines effect.
 """
 
 from __future__ import annotations
@@ -20,6 +16,10 @@ import argparse, json
 from pathlib import Path
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+
+
+# ============================= Arg Parsing ===================================
 
 def parse_args():
     ap = argparse.ArgumentParser()
@@ -31,7 +31,16 @@ def parse_args():
     ap.add_argument("--epochs", type=int, default=4000)
     ap.add_argument("--lr",     type=float, default=0.01)
     ap.add_argument("--l2",     type=float, default=1e-4)
+    ap.add_argument("--no-plot", action="store_true")
+    # walk-forward knobs
+    ap.add_argument("--min-train", type=int, default=80,
+                    help="rows in first training window")
+    ap.add_argument("--val-window", type=int, default=12,
+                    help="rows to validate per walk-forward step")
     return ap.parse_args()
+
+
+# ============================= Loaders =======================================
 
 def load_sent(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
@@ -41,188 +50,315 @@ def load_sent(path: str) -> pd.DataFrame:
     df["date_iso"] = pd.to_datetime(df["date_iso"]).dt.date.astype(str)
     return df
 
+
 def load_prices(path: str) -> pd.DataFrame:
     df = pd.read_csv(path)
-    # accept any case/extra cols; map
     cols = {c.lower(): c for c in df.columns}
     if "date_iso" not in cols:
-        # allow 'date' fallback
         if "date" in cols:
-            df.rename(columns={cols["date"]:"date_iso"}, inplace=True)
+            df.rename(columns={cols["date"]: "date_iso"}, inplace=True)
         else:
             raise ValueError("prices CSV must have column date_iso (or date)")
     if "close" not in cols:
         raise ValueError("prices CSV must have column close")
-    # normalize column names
-    df.rename(columns={cols.get("date_iso", "date_iso"):"date_iso",
-                       cols["close"]:"close"}, inplace=True)
-    df = df[["date_iso","close"]].copy()
+    df.rename(columns={
+        cols.get("date_iso", "date_iso"): "date_iso",
+        cols["close"]: "close"
+    }, inplace=True)
+    df = df[["date_iso", "close"]].copy()
     df["date_iso"] = pd.to_datetime(df["date_iso"]).dt.date.astype(str)
     df["close"] = pd.to_numeric(df["close"], errors="coerce")
     df = df.dropna().reset_index(drop=True)
     return df
 
+
+# ============================= Feature Builder ===============================
+
 def build_supervised(sent_df: pd.DataFrame, px_df: pd.DataFrame,
                      y0: int, y1: int) -> pd.DataFrame:
-    # inner join on meeting dates (your prices are curated for meeting days)
     df = sent_df.merge(px_df, on="date_iso", how="inner")
-    # filter years
-    years = pd.to_datetime(df["date_iso"]).dt.year
-    mask = (years >= y0) & (years <= y1)
-    df = df.loc[mask].sort_values("date_iso").reset_index(drop=True)
+    df["date"] = pd.to_datetime(df["date_iso"])
+    yrs = df["date"].dt.year
+    mask = (yrs >= y0) & (yrs <= y1)
+    df = df.loc[mask].sort_values("date").reset_index(drop=True)
 
-    # features: x_t and delta x_t
     df["x"] = df["sentiment_sum"].astype(float)
     df["x_delta"] = df["x"].diff().fillna(0.0)
+    df["year_norm"] = (df["date"].dt.year - y0) / float(max(y1 - y0, 1))
+    df["t_norm"] = np.linspace(0.0, 1.0, len(df))
 
-    # target: next meeting close (level)
     df["next_close"] = df["close"].shift(-1)
-    df = df.iloc[:-1].reset_index(drop=True)  # drop last (no target)
+    df["target_ratio"] = df["next_close"] / df["close"]
 
-    return df[["date_iso","x","x_delta","close","next_close"]].copy()
+    df = df.iloc[:-1].reset_index(drop=True)
+    return df[[
+        "date_iso", "x", "x_delta", "year_norm", "t_norm",
+        "close", "next_close", "target_ratio"
+    ]].copy()
 
-def zfit_train_val_split(df: pd.DataFrame, hidden: int, epochs: int, lr: float, l2: float,
-                         seed: int = 42):
-    # chronological split
-    n = len(df)
-    n_val = max(1, int(round(0.2 * n)))
-    tr = slice(0, n - n_val)
-    va = slice(n - n_val, n)
 
-    X = df[["x","x_delta"]].values.astype("float64")
-    y = df["next_close"].values.astype("float64")
-    dates = df["date_iso"].values
-    cur_close = df["close"].values
+# ============================= MLP core ======================================
 
-    X_tr, X_va = X[tr], X[va]
-    y_tr, y_va = y[tr], y[va]
-    dates_tr, dates_va = dates[tr], dates[va]
-    curc_tr, curc_va   = cur_close[tr], cur_close[va]
+def _relu(a):
+    return np.maximum(a, 0.0)
 
-    # standardize on TRAIN only
-    x_mu = X_tr.mean(axis=0); x_sd = X_tr.std(axis=0); x_sd[x_sd < 1e-8] = 1e-8
-    y_mu = float(y_tr.mean()); y_sd = float(y_tr.std()); y_sd = max(y_sd, 1e-8)
 
-    X_trz = (X_tr - x_mu) / x_sd
-    X_vaz = (X_va - x_mu) / x_sd
-    y_trz = (y_tr - y_mu) / y_sd
-    y_vaz = (y_va - y_mu) / y_sd
+def train_mlp_ratio(X_tr, y_tr_ratio, hidden, epochs, lr, l2, seed=42):
+    x_mu = X_tr.mean(axis=0)
+    x_sd = X_tr.std(axis=0)
+    x_sd[x_sd < 1e-8] = 1e-8
 
-    # tiny MLP: 2 -> hidden -> 1, ReLU
+    y_mu = float(y_tr_ratio.mean())
+    y_sd = float(max(y_tr_ratio.std(), 1e-8))
+
+    Xz = (X_tr - x_mu) / x_sd
+    yz = (y_tr_ratio - y_mu) / y_sd
+
     rng = np.random.default_rng(seed)
-    d = X_trz.shape[1]
+    d_in = Xz.shape[1]
     h = int(hidden)
-    W1 = rng.normal(0, 0.1, size=(d, h))
+    W1 = rng.normal(0, 0.1, size=(d_in, h))
     b1 = np.zeros(h)
     W2 = rng.normal(0, 0.1, size=(h, 1))
     b2 = np.zeros(1)
 
-    def relu(a): return np.maximum(a, 0)
-    def fwd(A):
-        Z1 = A @ W1 + b1
-        H = relu(Z1)
-        Z2 = H @ W2 + b2
-        return Z1, H, Z2.squeeze(-1)
+    for ep in range(int(epochs)):
+        Z1 = Xz @ W1 + b1
+        H = _relu(Z1)
+        pred = (H @ W2 + b2).squeeze(-1)
+        err = pred - yz
 
-    lr = float(lr); l2 = float(l2); epochs = int(epochs)
-
-    for ep in range(epochs):
-        # forward (train)
-        Z1, H, yhat = fwd(X_trz)
-        err = yhat - y_trz
         mse = float(np.mean(err**2))
-        reg = l2*(np.sum(W1*W1)+np.sum(W2*W2))
+        reg = l2 * (np.sum(W1 * W1) + np.sum(W2 * W2))
         loss = mse + reg
 
-        # grads
-        ntr = X_trz.shape[0]
-        dy = (2.0/ntr) * err
-        dW2 = H.T @ dy[:,None] + 2*l2*W2
-        db2 = np.sum(dy)
-        dH = dy[:,None] @ W2.T
+        n = Xz.shape[0]
+        dloss_dpred = (2.0 / n) * err
+        dW2 = H.T @ dloss_dpred[:, None] + 2 * l2 * W2
+        db2 = np.sum(dloss_dpred)
+        dH = dloss_dpred[:, None] @ W2.T
         dZ1 = dH * (Z1 > 0)
-        dW1 = X_trz.T @ dZ1 + 2*l2*W1
+        dW1 = Xz.T @ dZ1 + 2 * l2 * W1
         db1 = np.sum(dZ1, axis=0)
 
-        # update
-        W1 -= lr * dW1; b1 -= lr * db1
-        W2 -= lr * dW2; b2 -= lr * db2
+        W1 -= lr * dW1
+        b1 -= lr * db1
+        W2 -= lr * dW2
+        b2 -= lr * db2
 
-        # val
-        _, H_va, yhat_va = fwd(X_vaz)
-        vmse = float(np.mean((yhat_va - y_vaz)**2))
-
-        if ep % 500 == 0 or ep == epochs-1:
-            print(f"[ep {ep:5d}] loss={loss:.6f} val={vmse:.6f} (mse={mse:.6f} vmse={vmse:.6f})")
-
-    # de-standardize
-    def inv_y(z): return z * y_sd + y_mu
-    _, _, yhat_trz = fwd(X_trz)
-    _, _, yhat_vaz = fwd(X_vaz)
-    yhat_tr = inv_y(yhat_trz)
-    yhat_va = inv_y(yhat_vaz)
-
-    # metrics (levels)
-    def metrics(y_true, y_pred):
-        mae = float(np.mean(np.abs(y_true - y_pred)))
-        rmse = float(np.sqrt(np.mean((y_true - y_pred)**2)))
-        return mae, rmse
-
-    mae_tr, rmse_tr = metrics(y_tr, yhat_tr)
-    mae_va, rmse_va = metrics(y_va, yhat_va)
+        if ep % 500 == 0 or ep == epochs - 1:
+            print(f"[ep {ep:5d}] loss={loss:.6f} (mse={mse:.6f})")
 
     model = {
-        "W1": W1.tolist(), "b1": b1.tolist(),
-        "W2": W2.tolist(), "b2": b2.tolist(),
-        "x_mu": x_mu.tolist(), "x_sd": x_sd.tolist(),
-        "y_mu": y_mu, "y_sd": y_sd,
+        "W1": W1.tolist(),
+        "b1": b1.tolist(),
+        "W2": W2.tolist(),
+        "b2": b2.tolist(),
+        "x_mu": x_mu.tolist(),
+        "x_sd": x_sd.tolist(),
+        "y_mu_ratio": y_mu,
+        "y_sd_ratio": y_sd,
     }
 
-    pack = {
-        "train": (dates_tr, X_tr, curc_tr, y_tr, yhat_tr),
-        "val":   (dates_va, X_va, curc_va, y_va, yhat_va),
-    }
-    return model, pack, {"mae_tr":mae_tr,"rmse_tr":rmse_tr,"mae_va":mae_va,"rmse_va":rmse_va}
+    yhat_tr_ratio = infer_ratio_from_model(model, X_tr)
+    return model, yhat_tr_ratio
+
+
+def infer_ratio_from_model(model: dict, X: np.ndarray) -> np.ndarray:
+    W1 = np.array(model["W1"])
+    b1 = np.array(model["b1"])
+    W2 = np.array(model["W2"])
+    b2 = np.array(model["b2"])
+    x_mu = np.array(model["x_mu"])
+    x_sd = np.array(model["x_sd"])
+    y_mu = float(model["y_mu_ratio"])
+    y_sd = float(model["y_sd_ratio"])
+
+    Xz = (X - x_mu) / x_sd
+    Z1 = Xz @ W1 + b1
+    H = _relu(Z1)
+    z = (H @ W2 + b2).squeeze(-1)
+    ratio = z * y_sd + y_mu
+    return ratio
+
+
+# ============================= Walk-forward ==================================
+
+def walk_forward_train(df: pd.DataFrame,
+                       hidden: int,
+                       epochs: int,
+                       lr: float,
+                       l2: float,
+                       min_train: int,
+                       val_window: int):
+    n = len(df)
+    all_rows = []
+    metrics = []
+    train_end = min_train
+    fold = 0
+
+    while train_end < n:
+        val_end = min(train_end + val_window, n)
+
+        train_df = df.iloc[:train_end].reset_index(drop=True)
+        val_df = df.iloc[train_end:val_end].reset_index(drop=True)
+
+        X_tr = train_df[["x", "x_delta", "year_norm", "t_norm"]].values.astype("float64")
+        y_tr_ratio = train_df["target_ratio"].values.astype("float64")
+
+        model, yhat_tr_ratio = train_mlp_ratio(
+            X_tr, y_tr_ratio,
+            hidden=hidden, epochs=epochs, lr=lr, l2=l2,
+            seed=42 + fold
+        )
+
+        # validate
+        if len(val_df) > 0:
+            X_va = val_df[["x", "x_delta", "year_norm", "t_norm"]].values.astype("float64")
+            va_close = val_df["close"].values.astype("float64")
+            yhat_va_ratio = infer_ratio_from_model(model, X_va)
+            yhat_va_next = va_close * yhat_va_ratio
+            ytrue_va_next = val_df["next_close"].values.astype("float64")
+
+            mae_va = float(np.mean(np.abs(ytrue_va_next - yhat_va_next)))
+            rmse_va = float(np.sqrt(np.mean((ytrue_va_next - yhat_va_next) ** 2)))
+        else:
+            yhat_va_next = np.array([])
+            ytrue_va_next = np.array([])
+            yhat_va_ratio = np.array([])
+            mae_va = float("nan")
+            rmse_va = float("nan")
+
+        metrics.append({
+            "fold": fold,
+            "train_rows": len(train_df),
+            "val_rows": len(val_df),
+            "mae_va": mae_va,
+            "rmse_va": rmse_va,
+        })
+
+        # store ONLY val rows for plotting / oos inspection
+        if len(val_df) > 0:
+            va_rows = pd.DataFrame({
+                "date_iso": val_df["date_iso"].values,
+                "x": val_df["x"].values,
+                "x_delta": val_df["x_delta"].values,
+                "close": val_df["close"].values,
+                "y_true_next_close": ytrue_va_next,
+                "y_pred_next_close": yhat_va_next,
+                "split": f"val_{fold}",
+                "y_true_ratio": val_df["target_ratio"].values,
+                "y_pred_ratio": yhat_va_ratio,
+            })
+            all_rows.append(va_rows)
+
+        fold += 1
+        train_end = val_end
+        if val_end >= n:
+            break
+
+    if all_rows:
+        return pd.concat(all_rows).reset_index(drop=True), metrics
+    else:
+        return pd.DataFrame(), metrics
+
+
+# ============================= Main ==========================================
 
 def main():
     args = parse_args()
-    sent = load_sent(args.sent)
-    px   = load_prices(args.prices)
-    df = build_supervised(sent, px, args.start_year, args.end_year)
-    print(f"[INFO] rows: {len(df)}  years: {df['date_iso'].iloc[0]} → {df['date_iso'].iloc[-1]}")
 
-    model, pack, summ = zfit_train_val_split(
-        df, hidden=args.hidden, epochs=args.epochs, lr=args.lr, l2=args.l2
+    sent_df = load_sent(args.sent)
+    price_df = load_prices(args.prices)
+    base_df = build_supervised(sent_df, price_df, args.start_year, args.end_year)
+    print(f"[INFO] rows={len(base_df)}  range={base_df['date_iso'].iloc[0]} → {base_df['date_iso'].iloc[-1]}")
+
+    # walk-forward to get OUT-OF-SAMPLE predictions
+    pred_df, fold_metrics = walk_forward_train(
+        base_df,
+        hidden=args.hidden,
+        epochs=args.epochs,
+        lr=args.lr,
+        l2=args.l2,
+        min_train=args.min_train,
+        val_window=args.val_window,
+    )
+
+    # train final model on ALL data so you still get model.json
+    X_all = base_df[["x", "x_delta", "year_norm", "t_norm"]].values.astype("float64")
+    y_all_ratio = base_df["target_ratio"].values.astype("float64")
+    final_model, _ = train_mlp_ratio(
+        X_all, y_all_ratio,
+        hidden=args.hidden,
+        epochs=args.epochs,
+        lr=args.lr,
+        l2=args.l2,
+        seed=999,
     )
 
     outdir = Path("artifacts_spx_from_sent_delta")
     outdir.mkdir(parents=True, exist_ok=True)
 
-    # write predictions
-    frames = []
-    for split, tup in pack.items():
-        dates, X, curc, y_true, y_pred = tup
-        tmp = pd.DataFrame({
-            "date_iso": dates,
-            "x": X[:,0].astype(float),
-            "x_delta": X[:,1].astype(float),
-            "close": curc.astype(float),
-            "y_true_next_close": y_true.astype(float),
-            "y_pred_next_close": y_pred.astype(float),
-            "split": split
-        })
-        frames.append(tmp)
-    pred = pd.concat(frames).reset_index(drop=True)
-    pred.to_csv(outdir/"predictions.csv", index=False)
-    print("[OK] Wrote:", outdir/"predictions.csv")
+    pred_df.to_csv(outdir / "predictions.csv", index=False)
+    print("[OK] wrote:", outdir / "predictions.csv")
 
-    # write summary + model
-    with open(outdir/"fit_summary.json","w") as f:
-        json.dump(summ, f, indent=2)
-    with open(outdir/"model.json","w") as f:
-        json.dump(model, f, indent=2)
+    summary = {
+        "folds": fold_metrics,
+        "avg_mae_va": float(np.nanmean([m["mae_va"] for m in fold_metrics])) if fold_metrics else None,
+        "avg_rmse_va": float(np.nanmean([m["rmse_va"] for m in fold_metrics])) if fold_metrics else None,
+    }
+    (outdir / "fit_summary.json").write_text(json.dumps(summary, indent=2))
+    (outdir / "model.json").write_text(json.dumps(final_model, indent=2))
+    print("[OK] wrote:", outdir / "fit_summary.json")
+    print("[OK] wrote:", outdir / "model.json")
 
-    print("[SUMMARY]", summ)
+    if not args.no_plot:
+        # make everything bigger for PPT
+        plt.rcParams["font.size"] = 18      # base font
+        plt.rcParams["axes.titlesize"] = 18   # title
+        plt.rcParams["axes.labelsize"] = 16   # x/y labels
+        plt.rcParams["legend.fontsize"] = 14
+        plt.rcParams["xtick.labelsize"] = 12
+        plt.rcParams["ytick.labelsize"] = 12
+
+        # true line from base_df (clean, no duplicates)
+        base_df["date"] = pd.to_datetime(base_df["date_iso"])
+        plt.figure(figsize=(14, 6))
+        plt.plot(
+            base_df["date"],
+            base_df["next_close"],
+            label="true next close",
+            linewidth=2.5,      # thicker
+        )
+
+        # predicted points from validation rows only
+        if not pred_df.empty:
+            pred_df["date"] = pd.to_datetime(pred_df["date_iso"])
+            plt.plot(
+                pred_df["date"],
+                pred_df["y_pred_next_close"],
+                label="pred next close (OOS)",
+                linewidth=2.5,
+            )
+
+            # shade each validation window
+            unique_splits = pred_df["split"].unique()
+            for i, s in enumerate(unique_splits):
+                mask = pred_df["split"] == s
+                plt.axvspan(
+                    pred_df.loc[mask, "date"].min(),
+                    pred_df.loc[mask, "date"].max(),
+                    alpha=0.08,
+                    color="grey",
+                    label="validation" if i == 0 else None,
+                )
+
+        plt.title("SP500 next-close: walk-forward true vs predicted")
+        plt.xlabel("date")
+        plt.ylabel("next close level")
+        plt.legend()
+        plt.tight_layout()
+        plt.show()
 
 if __name__ == "__main__":
     main()

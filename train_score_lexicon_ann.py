@@ -123,7 +123,7 @@ def vectorize_doc(nlp, text: str) -> np.ndarray:
         j = VOCAB_INDEX.get(lemma)
         if j is not None:
             counts[j] += 1.0
-    # tame heavy-hitters but keep rare words informative
+    # adjust heavy counts with log1p
     count = np.log1p(counts)
     counts = np.minimum(counts, 5.0)  # tame extreme counts
     return counts
@@ -193,7 +193,7 @@ def train_single_neuron(
 
 def load_supervised(csv_path: Path) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
-    # Accept your schema: doc_path, ..., score_doc
+    # Accept Folder schema: doc_path, ..., score_doc
     req = {"doc_path", "score_doc"}
     if not req.issubset(df.columns):
         raise SystemExit(f"[ERR] {csv_path} missing columns {req} (got {list(df.columns)})")
