@@ -53,14 +53,14 @@ All scripts are designed to be re-runnable as new FOMC meetings occur, automatic
 - Extracts meeting dates from manifests and retrieves corresponding or nearest S&P 500 close prices from **Stooq** (and optionally **FRED** if configured).
 
 ### **6. Modeling and Prediction** -- UPDATE TO REFLECT CHANGES
-- **Script:** `predict_sp500.py`  
+- **Script:** `predict_sp500_ANN.py`  
 - **Inputs:**  
   - `data/fomc/sentiments/sentiment_scores.csv`  
   - `data/sp500/prices/sp500_prices.csv`  
 - **Outputs:**  
-  - `models/model.pkl`  
-  - `models/metrics/model_metrics.txt`  
-  - `reports/predictions/next_meeting_prediction.txt`  
+  - `artifacts_spx_from_sent_delta/fit_summary.json`  
+  - `artifacts_spx_from_sent_delta/model.json`  
+  - `artifacts_spx_from_sent_delta/predictions.csv`  
 - Trains a simple **Linear Regression model** to predict the next S&P 500 close based on cumulative FOMC sentiment.
 
 ---
